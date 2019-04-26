@@ -1,6 +1,6 @@
 ---
 source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # MIT 授權
