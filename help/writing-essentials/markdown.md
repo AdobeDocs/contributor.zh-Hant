@@ -4,7 +4,7 @@ title: 如何使用 Markdown 語言撰寫文件
 seo-title: 如何使用 Markdown 語言撰寫 Adobe 文件
 description: 本文提供撰寫文章時所需的 Markdown 語言基本概念與參考資訊。
 seo-description: 本文提供撰寫 Adobe 文件時所需的 Markdown 語言基本概念與參考資訊。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
 
 ---
@@ -148,7 +148,7 @@ Markdown 要呈現簡單的表格沒有問題。不過，若表格的儲存格�
 如需建立表格的詳細資訊，請參閱:
 
 - GitHub 的[使用表格組織資訊](https://help.github.com/articles/organizing-information-with-tables/)
-- [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) 網頁應用程式
+- [Markdown 表格產生器](https://www.tablesgenerator.com/markdown_tables)網頁應用程式
 - [將 HTML 表格轉換為 Markdown](https://jmalarcon.github.io/markdowntables/)
 
 ### 連結
@@ -163,7 +163,7 @@ Markdown 要呈現簡單的表格沒有問題。不過，若表格的儲存格�
 
 顯示結果:
 
-[Adobe](https://www.adobe.com) 或 <https://www.adobe.com>
+[Adobe](https://www.adobe.com/tw/) 或 <https://www.adobe.com>
 
 若連結的是同一存放庫內的文章 (交叉參照)，請使用相對連結。您可使用所有相對連結運算元，例如「/」(目前目錄)、「../」(上一層目錄) 和「../../」(上兩層目錄)。
 
@@ -334,7 +334,7 @@ Displayed:
 
 **範例:**
 
-In [!DNL Adobe Target] you can create your tests directly on a [!DNL Target]-enabled page.
+在 [!DNL Adobe Target] 中，您可以直接在已啟用 [!DNL Target] 的頁面中建立測試內容。
 
 **來源:**
 
@@ -344,7 +344,7 @@ In [!DNL Adobe Target] you can create your tests directly on a [!DNL Target]-ena
 
 **範例**
 
-使用 [!UICONTROL Visual Experience Composer] in [!DNL Target] ，直接在頁面上建立測試。
+在 [!DNL Target] 中使用 [!UICONTROL Visual Experience Composer]，直接在頁面中建立測試內容。
 
 **來源:**
 
@@ -374,7 +374,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 在此提供這些標點符號的「聰明版」編碼:
 
-- 左雙引號: `&#8220;`
+- 左雙引號:`&#8220;`
 - 右雙引號: `&#8221;`
 - 右單引號: `&#8217;`
 - 左單引號 (不常使用): `&#8216;`
@@ -383,7 +383,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 若要在檔案中的文字 (而非程式碼) 使用角括弧 (像是要表示預留位置)，請手動編碼角括弧。否則，Markdown 會認為這些角括弧代表 HTML 標籤。
 
-舉例來說，請將 `<script name>` 編碼如下 `&lt;script name&gt;`
+舉例來說，請將 `<script name>` 編碼如下`&lt;script name&gt;`
 
 ### 標題中的 & 符號
 
@@ -394,4 +394,4 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 ### Markdown 資源
 
 - [Markdown 簡介](https://daringfireball.net/projects/markdown/syntax)
-- [GitHub 提供的 Markdown 基本介紹](https://help.github.com/articles/markdown-basics/)
+- [GitHub 的 Markdown 基本介紹](https://help.github.com/articles/markdown-basics/)
