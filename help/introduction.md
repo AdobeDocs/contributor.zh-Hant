@@ -1,31 +1,31 @@
 ---
 title: Adobe 說明文件的貢獻者指南
-seo-title: Adobe Experience Cloud技術文件的參與者指南總覽
+seo-title: 適用於 Adobe Experience Cloud 技術文件的貢獻者指南總覽
 description: 本指南說明如何為 Adobe 文件網站貢獻建議及新增內容。
 seo-description: 本指南說明如何為 [!UICONTROL Adobe Experience Cloud] 技術文件有所貢獻。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
 
 ---
 
 
-# Adobe文件的參與者指南概觀
+# 適用於 Adobe 文件的貢獻者指南總覽
 
-## 甚麼是協作文件
+## 什麼是協作文件?
 
-在2019年，Adobe Experience Cloud的所有技術文件和啓用內容都將轉變為新平台，以開放原始碼原則為基礎，並採用Github、Markdown和Adobe Experience Cloud解決方案，包括Adobe Experience Manager、Analytics、Launch和Target。
+在 2019 年期間，Adobe Experience Cloud 的所有技術文件和啟用內容都根據開放原始碼原則，並運用 Github、Markdown 和 Adobe Experience Cloud 解決方案 (包括 Adobe Experience Manager、Analytics、Launch 和 Target)，逐漸移轉到一個全新的平台。
 
-此開放原始碼模型改善了客戶、文件團隊和產品團隊之間的內容品質。在每個頁面上，您現在可以對內容有用、記錄問題，甚至還可以貢獻內容建議作為Git提取請求(PRS)。Adobe文件團隊會每天監控貢獻和問題，並視需要進行更新、調整和調整。
+此開放原始碼模型改善了內容品質，以及客戶、文件團隊和產品團隊間的溝通。現在，在每個頁面上，您可以對內容實用程度進行評分、登錄問題，甚至以 Git 提取請求 (PR) 的形式貢獻內容建議。Adobe 文件團隊會每天監控貢獻內容和問題，並視需要進行更新、調校和調整。
 
 ## 使用協作文件
 
-身為此類資料的使用者-不論您是員工、合作夥伴、客戶或潛在客戶-您都可以透過幾種簡單的方式對文件做出貢獻；
+無論您是員工、合作夥伴、客戶或甚至是潛在客戶，身為此資料的使用者，您便可以選擇透過多種簡單的方式為此文件貢獻內容:
 
-* 提高頁面的協助度
-* 記錄特定頁面的問題
-* 甚至可以快速編輯整個文章，其中包含資產和程式碼範例
+* 對頁面的實用程度進行評分
+* 登錄特定頁面的問題
+* 甚至提交快速編輯內容、撰寫整篇文章、提供完整的資產和程式碼範例
 
-本指南概述您所需的一切，以便瞭解與貢獻此資料集的資訊。
+本指南概述在與此資料集進行互動及貢獻內容時，所須瞭解的一切相關事項。
 
 <!--
 > [!IMPORTANT]
@@ -38,11 +38,11 @@ source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
 
 快速編輯是指修正文件小錯誤和疏漏的好方法。若文章顯示編輯按鈕 (如下所示)，表示您可自行快速修正。編輯文件時，您可以提交提取請求 (PR)，將修正/建議提交給我們，我們會接手審查這些建議，核准後正式發佈。
 
-1. 簽署 [參與者授權合約(CLA)](http://opensource.adobe.com/cla.html) 。
+1. 若可接受，請簽署[貢獻者授權合約 (CLA)](http://opensource.adobe.com/cla.html)。
 
-   您只需要提交Adobe CLA一次。
-1. 按一下右側欄中的 ** (編輯此頁面)，即可前往 GitHub 的 Markdown 來源檔案。`Edit this page`**
-1. 按一下鉛筆圖示以編輯文章。
+   您只須提交 Adobe CLA 一次。
+1. 按一下右側欄中的 **(編輯此頁面)，即可前往 GitHub 的 Markdown 來源檔案。`Edit this page`**
+1. 按一下鉛筆圖示即可編輯文章。
 
    > [!NOTE]
    > 若鉛筆圖示呈現灰色狀態，表示您需登入 GitHub 帳戶或建立新帳戶。
@@ -54,7 +54,7 @@ source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
 
    ![提出變更](assets/submit-pull-request.png)
 
-   >[!NOTE] 如果您收到有關簽署「參與者授權合約」(CLA)的驗證錯誤訊息，請按一下 **「詳細資料」** 以開啓授權合約。簽署合約(如適用)。然後關閉和開啓提取要求，然後繼續。
+   >[!NOTE]如果您收到有關簽署貢獻者授權合約 (CLA) 的驗證錯誤訊息，請按一下 **Details** (詳細資料) 以開啟授權合約。若可接受，請簽署合約。接著，關閉並開啟提取請求，然後繼續進行。
 
 這就是快速編輯的所有步驟。感謝支持! 文件團隊成員會審核及合併您的提取請求。
 
@@ -75,7 +75,7 @@ source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
 
    ![](assets/git_issue_example.png)
 
-提交期刊時，將會直接通知這個頁面的內容團隊，他們將能夠採取行動。我們更新內容後，系統會透過 Github 問題介面通知您，且 Github 問題介面也會在更新或關閉時透過電子郵件通知您。
+提交問題會直接通知此頁面的內容團隊，讓他們能夠採取行動。我們更新內容後，系統會透過 Github 問題介面通知您，且 Github 問題介面也會在更新或關閉時透過電子郵件通知您。
 
 ## 瞭解 GitHub 權限
 
