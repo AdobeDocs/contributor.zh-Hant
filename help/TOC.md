@@ -5,14 +5,14 @@ index: true
 user-guide-title: Adobe 貢獻者指南
 user-guide-url: https://www.adobe.com/tw/
 solution-title: Experience Cloud
-solution-hub-url: https://helpx.adobe.com/tw/support/experience-cloud.html
+solution-hub-url: /content/help/tw/zh-Hant/support/experience-cloud.html
 solution-image: assets/experience-cloud-logo-24.png
 getting-started-title: Experience League
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教學課程
-tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
+tutorials-url: /content/help/tw/zh-Hant/experience-cloud/tutorials.html
 test-meta: 測試
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
 
 ---
