@@ -4,12 +4,12 @@ title: Adobe 文件撰寫指南
 seo-title: Adobe 文件撰寫指南
 description: 本文包含參與 Adobe 文件撰寫作業的重要指示。
 seo-description: 本文包含參與 Adobe 文件撰寫作業的重要指示。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
 
 ---
 
-# 編寫Adobe文件指南
+# Adobe 文件撰寫指南
 
 不論是建立新文件或更新現有文件，均適用這些原則。
 
