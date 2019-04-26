@@ -2,9 +2,9 @@
 lastModified: 2018/06/28
 title: 在文件中使用連結
 seo-title: 在 Adobe Git/Markdown 文件中使用連結
-description: 本文提供建立內容和影像連結的指引。
-seo-description: 本文章提供建立Adobe文件內容與影像連結的指引。
-translation-type: tm+mt
+description: 本文提供建立內容與影像連結的相關指示。
+seo-description: 本文提供在 Adobe 文件中建立內容與影像連結的相關指示。
+translation-type: ht
 source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
 
 ---
@@ -12,10 +12,10 @@ source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
 
 # 在文件中使用連結
 
-本文說明文件頁面中的超連結使用。使用幾種不同作法，即可在 Markdown 內容中輕鬆新增連結。連結可將使用者引導至同一頁面中的內容、相鄰頁面或外部網站與網址。
+本文說明文件頁面中超連結的使用方式。使用幾種不同作法，即可在 Markdown 內容中輕鬆新增連結。連結可將使用者引導至同一頁面中的內容、相鄰頁面或外部網站與網址。
 
 > [!IMPORTANT]
-> 當目標支援時，所有連結最好是安全連結(`https` 相對於 `http`)。
+> 只要目標支援 (大多數目標都會支援)，在理想的情況下，所有連結應以安全連結的形式呈現 (`https` 和 `http` 的區別)。
 
 ## 網址連結
 
