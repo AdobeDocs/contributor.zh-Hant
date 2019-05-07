@@ -4,7 +4,7 @@ seo-title: 在本機設定供 Adobe 文件使用的 Git 存放庫
 description: 本文提供建立本機 Git 存放庫和參與 Adobe 文件編撰的相關指示，包括分叉處理與複製流程。
 seo-description: 本文提供建立本機 Git 存放庫和參與 Adobe 文件編撰的相關指示，包括分叉處理與複製流程。
 translation-type: ht
-source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
+source-git-commit: 223b40e1903c5de90dee90a138967efb02237a42
 
 ---
 

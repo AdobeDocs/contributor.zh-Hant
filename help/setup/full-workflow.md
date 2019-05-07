@@ -5,7 +5,7 @@ seo-title: Adobe 文件需有重大變更時的 GitHub 貢獻工作流程
 description: 本文說明如何使用「重大」貢獻工作流程，對 Adobe 文件有所貢獻。
 seo-description: 本文說明如何使用「重大」貢獻工作流程，對 Adobe 文件有所貢獻。
 translation-type: ht
-source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
+source-git-commit: cb9e20da64bb04a2b1765338b237825cae7aabeb
 
 ---
 

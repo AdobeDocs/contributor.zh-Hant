@@ -5,7 +5,7 @@ seo-title: 在 Adobe Git/Markdown 文件中使用連結
 description: 本文提供建立內容與影像連結的相關指示。
 seo-description: 本文提供在 Adobe 文件中建立內容與影像連結的相關指示。
 translation-type: ht
-source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
+source-git-commit: 9060d24142e0f03283b42a2a4bbc638abe2952aa
 
 ---
 

@@ -6,7 +6,7 @@ description: 若要為 Adobe 文件貢獻內容，請先註冊帳戶，並逐步
 seo-description: 若要為 Adobe 文件貢獻內容，請先註冊帳戶，並逐步完成設定 GitHub 帳戶的流程。
 index: true
 translation-type: ht
-source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
+source-git-commit: beff041de31171a7ddd8a3b829adea7cc142e046
 
 ---
 
