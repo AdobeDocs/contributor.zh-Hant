@@ -3,10 +3,11 @@ title: 在本機設定 Git 存放庫
 seo-title: 在本機設定供 Adobe 文件使用的 Git 存放庫
 description: 本文提供建立本機 Git 存放庫和參與 Adobe 文件編撰的相關指示，包括分叉處理與複製流程。
 seo-description: 本文提供建立本機 Git 存放庫和參與 Adobe 文件編撰的相關指示，包括分叉處理與複製流程。
-translation-type: ht
-source-git-commit: 223b40e1903c5de90dee90a138967efb02237a42
+translation-type: tm+mt
+source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 
 ---
+
 
 # 在本機設定供文件使用的 Git 存放庫
 
@@ -27,7 +28,7 @@ source-git-commit: 223b40e1903c5de90dee90a138967efb02237a42
 
 ## 確定存放庫
 
-取用合適的存放庫並複製到您自己的 GitHub 帳戶，這樣您就擁有讀取/編寫權限，可儲存您要做的變更。[!UICONTROL Adobe Experience Cloud] 文件位於 [github.com](https://www.github.com/adobedocs) 的多個不同的存放庫。
+取用合適的存放庫並複製到您自己的 GitHub 帳戶，這樣您就擁有讀取/編寫權限，可儲存您要做的變更。[!UICONTROL Adobe Experience Cloud] 文件位於 [github.com](https://www.github.com/adobedocs)的數個不同儲存庫中。
 
 1. 若不確定要使用哪個存放庫，可使用網頁瀏覽器查看文章。選取文章右上角的**編輯**連結 (鉛筆圖示)(如果沒有顯示編輯連結，表示還無法在 GitHub 使用該內容)。
 
@@ -72,4 +73,4 @@ If you're new to GitHub, watch the following video for a conceptual overview of 
 
 1. 使用 GitHub Desktop 可保持本機檔案與取用的存放庫保持同步。
 
-如需詳細資訊，請參閱 [GitHub Desktop 文件](https://help.github.com/desktop/)。
+詳情請參閱 [GitHub Desktop 文件](https://help.github.com/desktop/)。
