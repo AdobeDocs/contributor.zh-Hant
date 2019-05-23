@@ -3,10 +3,11 @@ title: Git 和 GitHub 文件基本資訊
 seo-title: Git 和 GitHub 文件基本資訊
 description: 本文概述 Git、GitHub 存放庫相關資訊，並說明內容的組織方式及 Adobe 文件的命名慣例。
 seo-description: 本文概述 Git、GitHub 存放庫相關資訊，並說明內容的組織方式及 Adobe 文件的命名慣例。
-translation-type: ht
-source-git-commit: 223b40e1903c5de90dee90a138967efb02237a42
+translation-type: tm+mt
+source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 
 ---
+
 
 # Git 和 GitHub 文件基本資訊
 
