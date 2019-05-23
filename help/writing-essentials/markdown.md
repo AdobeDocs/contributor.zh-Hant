@@ -4,10 +4,11 @@ title: 如何使用 Markdown 語言撰寫文件
 seo-title: 如何使用 Markdown 語言撰寫 Adobe 文件
 description: 本文提供撰寫文章時所需的 Markdown 語言基本概念與參考資訊。
 seo-description: 本文提供撰寫 Adobe 文件時所需的 Markdown 語言基本概念與參考資訊。
-translation-type: ht
-source-git-commit: cda3618353a35ebb7dd73a64777ca1c788f5b72b
+translation-type: tm+mt
+source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 
 ---
+
 
 # 如何使用 Markdown 語言撰寫技術文件
 
@@ -148,7 +149,7 @@ Markdown 要呈現簡單的表格沒有問題。不過，若表格的儲存格�
 如需建立表格的詳細資訊，請參閱:
 
 - GitHub 的[使用表格組織資訊](https://help.github.com/articles/organizing-information-with-tables/)
-- [Markdown 表格產生器](https://www.tablesgenerator.com/markdown_tables)網頁應用程式
+- [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) 網頁應用程式
 - [將 HTML 表格轉換為 Markdown](https://jmalarcon.github.io/markdowntables/)
 
 ### 連結
@@ -163,7 +164,7 @@ Markdown 要呈現簡單的表格沒有問題。不過，若表格的儲存格�
 
 顯示結果:
 
-[Adobe](https://www.adobe.com/tw/) 或 <https://www.adobe.com>
+[Adobe](https://www.adobe.com) 或 <https://www.adobe.com>
 
 若連結的是同一存放庫內的文章 (交叉參照)，請使用相對連結。您可使用所有相對連結運算元，例如「/」(目前目錄)、「../」(上一層目錄) 和「../../」(上兩層目錄)。
 
@@ -219,7 +220,7 @@ function test() {
 
 \`\`\`javascript {line-numbers=”no”}
 function test() {
-console.log(”注意到此函式前的空白行了嗎?");
+console.log(”注意到此函式前的空白行了嗎?&quot;);
 \`\`\`
 
 ### 定義清單
@@ -258,7 +259,7 @@ Adobe 文章中大部分的文章格式都會使用標準 Markdown，例如段�
 - 不要本地化
 - 元件屬性，例如為標題指定不同標題 ID
 
-在每一行的開頭使用 Markdown 區塊引號 (「>」)，繫結擴充元件 (例如註釋)。若需在元件內使用子元件，請為該子元件區段另外新增一層區塊引號 (「>  >」)。例如，「不要本地化」區段內的「註釋」區段應以「>    >」開頭。
+在每一行的開頭使用 Markdown 區塊引號 (「&gt;」)，繫結擴充元件 (例如註釋)。若需在元件內使用子元件，請為該子元件區段另外新增一層區塊引號 (「&gt;  &gt;」)。例如，「不要本地化」區段內的「註釋」區段應以「&gt;    &gt;」開頭。
 
 部分常見的 Markdown 元素 (例如標題和程式碼區塊) 會包含擴充屬性。如需變更預設屬性，請在元件之後新增參數，並置於大括弧內 (「/{ /}」)。擴充屬性會以實例說明。
 
@@ -374,7 +375,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 在此提供這些標點符號的「聰明版」編碼:
 
-- 左雙引號:`&#8220;`
+- 左雙引號: `&#8220;`
 - 右雙引號: `&#8221;`
 - 右單引號: `&#8217;`
 - 左單引號 (不常使用): `&#8216;`
@@ -383,15 +384,15 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 若要在檔案中的文字 (而非程式碼) 使用角括弧 (像是要表示預留位置)，請手動編碼角括弧。否則，Markdown 會認為這些角括弧代表 HTML 標籤。
 
-舉例來說，請將 `<script name>` 編碼如下`&lt;script name&gt;`
+舉例來說，請將 `<script name>` 編碼如下 `&lt;script name&gt;`
 
-### 標題中的 & 符號
+### 標題中的 &amp; 符號
 
-不可在標題中使用 & 符號。請改用「與」或「和」，或使用 `&amp;` 編碼。
+不可在標題中使用 &amp; 符號。請改用「與」或「和」，或使用 `&amp;` 編碼。
 
 ## 另請參閱
 
 ### Markdown 資源
 
 - [Markdown 簡介](https://daringfireball.net/projects/markdown/syntax)
-- [GitHub 的 Markdown 基本介紹](https://help.github.com/articles/markdown-basics/)
+- [GitHub 提供的 Markdown 基本介紹](https://help.github.com/articles/markdown-basics/)
