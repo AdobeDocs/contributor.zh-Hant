@@ -4,7 +4,7 @@ title: Adobe 文件撰寫指南
 seo-title: Adobe 文件撰寫指南
 description: 本文包含參與 Adobe 文件撰寫作業的重要指示。
 seo-description: 本文包含參與 Adobe 文件撰寫作業的重要指示。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 
 ---
