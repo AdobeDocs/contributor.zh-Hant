@@ -4,7 +4,7 @@ title: 如何使用 Markdown 語言撰寫文件
 seo-title: 如何使用 Markdown 語言撰寫 Adobe 文件
 description: 本文提供撰寫文章時所需的 Markdown 語言基本概念與參考資訊。
 seo-description: 本文提供撰寫 Adobe 文件時所需的 Markdown 語言基本概念與參考資訊。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 
 ---
@@ -149,7 +149,7 @@ Markdown 要呈現簡單的表格沒有問題。不過，若表格的儲存格�
 如需建立表格的詳細資訊，請參閱:
 
 - GitHub 的[使用表格組織資訊](https://help.github.com/articles/organizing-information-with-tables/)
-- [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) 網頁應用程式
+- [Markdown 表格產生器](https://www.tablesgenerator.com/markdown_tables)網頁應用程式
 - [將 HTML 表格轉換為 Markdown](https://jmalarcon.github.io/markdowntables/)
 
 ### 連結
@@ -164,7 +164,7 @@ Markdown 要呈現簡單的表格沒有問題。不過，若表格的儲存格�
 
 顯示結果:
 
-[Adobe](https://www.adobe.com) 或 <https://www.adobe.com>
+[Adobe](https://www.adobe.com/tw/) 或 <https://www.adobe.com>
 
 若連結的是同一存放庫內的文章 (交叉參照)，請使用相對連結。您可使用所有相對連結運算元，例如「/」(目前目錄)、「../」(上一層目錄) 和「../../」(上兩層目錄)。
 
@@ -395,4 +395,4 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 ### Markdown 資源
 
 - [Markdown 簡介](https://daringfireball.net/projects/markdown/syntax)
-- [GitHub 提供的 Markdown 基本介紹](https://help.github.com/articles/markdown-basics/)
+- [GitHub 的 Markdown 基本介紹](https://help.github.com/articles/markdown-basics/)
