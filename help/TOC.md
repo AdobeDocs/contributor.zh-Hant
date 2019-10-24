@@ -12,7 +12,7 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教學課程
 tutorials-url: https://helpx.adobe.com/tw/experience-cloud/tutorials.html
 test-meta: 測試
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cc70a5ea1be2a7e7c8d3a685c500b6bf33824cea
 
 ---
@@ -31,8 +31,8 @@ source-git-commit: cc70a5ea1be2a7e7c8d3a685c500b6bf33824cea
    + [使用 Markdown](writing-essentials/markdown.md)
    + [一般撰寫指引](writing-essentials/general-writing-guidance.md)
    + [連結](writing-essentials/linking.md)
-+ Translation feedback {#localization}
-   + [Language Support for Adobe Experience Cloud Product Documentation](localization/machine-translation.md)
++ 翻譯意見反應 {#localization}
+   + [Adobe Experience Cloud 產品文件的語言支援](localization/machine-translation.md)
 + [Git 和 GitHub 學習資源](resources.md)
 + 行為與貢獻 {#conduct-contributions}
    + [行為準則](conduct/code-of-conduct.md)
