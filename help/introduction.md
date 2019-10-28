@@ -3,7 +3,7 @@ title: Adobe 說明文件的貢獻者指南
 seo-title: 適用於 Adobe Experience Cloud 技術文件的貢獻者指南總覽
 description: 本指南說明如何為 Adobe 文件網站貢獻建議及新增內容。
 seo-description: 本指南說明如何為 [!UICONTROL Adobe Experience Cloud] 技術文件有所貢獻。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3a769e92e724694b17c5412303d533c7402f5cd0
 
 ---
@@ -38,10 +38,10 @@ source-git-commit: 3a769e92e724694b17c5412303d533c7402f5cd0
 
 快速編輯是指修正文件小錯誤和疏漏的好方法。若文章顯示編輯按鈕 (如下所示)，表示您可自行快速修正。編輯文件時，您可以提交提取請求 (PR)，將修正/建議提交給我們，我們會接手審查這些建議，核准後正式發佈。
 
-1. Sign the [Contributor License Agreement (CLA)](http://opensource.adobe.com/cla.html) if acceptible.
+1. 若可接受，請簽署[貢獻者授權合約 (CLA)](http://opensource.adobe.com/cla.html)。
 
    您只須提交 Adobe CLA 一次。
-1. 按一下右側欄中的 **(編輯此頁面)，即可前往 GitHub 的 Markdown 來源檔案。`Edit this page`**
+1. 按一下右側欄中的 **`Edit this page`** (編輯此頁面)，即可前往 GitHub 的 Markdown 來源檔案。
 1. 按一下鉛筆圖示即可編輯文章。
 
    > [!NOTE]
