@@ -36,4 +36,4 @@ submitting a pull request!
 
 ## 安全性問題
 
-安全性問題不應透過此問題追蹤器舉報。請改[向我們的安全性專家提報問題](/content/help/tw/zh-Hant/security/alertus.html)
+安全性問題不應透過此問題追蹤器舉報。請改[向我們的安全性專家提報問題](https://helpx.adobe.com/tw/security/alertus.html)
