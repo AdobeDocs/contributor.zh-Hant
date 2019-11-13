@@ -3,7 +3,7 @@ title: Adobe Experience Cloud 產品文件的語言支援
 seo-title: Adobe Experience Cloud 產品文件的語言支援
 description: 本指南說明如何為 Adobe 文件網站貢獻建議及新增內容。
 seo-description: 本指南說明如何為 [!UICONTROL Adobe Experience Cloud] 技術文件有所貢獻。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6c4ff238f6fa4287b9032a123959db3666cb463c
 
 ---
@@ -17,9 +17,9 @@ Adobe 知道您仰賴 Adobe 產品支援語言版本的產品文件、說明和�
 
 您可以檢視大部分語言版本的 Adobe Experience Cloud 產品文件。
 
-1. 導覽至 Experience Cloud [產品文件](https://helpx.adobe.com/tw/support/experience-cloud.html)。
+1. 導覽至Experience cloud產 [品檔案](https://helpx.adobe.com/support/experience-cloud.html)。
 
-1. 瀏覽以尋找說明頁面 (例如，[Analytics](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/home.html))。
+1. 瀏覽以尋找說明頁面(例如 [Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html))。
 
 1. 按一下「語言選取器」(世界圖示)，然後選擇語言。
 
