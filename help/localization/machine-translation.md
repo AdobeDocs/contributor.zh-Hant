@@ -4,7 +4,7 @@ seo-title: Adobe Experience Cloud 產品文件的語言支援
 description: 本指南說明如何為 Adobe 文件網站貢獻建議及新增內容。
 seo-description: 本指南說明如何為 [!UICONTROL Adobe Experience Cloud] 技術文件有所貢獻。
 translation-type: tm+mt
-source-git-commit: 6c4ff238f6fa4287b9032a123959db3666cb463c
+source-git-commit: 9db7dd1fb9b22bc35f887d0441a1837813efc9cc
 
 ---
 
@@ -64,3 +64,9 @@ Adobe 運用自動翻譯功能，以便在建立支援內容時，儘快發佈�
 未來我們打算讓您可提供更廣泛的意見反應，如記錄問題、建議改善之處，甚至要求其他語言內容。英文頁面已提供上述部分功能。長遠來看，我們認為這有助於 Adobe 改善這些頁面的使用者體驗。
 
 ![改善此頁面](assets/feedback.png)
+
+### 翻譯免責聲明
+
+Adobe使用機器翻譯程式將文字翻譯成多種不同的語言。 請注意，電腦化的翻譯是常值翻譯，可能包含錯誤。 Adobe不保證所提供翻譯的正確性、可靠性或時效性。 Adobe不會因依賴已翻譯資訊的準確性或可靠性而造成任何損失或損失。 如果英文和其他語言有差異，則英文版會控制。
+
+如果您想報告翻譯錯誤或不準確，建議您與我們聯繫。
