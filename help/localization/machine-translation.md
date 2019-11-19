@@ -3,7 +3,7 @@ title: Adobe Experience Cloud 產品文件的語言支援
 seo-title: Adobe Experience Cloud 產品文件的語言支援
 description: 本指南說明如何為 Adobe 文件網站貢獻建議及新增內容。
 seo-description: 本指南說明如何為 [!UICONTROL Adobe Experience Cloud] 技術文件有所貢獻。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9db7dd1fb9b22bc35f887d0441a1837813efc9cc
 
 ---
@@ -17,9 +17,9 @@ Adobe 知道您仰賴 Adobe 產品支援語言版本的產品文件、說明和�
 
 您可以檢視大部分語言版本的 Adobe Experience Cloud 產品文件。
 
-1. 導覽至Experience cloud產 [品檔案](https://helpx.adobe.com/support/experience-cloud.html)。
+1. 請導覽至 Experience Cloud [產品文件](https://helpx.adobe.com/tw/support/experience-cloud.html)。
 
-1. 瀏覽以尋找說明頁面(例如 [Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html))。
+1. 瀏覽找到說明頁面 (例如 [Analytics](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/home.html))。
 
 1. 按一下「語言選取器」(世界圖示)，然後選擇語言。
 
@@ -65,8 +65,8 @@ Adobe 運用自動翻譯功能，以便在建立支援內容時，儘快發佈�
 
 ![改善此頁面](assets/feedback.png)
 
-### 翻譯免責聲明
+### 譯文免責聲明
 
-Adobe使用機器翻譯程式將文字翻譯成多種不同的語言。 請注意，電腦化的翻譯是常值翻譯，可能包含錯誤。 Adobe不保證所提供翻譯的正確性、可靠性或時效性。 Adobe不會因依賴已翻譯資訊的準確性或可靠性而造成任何損失或損失。 如果英文和其他語言有差異，則英文版會控制。
+Adobe 會使用機器翻譯程式，將文字翻譯成多種不同語言。請注意，電腦翻譯通常為直譯，難免會有錯誤。Adobe 不保證所提供的翻譯正確無誤，譯文的可靠性和時效性也並非毫無疑慮。若因認定機器翻譯的資訊準確可靠而導致任何損失或損壞，Adobe 概不負責。如果英文和其他語言的版本之間有所差異，請以英文版為準。
 
-如果您想報告翻譯錯誤或不準確，建議您與我們聯繫。
+若要回報翻譯錯誤或不準確之譯文，建議您直接與我們連絡。
