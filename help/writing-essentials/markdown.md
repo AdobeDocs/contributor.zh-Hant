@@ -1,11 +1,11 @@
 ---
-lastModified: 2018/06/28
+lastModified: 2018-06-28T00:00:00Z
 title: 如何使用 Markdown 語言撰寫文件
 seo-title: 如何使用 Markdown 語言撰寫 Adobe 文件
 description: 本文提供撰寫文章時所需的 Markdown 語言基本概念與參考資訊。
 seo-description: 本文提供撰寫 Adobe 文件時所需的 Markdown 語言基本概念與參考資訊。
-translation-type: ht
-source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
+translation-type: tm+mt
+source-git-commit: 883f9d7a9a232fdb69db09d5e9409575c7f3bdd0
 
 ---
 
@@ -34,7 +34,7 @@ Adobe 技術文件中的文章是以名為 [Markdown](https://daringfireball.net
 
 使用 Markdown 時，標示段落並不需要特殊語法。
 
-若要將文字的格式設為**粗體**，請以雙星號括住文字。若要將文字的格式設為*斜體*，請以單星號括住文字:
+若要將文字的格式設為&#x200B;**粗體**，請以雙星號括住文字。若要將文字的格式設為&#x200B;*斜體*，請以單星號括住文字:
 
 ```markdown
     This text is **bold**.
@@ -58,7 +58,7 @@ This is not \*italicized\* type.
 
 ### 編號清單與項目符號清單
 
-若要建立編號清單，請在文字行的開頭使用「1」或「1)」，但同一份清單內請勿混用兩種格式，否則會額外建立另一份清單。您不必指定編號，GitHub 會自動完成編號工作。
+To create numbered lists, begin a line with `1.` or `1)`, but don&#39;t use both formats within the same list. 您不必指定編號，GitHub 會自動完成編號工作。
 
 ```markdown
 1. This is step 1.
@@ -73,20 +73,20 @@ This is not \*italicized\* type.
 1. 還有第 3 步。
 
 <!-- markdownlint-disable MD037 -->
-若要建立項目符號清單，請在文字行的開頭使用「\*」、「-」或「+」，但同一份清單內請勿混用不同格式(若混用格式，例如同時使用「\*」和「\+」，系統會額外建立另一份清單)。
+若要建立項目符號清單，請在文字行的開頭使用「\*」、「-」或「+」，但同一份清單內請勿混用不同格式（請勿在同一份檔案中混用項目符號格式，例如\*和\+）。
 <!-- markdownlint-disable MD037 -->
 
 ```markdown
-- First item in an unordered list.
-- Another item.
-- Here we go again.
+* First item in an unordered list.
+* Another item.
+* Here we go again.
 ```
 
 顯示結果:
 
-- 未排序清單的第一個項目。
-- 另一個項目。
-- 再來一個項目。
+* 未排序清單的第一個項目。
+* 另一個項目。
+* 再來一個項目。
 
 清單內也可以內嵌清單，並在清單項目間新增內容。
 
@@ -97,9 +97,9 @@ This is not \*italicized\* type.
    ![screen](assets/no-localize/adobe_standard_logo.png)
 1. Make sure that your table looks like this: 
 
-    | Hello | World |
-    |---|---|
-    | How | are you? |  
+   | Hello | World |
+   |---|---|
+   | How | are you? |  
 1. This is the fourth step.
 
    >[!NOTE]
@@ -132,25 +132,25 @@ This is not \*italicized\* type.
 
 ```markdown
 | Header | Another header | Yet another header |
-|------------|:---------------:|-----------------------:|
-| row 1 | centered column 2 | right-aligned column 3 |
+|--- |--- |--- |
+| row 1 | column 2 | column 3 |
 | row 2 | row 2 column 2 | row 2 column 3 |
 ```
 
 顯示結果:
 
 | 標題 | 另一個標題 | 再一個標題 |
-|------------|:---------------:|-----------------------:|
-| 第 1 列 | 第 2 欄置中對齊 | 第 3 欄靠右對齊 |
+|--- |--- |--- |
+| 第 1 列 | 列2 | 列3 |
 | 第 2 列 | 第 2 列第 2 欄 | 第 2 列第 3 欄 |
 
 Markdown 要呈現簡單的表格沒有問題。不過，若表格的儲存格內包含多個段落或清單，就會難以呈現。如果是這類內容，建議您使用其他格式，例如改為標題與文字。
 
 如需建立表格的詳細資訊，請參閱:
 
-- GitHub 的[使用表格組織資訊](https://help.github.com/articles/organizing-information-with-tables/)
-- [Markdown 表格產生器](https://www.tablesgenerator.com/markdown_tables)網頁應用程式
-- [將 HTML 表格轉換為 Markdown](https://jmalarcon.github.io/markdowntables/)
+* GitHub 的[使用表格組織資訊](https://help.github.com/articles/organizing-information-with-tables/)
+* [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) 網頁應用程式
+* [將 HTML 表格轉換為 Markdown](https://jmalarcon.github.io/markdowntables/)
 
 ### 連結
 
@@ -159,12 +159,12 @@ Markdown 要呈現簡單的表格沒有問題。不過，若表格的儲存格�
 `[link text](file-name.md)`
 
 ```markdown
-[Adobe](https://www.adobe.com) or <https://www.adobe.com>
+[Adobe](https://www.adobe.com)
 ```
 
 顯示結果:
 
-[Adobe](https://www.adobe.com/tw/) 或 <https://www.adobe.com>
+[Adobe](https://www.adobe.com)
 
 若連結的是同一存放庫內的文章 (交叉參照)，請使用相對連結。您可使用所有相對連結運算元，例如「/」(目前目錄)、「../」(上一層目錄) 和「../../」(上兩層目錄)。
 
@@ -254,12 +254,12 @@ Cat
 
 Adobe 文章中大部分的文章格式都會使用標準 Markdown，例如段落、連結、清單與標題。若需要更豐富的格式變化，可在文章中使用 Markdown 擴充功能，例如:
 
-- 註釋區塊
-- 內嵌影片
-- 不要本地化
-- 元件屬性，例如為標題指定不同標題 ID
+* 註釋區塊
+* 內嵌影片
+* 不要本地化
+* 元件屬性，例如為標題指定不同標題 ID
 
-在每一行的開頭使用 Markdown 區塊引號 (「&gt;」)，繫結擴充元件 (例如註釋)。若需在元件內使用子元件，請為該子元件區段另外新增一層區塊引號 (「&gt;  &gt;」)。例如，「不要本地化」區段內的「註釋」區段應以「&gt;    &gt;」開頭。
+在每一行的開頭使用 Markdown 區塊引號 (「>」)，繫結擴充元件 (例如註釋)。若需在元件內使用子元件，請為該子元件區段另外新增一層區塊引號 (「>  >」)。例如，「不要本地化」區段內的「註釋」區段應以「>    >」開頭。
 
 部分常見的 Markdown 元素 (例如標題和程式碼區塊) 會包含擴充屬性。如需變更預設屬性，請在元件之後新增參數，並置於大括弧內 (「/{ /}」)。擴充屬性會以實例說明。
 
@@ -267,10 +267,10 @@ Adobe 文章中大部分的文章格式都會使用標準 Markdown，例如段�
 
 您可選擇使用四種註釋類型，以吸引讀者注意特定內容:
 
-- `[!NOTE]`
-- `[!CAUTION]`
-- `[!TIP]`
-- `[!IMPORTANT]`
+* `[!NOTE]`
+* `[!CAUTION]`
+* `[!TIP]`
+* `[!IMPORTANT]`
 
 一般來說，註釋區塊應節制使用，註釋太多可能會造成干擾。雖然註釋區塊也支援程式碼片段、影像、清單和連結，但請試著讓註釋區塊簡單明瞭。
 
@@ -311,19 +311,18 @@ Adobe 文章中大部分的文章格式都會使用標準 Markdown，例如段�
 
 AEM 中的「類似項目」元件會出現在文章結尾處。這會顯示相關連結。文章輸出時，可採用相同的第 2 層標題 (##) 格式，不必加入迷你目錄。
 
-<!--
 ```markdown
->[!MORE]
+>[!MORELIKETHIS]
 >* [Article 1](https://helpx.adobe.com/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/support/audience-manager.html){target="new-window"}
+>* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
 ```
 
-Displayed:
+顯示結果:
 
->[!MORE]
->* [Article 1](https://helpx.adobe.com/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/support/audience-manager.html){target="new-window"}
--->
+>[!MORELIKETHIS]
+>* [第1條](https://helpx.adobe.com/support/analytics.html)
+>* [第2條](https://helpx.adobe.com/support/audience-manager.html)
+
 
 ### DNL - 不要本地化 - 以及 UICONTROL
 
@@ -331,7 +330,7 @@ Displayed:
 
 若字詞或詞句不應本地化，請使用 `[!DNL]` 擴充功能包住字詞或區段。
 
-若是使用者介面中的元素或解決方案選單，則請使用 `[!UICONTROL]` 擴充功能。
+若是使用者介面中的元素或解決方案選單，則請使用 `` 擴充功能。
 
 **範例:**
 
@@ -360,13 +359,13 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 包含底線的替代文字無法正確轉譯。舉例來說，請避免使用下列文字:
 
 ```markdown
-![Settings_Step_2] (/assets/settings_step_2.png)
+![Settings_Step_2](/assets/settings_step_2.png)
 ```
 
 在檔名中使用連字號 (「-」) 而非底線 (「_」)，會是最理想的作法。
 
 ```markdown
-![Settings-Step-2] (/assets/settings-step-2.png)
+![Settings-Step-2](/assets/settings-step-2.png)
 ```
 
 ### 單引號與雙引號
@@ -375,10 +374,10 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 在此提供這些標點符號的「聰明版」編碼:
 
-- 左雙引號: `&#8220;`
-- 右雙引號: `&#8221;`
-- 右單引號: `&#8217;`
-- 左單引號 (不常使用): `&#8216;`
+* 左雙引號: `&#8220;`
+* 右雙引號: `&#8221;`
+* 右單引號: `&#8217;`
+* 左單引號 (不常使用): `&#8216;`
 
 ### 角括弧
 
@@ -394,5 +393,5 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 ### Markdown 資源
 
-- [Markdown 簡介](https://daringfireball.net/projects/markdown/syntax)
-- [GitHub 的 Markdown 基本介紹](https://help.github.com/articles/markdown-basics/)
+* [Markdown 簡介](https://daringfireball.net/projects/markdown/syntax)
+* [GitHub 提供的 Markdown 基本介紹](https://help.github.com/articles/markdown-basics/)
