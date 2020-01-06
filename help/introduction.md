@@ -3,7 +3,7 @@ title: Adobe 說明文件的貢獻者指南
 seo-title: 適用於 Adobe Experience Cloud 技術文件的貢獻者指南總覽
 description: 本指南說明如何為 Adobe 文件網站貢獻建議及新增內容。
 seo-description: 本指南說明如何為 [!UICONTROL Adobe Experience Cloud] 技術文件有所貢獻。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: afcd9363375adbc21a0e9a027d3f5ce59e08cd70
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: afcd9363375adbc21a0e9a027d3f5ce59e08cd70
 
 # 適用於 Adobe 文件的貢獻者指南總覽
 
-## 什麼是協作文件?
+## 什麼是協作文件？
 
 在 2019 年期間，Adobe Experience Cloud 的所有技術文件和啟用內容都根據開放原始碼原則，並運用 Github、Markdown 和 Adobe Experience Cloud 解決方案 (包括 Adobe Experience Manager、Analytics、Launch 和 Target)，逐漸移轉到一個全新的平台。
 
@@ -19,7 +19,7 @@ source-git-commit: afcd9363375adbc21a0e9a027d3f5ce59e08cd70
 
 ## 使用協作文件
 
-無論您是員工、合作夥伴、客戶或甚至是潛在客戶，身為此資料的使用者，您便可以選擇透過多種簡單的方式為此文件貢獻內容:
+無論您是員工、合作夥伴、客戶或甚至是潛在客戶，身為此資料的使用者，您便可以選擇透過多種簡單的方式為此文件貢獻內容：
 
 * 對頁面的實用程度進行評分
 * 登錄特定頁面的問題
@@ -38,7 +38,7 @@ source-git-commit: afcd9363375adbc21a0e9a027d3f5ce59e08cd70
 
 快速編輯是指修正文件小錯誤和疏漏的好方法。若文章顯示編輯按鈕 (如下所示)，表示您可自行快速修正。編輯文件時，您可以提交提取請求 (PR)，將修正/建議提交給我們，我們會接手審查這些建議，核准後正式發佈。
 
-1. Sign the [Contributor License Agreement (CLA)](http://opensource.adobe.com/cla.html) if acceptable.
+1. 若可接受，請簽署[貢獻者授權合約 (CLA)](http://opensource.adobe.com/cla.html)。
 
    您只須提交 Adobe CLA 一次。
 1. 按一下右側欄中的 **`Edit this page`**(編輯此頁面)，即可前往 GitHub 的 Markdown 來源檔案。
@@ -50,19 +50,19 @@ source-git-commit: afcd9363375adbc21a0e9a027d3f5ce59e08cd70
    ![鉛筆圖示的位置](assets/edit-icon.png)
 
 1. 在網頁編輯器中變更內容。您可以按一下 **Preview changes** (預覽變更) 標籤，檢查變更的格式設定。
-1. 完成變更後，請捲動至頁面底部。輸入 PR 的標題和說明，然後按一下 **Propose file change** (提出檔案變更)，如下圖所示:
+1. 完成變更後，請捲動至頁面底部。輸入 PR 的標題和說明，然後按一下 **Propose file change** (提出檔案變更)，如下圖所示：
 
    ![提出變更](assets/submit-pull-request.png)
 
-   >[!NOTE]如果您收到有關簽署貢獻者授權合約 (CLA) 的驗證錯誤訊息，請按一下 **Details** (詳細資料) 以開啟授權合約。簽署合約（如果可接受）。 接著，關閉並開啟提取請求，然後繼續進行。
+   >[!NOTE]如果您收到有關簽署貢獻者授權合約 (CLA) 的驗證錯誤訊息，請按一下 **Details** (詳細資料) 以開啟授權合約。若可接受，請簽署合約。接著，關閉並開啟提取請求，然後繼續進行。
 
-這就是快速編輯的所有步驟。感謝支持! 文件團隊成員會審核及合併您的提取請求。
+這就是快速編輯的所有步驟。感謝支持！文件團隊成員會審核及合併您的提取請求。
 
 ## 登錄問題
 
 另一種告訴我們內容有問題的簡單方法是「登錄問題」。
 
-1. 若發現內容有問題，請按一下任何頁面右下角的 `Log an Issue` (登錄問題) 連結。請參閱下圖:
+1. 若發現內容有問題，請按一下任何頁面右下角的 `Log an Issue` (登錄問題) 連結。請參閱下圖：
 
    ![](assets/git_log_issue.png)
 
