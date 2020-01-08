@@ -4,7 +4,7 @@ title: 如何使用 Markdown 語言撰寫文件
 seo-title: 如何使用 Markdown 語言撰寫 Adobe 文件
 description: 本文提供撰寫文章時所需的 Markdown 語言基本概念與參考資訊。
 seo-description: 本文提供撰寫 Adobe 文件時所需的 Markdown 語言基本概念與參考資訊。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 883f9d7a9a232fdb69db09d5e9409575c7f3bdd0
 
 ---
@@ -20,7 +20,7 @@ Adobe 技術文件中的文章是以名為 [Markdown](https://daringfireball.net
 
 ### 標題
 
-若要建立標題，請在文字行的開頭使用井字號 (#):
+若要建立標題，請在文字行的開頭使用井字號 (#)：
 
 ```
    # This is level 1 (article title)
@@ -34,7 +34,7 @@ Adobe 技術文件中的文章是以名為 [Markdown](https://daringfireball.net
 
 使用 Markdown 時，標示段落並不需要特殊語法。
 
-若要將文字的格式設為&#x200B;**粗體**，請以雙星號括住文字。若要將文字的格式設為&#x200B;*斜體*，請以單星號括住文字:
+若要將文字的格式設為&#x200B;**粗體**，請以雙星號括住文字。若要將文字的格式設為&#x200B;*斜體*，請以單星號括住文字：
 
 ```markdown
     This text is **bold**.
@@ -50,7 +50,7 @@ This is subscript H<sub>2</sub>O and superscript e=mc<sup>2</sup>.
 ```
 -->
 
-若要略過 Markdown 格式字元，請在該字元前使用「\」:
+若要略過 Markdown 格式字元，請在該字元前使用「\」：
 
 ```markdown
 This is not \*italicized\* type.
@@ -58,7 +58,7 @@ This is not \*italicized\* type.
 
 ### 編號清單與項目符號清單
 
-To create numbered lists, begin a line with `1.` or `1)`, but don&#39;t use both formats within the same list. 您不必指定編號，GitHub 會自動完成編號工作。
+若要建立項目符號清單，請在文字行的開頭使用 `1.` 或 `1)`，但同一份清單內請勿混用不同格式。您不必指定編號，GitHub 會自動完成編號工作。
 
 ```markdown
 1. This is step 1.
@@ -66,14 +66,14 @@ To create numbered lists, begin a line with `1.` or `1)`, but don&#39;t use both
 1. This is yet another step, the third.
 ```
 
-顯示結果:
+顯示結果：
 
-1. 這是第 1 步。
-1. 這是下一步。
-1. 還有第 3 步。
+1. This is step 1.
+1. This is the next step.
+1. This is yet another step, the third.
 
 <!-- markdownlint-disable MD037 -->
-若要建立項目符號清單，請在文字行的開頭使用「\*」、「-」或「+」，但同一份清單內請勿混用不同格式（請勿在同一份檔案中混用項目符號格式，例如\*和\+）。
+若要建立項目符號清單，請在文字行的開頭使用「\*」、「-」或「+」，但同一份清單內請勿混用不同格式(請勿在同一份文件中混用項目符號格式，例如 \* 和 \+)。
 <!-- markdownlint-disable MD037 -->
 
 ```markdown
@@ -82,11 +82,11 @@ To create numbered lists, begin a line with `1.` or `1)`, but don&#39;t use both
 * Here we go again.
 ```
 
-顯示結果:
+顯示結果：
 
-* 未排序清單的第一個項目。
-* 另一個項目。
-* 再來一個項目。
+* First item in an unordered list.
+* Another item.
+* Here we go again.
 
 清單內也可以內嵌清單，並在清單項目間新增內容。
 
@@ -108,23 +108,23 @@ To create numbered lists, begin a line with `1.` or `1)`, but don&#39;t use both
 1. Do another step.
 ```
 
-顯示結果:
+顯示結果：
 
-1. 設定表格與程式碼片段。
-1. 執行此步驟。
+1. Set up your table and code blocks.
+1. Perform this step.
 
-   ![畫面](assets/no-localize/adobe_standard_logo.png)
-1. 確定表格看起來像這樣:
+   ![screen](assets/no-localize/adobe_standard_logo.png)
+1. Make sure that your table looks like this:
 
    | Hello | World |
    |---|---|
    | How | are you? |
-1. 這是第四步。
+1. This is the fourth step.
 
    >[!NOTE]
    >
-   >這是註釋文字。
-1. 再來一個步驟。
+   >This is note text.
+1. Do another step.
 
 ### 表格
 
@@ -137,16 +137,16 @@ To create numbered lists, begin a line with `1.` or `1)`, but don&#39;t use both
 | row 2 | row 2 column 2 | row 2 column 3 |
 ```
 
-顯示結果:
+顯示結果：
 
-| 標題 | 另一個標題 | 再一個標題 |
+| Header | Another header | Yet another header |
 |--- |--- |--- |
-| 第 1 列 | 列2 | 列3 |
-| 第 2 列 | 第 2 列第 2 欄 | 第 2 列第 3 欄 |
+| row 1 | column 2 | column 3 |
+| row 2 | row 2 column 2 | row 2 column 3 |
 
 Markdown 要呈現簡單的表格沒有問題。不過，若表格的儲存格內包含多個段落或清單，就會難以呈現。如果是這類內容，建議您使用其他格式，例如改為標題與文字。
 
-如需建立表格的詳細資訊，請參閱:
+如需建立表格的詳細資訊，請參閱：
 
 * GitHub 的[使用表格組織資訊](https://help.github.com/articles/organizing-information-with-tables/)
 * [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) 網頁應用程式
@@ -162,9 +162,9 @@ Markdown 要呈現簡單的表格沒有問題。不過，若表格的儲存格�
 [Adobe](https://www.adobe.com)
 ```
 
-顯示結果:
+顯示結果：
 
-[Adobe](https://www.adobe.com)
+[Adobe](https://www.adobe.com/tw/)
 
 若連結的是同一存放庫內的文章 (交叉參照)，請使用相對連結。您可使用所有相對連結運算元，例如「/」(目前目錄)、「../」(上一層目錄) 和「../../」(上兩層目錄)。
 
@@ -180,7 +180,7 @@ See [Overview example article](../../overview.md)
 ![Adobe Logo](assets/no-localize/adobe_standard_logo.png "Hover text")
 ```
 
-顯示結果:
+顯示結果：
 
 ![Adobe 標誌](assets/no-localize/adobe_standard_logo.png "暫留文字")
 
@@ -188,19 +188,19 @@ See [Overview example article](../../overview.md)
 
 Markdown 支援將程式碼片段內嵌在句子中，或以「包圍型」獨立片段形式插入句子之間。如需詳細資訊，請參閱 [Markdown 對程式碼片段的原生支援](https://daringfireball.net/projects/markdown/syntax#precode)
 
-使用反引號 (「\`」)，在段落中建立內嵌程式碼樣式。若要建立特定的多行程式碼片段，在程式碼區塊前後新增三個反引號 (「\`\`\`」) (Markdown 稱之為「包圍型程式碼片段」，但在 AEM 中，這只是「程式碼片段」元件)。若要使用包圍型程式碼片段，請在第一組反引號之後加上程式碼語言名稱，讓 Markdown 可以正確地標示程式碼語法。範例: \`\`\`javascript
+使用反引號 (「\`」)，在段落中建立內嵌程式碼樣式。若要建立特定的多行程式碼片段，在程式碼區塊前後新增三個反引號 (「\`\`\`」) (Markdown 稱之為「包圍型程式碼片段」，但在 AEM 中，這只是「程式碼片段」元件)。若要使用包圍型程式碼片段，請在第一組反引號之後加上程式碼語言名稱，讓 Markdown 可以正確地標示程式碼語法。範例：\`\`\`javascript
 
-範例:
+範例：
 
 ```markdown
 This is `inline code` within a paragraph of text.
 ```
 
-顯示結果:
+顯示結果：
 
-這是文字段落中間的 `inline code`。
+This is `inline code` within a paragraph of text.
 
-這是包圍型程式碼片段:
+這是包圍型程式碼片段：
 
 ```markdown
 \```javascript
@@ -209,7 +209,7 @@ function test() {
 \```
 ```
 
-顯示結果:
+顯示結果：
 
 ```javascript
 function test() {
@@ -218,9 +218,9 @@ function test() {
 
 您可以指定程式碼片段的屬性，以關閉行號 (預設為開啟) 或新增自動換行 (預設為關閉)。請使用 {line-numbers=”no”} 和 {line-wrap=”yes”} 來指定。這些屬性都是可自訂的 Markdown 擴充功能。
 
-\`\`\`javascript {line-numbers=”no”}
+\`\`\`javascript {line-numbers=&quot;no&quot;}
 function test() {
-console.log(”注意到此函式前的空白行了嗎?&quot;);
+console.log(&quot;notice the blank line before this function?&quot;);
 \`\`\`
 
 ### 定義清單
@@ -252,7 +252,7 @@ Cat
 
 ## 自訂 Markdown 擴充功能
 
-Adobe 文章中大部分的文章格式都會使用標準 Markdown，例如段落、連結、清單與標題。若需要更豐富的格式變化，可在文章中使用 Markdown 擴充功能，例如:
+Adobe 文章中大部分的文章格式都會使用標準 Markdown，例如段落、連結、清單與標題。若需要更豐富的格式變化，可在文章中使用 Markdown 擴充功能，例如：
 
 * 註釋區塊
 * 內嵌影片
@@ -265,7 +265,7 @@ Adobe 文章中大部分的文章格式都會使用標準 Markdown，例如段�
 
 ### 註釋區塊
 
-您可選擇使用四種註釋類型，以吸引讀者注意特定內容:
+您可選擇使用四種註釋類型，以吸引讀者注意特定內容：
 
 * `[!NOTE]`
 * `[!CAUTION]`
@@ -280,20 +280,20 @@ Adobe 文章中大部分的文章格式都會使用標準 Markdown，例如段�
 >This is a standard NOTE block.
 ```
 
-顯示結果:
+顯示結果：
 
 >[!NOTE]
->這是標準的「註釋」區塊。
+>This is a standard NOTE block.
 
 ```markdown
 >[!TIP]
 >This is a standard tip.
 ```
 
-顯示結果:
+顯示結果：
 
 >[!TIP]
->這是標準的提示。
+>This is a standard tip.
 
 ### 影片
 
@@ -303,7 +303,7 @@ Adobe 文章中大部分的文章格式都會使用標準 Markdown，例如段�
 >[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
 ```
 
-顯示結果:
+顯示結果：
 
 >[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
 
@@ -317,11 +317,11 @@ AEM 中的「類似項目」元件會出現在文章結尾處。這會顯示相�
 >* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
 ```
 
-顯示結果:
+顯示結果：
 
 >[!MORELIKETHIS]
->* [第1條](https://helpx.adobe.com/support/analytics.html)
->* [第2條](https://helpx.adobe.com/support/audience-manager.html)
+>* [Article 1](https://helpx.adobe.com/tw/support/analytics.html)
+>* [Article 2](https://helpx.adobe.com/tw/support/audience-manager.html)
 
 
 ### DNL - 不要本地化 - 以及 UICONTROL
@@ -332,11 +332,11 @@ AEM 中的「類似項目」元件會出現在文章結尾處。這會顯示相�
 
 若是使用者介面中的元素或解決方案選單，則請使用 `` 擴充功能。
 
-**範例:**
+**範例：**
 
 在 [!DNL Adobe Target] 中，您可以直接在已啟用 [!DNL Target] 的頁面中建立測試內容。
 
-**來源:**
+**來源：**
 
 ```markdown
 In [!DNL Adobe Target] you can create your tests directly on a [!DNL Target]-enabled page.
@@ -346,7 +346,7 @@ In [!DNL Adobe Target] you can create your tests directly on a [!DNL Target]-ena
 
 在 [!DNL Target] 中使用 [!UICONTROL Visual Experience Composer]，直接在頁面中建立測試內容。
 
-**來源:**
+**來源：**
 
 ```markdown
 Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your test directly on a page.
@@ -356,7 +356,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 ### 替代文字
 
-包含底線的替代文字無法正確轉譯。舉例來說，請避免使用下列文字:
+包含底線的替代文字無法正確轉譯。舉例來說，請避免使用下列文字：
 
 ```markdown
 ![Settings_Step_2](/assets/settings_step_2.png)
@@ -370,20 +370,20 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 ### 單引號與雙引號
 
-您將文字複製到 Markdown 編輯器時，這些文字可能會含有「聰明」(彎曲) 的單引號或雙引號。這些引號需要編碼或變更為基本的單引號或雙引號。否則檔案發佈後，畫面可能會出現奇怪的字元，像是: Itâ€™s
+您將文字複製到 Markdown 編輯器時，這些文字可能會含有「聰明」(彎曲) 的單引號或雙引號。這些引號需要編碼或變更為基本的單引號或雙引號。否則檔案發佈後，畫面可能會出現奇怪的字元，像是：Itâ€™s
 
-在此提供這些標點符號的「聰明版」編碼:
+在此提供這些標點符號的「聰明版」編碼：
 
-* 左雙引號: `&#8220;`
-* 右雙引號: `&#8221;`
-* 右單引號: `&#8217;`
-* 左單引號 (不常使用): `&#8216;`
+* 左雙引號：`&#8220;`
+* 右雙引號：`&#8221;`
+* 右單引號：`&#8217;`
+* 左單引號 (不常使用)：`&#8216;`
 
 ### 角括弧
 
 若要在檔案中的文字 (而非程式碼) 使用角括弧 (像是要表示預留位置)，請手動編碼角括弧。否則，Markdown 會認為這些角括弧代表 HTML 標籤。
 
-舉例來說，請將 `<script name>` 編碼如下 `&lt;script name&gt;`
+舉例來說，請將 `<script name>` 編碼如下`&lt;script name&gt;`
 
 ### 標題中的 &amp; 符號
 
