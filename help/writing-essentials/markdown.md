@@ -4,8 +4,11 @@ title: 如何使用 Markdown 語言撰寫文件
 seo-title: 如何使用 Markdown 語言撰寫 Adobe 文件
 description: 本文提供撰寫文章時所需的 Markdown 語言基本概念與參考資訊。
 seo-description: 本文提供撰寫 Adobe 文件時所需的 Markdown 語言基本概念與參考資訊。
-translation-type: ht
-source-git-commit: 883f9d7a9a232fdb69db09d5e9409575c7f3bdd0
+translation-type: tm+mt
+source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+workflow-type: tm+mt
+source-wordcount: '1377'
+ht-degree: 100%
 
 ---
 
@@ -105,6 +108,7 @@ This is not \*italicized\* type.
    >[!NOTE]
    >
    >This is note text.
+
 1. Do another step.
 ```
 
@@ -124,6 +128,7 @@ This is not \*italicized\* type.
    >[!NOTE]
    >
    >This is note text.
+
 1. Do another step.
 
 ### 表格
@@ -277,22 +282,26 @@ Adobe 文章中大部分的文章格式都會使用標準 Markdown，例如段�
 
 ```markdown
 >[!NOTE]
+>
 >This is a standard NOTE block.
 ```
 
 顯示結果：
 
 >[!NOTE]
+>
 >This is a standard NOTE block.
 
 ```markdown
 >[!TIP]
+>
 >This is a standard tip.
 ```
 
 顯示結果：
 
 >[!TIP]
+>
 >This is a standard tip.
 
 ### 影片
@@ -374,7 +383,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 在此提供這些標點符號的「聰明版」編碼：
 
-* 左雙引號：`&#8220;`
+* 左雙引號： `&#8220;`
 * 右雙引號：`&#8221;`
 * 右單引號：`&#8217;`
 * 左單引號 (不常使用)：`&#8216;`
@@ -383,7 +392,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 若要在檔案中的文字 (而非程式碼) 使用角括弧 (像是要表示預留位置)，請手動編碼角括弧。否則，Markdown 會認為這些角括弧代表 HTML 標籤。
 
-舉例來說，請將 `<script name>` 編碼如下`&lt;script name&gt;`
+舉例來說，請將 `<script name>` 編碼如下 `&lt;script name&gt;`
 
 ### 標題中的 &amp; 符號
 
