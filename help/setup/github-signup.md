@@ -1,12 +1,15 @@
 ---
-lastModified: 2018/10/15
+lastModified: 2018-10-15T00:00:00Z
 title: GitHub 帳戶設定步驟
 seo-title: 適用於 Adobe Experience Cloud 文件的 GitHub 帳戶設定步驟
 description: 若要為 Adobe 文件貢獻內容，請先註冊帳戶，並逐步完成設定 GitHub 帳戶的流程。
 seo-description: 若要為 Adobe 文件貢獻內容，請先註冊帳戶，並逐步完成設定 GitHub 帳戶的流程。
 index: true
-translation-type: ht
-source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
+translation-type: tm+mt
+source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 
 若要透過 GitHub 為 Adobe (或其他組織的) 文件提供變更或新增內容，請先設定您自己的 GitHub 帳戶。設定很簡單。
 
-1. 若還沒有 GitHub 帳戶，請前往 [https://github.com/join](https://github.com/join)。
+1. 若還沒有 GitHub 帳戶，請前往 [https://github.com/join](https://github.com/join)，
 1. 按照系統提示建立帳戶。
 1. 若您不熟悉 GitHub，請詳閱設定流程最後的教學課程。
 
