@@ -3,8 +3,11 @@ title: 在本機設定 Git 存放庫
 seo-title: 在本機設定供 Adobe 文件使用的 Git 存放庫
 description: 本文提供建立本機 Git 存放庫和參與 Adobe 文件編撰的相關指示，包括分叉處理與複製流程。
 seo-description: 本文提供建立本機 Git 存放庫和參與 Adobe 文件編撰的相關指示，包括分叉處理與複製流程。
-translation-type: ht
-source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
+translation-type: tm+mt
+source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+workflow-type: tm+mt
+source-wordcount: '682'
+ht-degree: 97%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 本文以參與 Adobe 文件編寫為目的，說明在本機電腦上設定 Git 存放庫的步驟。貢獻者可使用複製到本機的存放庫來新增文章、對現有文章做出重大編輯或變更插圖。
 
 > [!IMPORTANT]
-> 若您僅需微幅修改文章，*不需要*完成本文所述步驟。只要在瀏覽器中按一下編輯圖示，即可編輯文字。
+> 若您僅需微幅修改文章，*不需要*&#x200B;完成本文所述步驟。只要在瀏覽器中按一下編輯圖示，即可編輯文字。
 
 ## 概述
 
@@ -28,9 +31,9 @@ source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 
 ## 確定存放庫
 
-取用合適的存放庫並複製到您自己的 GitHub 帳戶，這樣您就擁有讀取/編寫權限，可儲存您要做的變更。[!UICONTROL Adobe Experience Cloud] 文件位於 [github.com](https://www.github.com/adobedocs) 的多個不同的存放庫。
+取用合適的存放庫並複製到您自己的 GitHub 帳戶，這樣您就擁有讀取/編寫權限，可儲存您要做的變更。[!UICONTROL Adobe Experience Cloud] 說明檔案位於 [github.com的數個不同儲存庫](https://www.github.com/adobedocs)。
 
-1. 若不確定要使用哪個存放庫，可使用網頁瀏覽器查看文章。選取文章右上角的**編輯**連結 (鉛筆圖示)(如果沒有顯示編輯連結，表示還無法在 GitHub 使用該內容)。
+1. 若不確定要使用哪個存放庫，可使用網頁瀏覽器查看文章。選取文章右上角的&#x200B;**編輯**&#x200B;連結 (鉛筆圖示)(如果沒有顯示編輯連結，表示還無法在 GitHub 使用該內容)。
 
 若要對 Adobe 文件做出貢獻，請複製對應的文件存放庫，這樣就能在本機上建立及編輯 Markdown 檔案。接下來，您可使用提取請求，將變更合併至唯讀的集中式共用存放庫。
 
@@ -46,7 +49,7 @@ If you're new to GitHub, watch the following video for a conceptual overview of 
 
 找到合適的存放庫後，請使用 GitHub 網站，在您自己的 GitHub 帳戶中建立存放庫複本。
 
-由於所有主要文件存放庫僅提供唯讀權限，表示您不能直接在存放庫中修改內容，因此需要自行建立複本。若要變更內容，您必須向主要存放庫提交複本提取請求 (PR)。為方便此流程進行，首先需建立一個您可以擁有編寫權限的存放庫複本。GitHub *取用*功能即為此目的而生。
+由於所有主要文件存放庫僅提供唯讀權限，表示您不能直接在存放庫中修改內容，因此需要自行建立複本。若要變更內容，您必須向主要存放庫提交複本提取請求 (PR)。為方便此流程進行，首先需建立一個您可以擁有編寫權限的存放庫複本。GitHub *取用*&#x200B;功能即為此目的而生。
 
 1. 前往主要存放庫的 GitHub 頁面，然後按一下右上角的 **Fork** (分叉) 按鈕。
 
@@ -58,8 +61,9 @@ If you're new to GitHub, watch the following video for a conceptual overview of 
 
    有些存放庫可能規模龐大。請選擇磁碟空間充足的儲存位置。
 
-   > [!NOTE]
-   > 避免選擇其他 Git 存放庫資料夾位置下的巢狀本機資料夾路徑。雖然 Git 複製資料夾可以並列存放，巢狀的 Git 資料夾會造成檔案追蹤上的錯誤。
+   >[!NOTE]
+   >
+   >避免選擇其他 Git 存放庫資料夾位置下的巢狀本機資料夾路徑。雖然 Git 複製資料夾可以並列存放，巢狀的 Git 資料夾會造成檔案追蹤上的錯誤。
 
 ## 在本機建立存放庫複本
 
@@ -73,4 +77,4 @@ If you're new to GitHub, watch the following video for a conceptual overview of 
 
 1. 使用 GitHub Desktop 可保持本機檔案與取用的存放庫保持同步。
 
-如需詳細資訊，請參閱 [GitHub Desktop 文件](https://help.github.com/desktop/)。
+詳情請參閱 [GitHub Desktop 文件](https://help.github.com/desktop/)。
