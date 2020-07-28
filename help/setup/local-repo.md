@@ -3,9 +3,9 @@ title: 在本機設定 Git 存放庫
 seo-title: 在本機設定供 Adobe 文件使用的 Git 存放庫
 description: 本文提供建立本機 Git 存放庫和參與 Adobe 文件編撰的相關指示，包括分叉處理與複製流程。
 seo-description: 本文提供建立本機 Git 存放庫和參與 Adobe 文件編撰的相關指示，包括分叉處理與複製流程。
-translation-type: ht
-source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d69ca7ee25e2a79151779687ef58d67a800f92e6
+workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 100%
 
@@ -16,8 +16,8 @@ ht-degree: 100%
 
 本文以參與 Adobe 文件編寫為目的，說明在本機電腦上設定 Git 存放庫的步驟。貢獻者可使用複製到本機的存放庫來新增文章、對現有文章做出重大編輯或變更插圖。
 
-> [!IMPORTANT]
-> 若您僅需微幅修改文章，*不需要*&#x200B;完成本文所述步驟。只要在瀏覽器中按一下編輯圖示，即可編輯文字。
+>[!IMPORTANT]
+>若您僅需微幅修改文章，*不需要*&#x200B;完成本文所述步驟。只要在瀏覽器中按一下編輯圖示，即可編輯文字。
 
 ## 概述
 
