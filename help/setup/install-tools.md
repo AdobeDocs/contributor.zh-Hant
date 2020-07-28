@@ -4,11 +4,11 @@ title: 安裝編寫工具
 seo-title: 安裝適用於 Adobe 文件的 Git 和 GitHub 編寫工具
 description: 本文會協助您下載及安裝使用 Git/GitHub 與編輯 Markdown 檔案所需的用戶端工具。
 seo-description: 本文會協助您下載及安裝使用 Git/GitHub 與編輯 Markdown 檔案所需的用戶端工具，方便您編寫 Adobe 文件。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
