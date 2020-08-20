@@ -4,10 +4,10 @@ title: 如何使用 Markdown 語言撰寫文件
 seo-title: 如何使用 Markdown 語言撰寫 Adobe 文件
 description: 本文提供撰寫文章時所需的 Markdown 語言基本概念與參考資訊。
 seo-description: 本文提供撰寫 Adobe 文件時所需的 Markdown 語言基本概念與參考資訊。
-translation-type: ht
-source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
-workflow-type: ht
-source-wordcount: '1377'
+translation-type: tm+mt
+source-git-commit: 27ba164070996d192c84493d83232484d2badb28
+workflow-type: tm+mt
+source-wordcount: '1329'
 ht-degree: 100%
 
 ---
@@ -220,13 +220,6 @@ function test() {
 function test() {
  console.log("notice the blank line before this function?");
 ```
-
-您可以指定程式碼片段的屬性，以關閉行號 (預設為開啟) 或新增自動換行 (預設為關閉)。請使用 {line-numbers=”no”} 和 {line-wrap=”yes”} 來指定。這些屬性都是可自訂的 Markdown 擴充功能。
-
-\`\`\`javascript {line-numbers=&quot;no&quot;}
-function test() {
-console.log(&quot;notice the blank line before this function?&quot;);
-\`\`\`
 
 ### 定義清單
 
