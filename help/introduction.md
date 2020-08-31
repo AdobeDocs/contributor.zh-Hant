@@ -1,13 +1,13 @@
 ---
 title: Adobe 說明文件的貢獻者指南
 seo-title: 適用於 Adobe Experience Cloud 技術文件的貢獻者指南總覽
-description: 本指南說明如何為 Adobe 文件網站貢獻建議及新增內容。
-seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
-translation-type: tm+mt
+description: 本指南說明您能如何對 Adobe 文件網站貢獻建議及新增內容。
+seo-description: 本指南說明您能如何對 [!UICONTROL Adobe Experience Cloud] 技術文件有所貢獻。
+translation-type: ht
 source-git-commit: c788a71cecf7b69698b649b6053e6740bcc22730
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '836'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
