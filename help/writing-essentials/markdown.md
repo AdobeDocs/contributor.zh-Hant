@@ -4,10 +4,10 @@ title: 如何使用 Markdown 語言撰寫文件
 seo-title: 如何使用 Markdown 語言撰寫 Adobe 文件
 description: 本文提供撰寫文章時所需的 Markdown 語言基本概念與參考資訊。
 seo-description: 本文提供撰寫 Adobe 文件時所需的 Markdown 語言基本概念與參考資訊。
-translation-type: ht
-source-git-commit: 27ba164070996d192c84493d83232484d2badb28
-workflow-type: ht
-source-wordcount: '1329'
+translation-type: tm+mt
+source-git-commit: 4ebbbde3337183a19fd3a59ae091b621a092e6f8
+workflow-type: tm+mt
+source-wordcount: '1322'
 ht-degree: 100%
 
 ---
@@ -302,12 +302,12 @@ Adobe 文章中大部分的文章格式都會使用標準 Markdown，例如段�
 原生 Markdown 不會轉譯內嵌影片，但您可以使用此 Markdown 擴充功能達成此目的。
 
 ```markdown
->[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
 ```
 
 顯示結果：
 
->[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
 
 ### 類似項目
 
