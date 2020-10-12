@@ -4,10 +4,10 @@ title: 重大變更的 GitHub 貢獻工作流程
 seo-title: Adobe 文件需有重大變更時的 GitHub 貢獻工作流程
 description: 本文說明如何使用「重大」貢獻工作流程，對 Adobe 文件有所貢獻。
 seo-description: 本文說明如何使用「重大」貢獻工作流程，對 Adobe 文件有所貢獻。
-translation-type: ht
-source-git-commit: c788a71cecf7b69698b649b6053e6740bcc22730
-workflow-type: ht
-source-wordcount: '1006'
+translation-type: tm+mt
+source-git-commit: 6ec1d13f80698cb5963c07656ef8183db735ff75
+workflow-type: tm+mt
+source-wordcount: '976'
 ht-degree: 100%
 
 ---
@@ -75,5 +75,3 @@ ht-degree: 100%
 ### 發行
 
 記住，您的提取請求必須先經由 PR 審核者合併，變更才會納入下次已排程的發佈作業。提取請求通常會依照提交順序來審核/合併。若您的提取請求需提前合併，以趕上特定的發佈作業，請事先與 PR 審核者商量，確保能在發佈前完成合併。
-
-貢獻內容通過核准並完成合併後，docs.microsoft.com 發佈程序就會加以取用。依管理您貢獻的存放庫團隊而定，實際的發佈時間可能會有所不同。
