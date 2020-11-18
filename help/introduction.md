@@ -3,11 +3,11 @@ title: Adobe 說明文件的貢獻者指南
 seo-title: 適用於 Adobe Experience Cloud 技術文件的貢獻者指南總覽
 description: 本指南說明您能如何對 Adobe 文件網站貢獻建議及新增內容。
 seo-description: 本指南說明您能如何對 [!UICONTROL Adobe Experience Cloud] 技術文件有所貢獻。
-translation-type: ht
-source-git-commit: c788a71cecf7b69698b649b6053e6740bcc22730
-workflow-type: ht
-source-wordcount: '836'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8943af2fdf406b2e33db037bb60dfea97df2959a
+workflow-type: tm+mt
+source-wordcount: '837'
+ht-degree: 93%
 
 ---
 
@@ -44,7 +44,10 @@ ht-degree: 100%
 1. 若可接受，請簽署[貢獻者授權合約 (CLA)](http://opensource.adobe.com/cla.html)。
 
    您只須提交 Adobe CLA 一次。
-1. 按一下右側欄中的 **`Edit this page`** (編輯此頁面)，即可前往 GitHub 的 Markdown 來源檔案。
+1. Click the **`Edit this page`** icon in the right column to go to the markdown source file on GitHub.
+
+   ![編輯此頁面圖示](/help/assets/git_edit.png)
+
 1. 按一下鉛筆圖示即可編輯文章。
 
    >[!NOTE]
@@ -68,13 +71,13 @@ ht-degree: 100%
 
 另一種告訴我們內容有問題的簡單方法是「登錄問題」。
 
-1. 若發現內容有問題，請按一下任何頁面右下角的 `Log an Issue` (登錄問題) 連結。請參閱下圖：
+1. If you see a problem with a piece of content, click the **`Log an Issue`** icon in the right column.
 
    ![](assets/git_log_issue.png)
 
    >[!NOTE]
    >
-   >您需要登入 GitHub 帳戶或建立新帳戶才能登錄問題。
+   >您需要登入GitHub帳戶，或建立新帳戶，才能記錄問題。
 
    按一下此連結即可使用 Github 問題介面，快速登錄工單。
 
