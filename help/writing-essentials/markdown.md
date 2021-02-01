@@ -1,14 +1,11 @@
 ---
-lastModified: 2018-06-28T00:00:00Z
 title: 如何使用 Markdown 語言撰寫文件
-seo-title: 如何使用 Markdown 語言撰寫 Adobe 文件
 description: 本文提供撰寫文章時所需的 Markdown 語言基本概念與參考資訊。
-seo-description: 本文提供撰寫 Adobe 文件時所需的 Markdown 語言基本概念與參考資訊。
-translation-type: ht
-source-git-commit: 4ebbbde3337183a19fd3a59ae091b621a092e6f8
-workflow-type: ht
-source-wordcount: '1322'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,11 +23,11 @@ Adobe 技術文件中的文章是以名為 [Markdown](https://daringfireball.net
 若要建立標題，請在文字行的開頭使用井字號 (#)：
 
 ```
-   # This is level 1 (article title)
-   ## This is level 2
-   ### This is level 3
-   #### This is level 4
-   ##### This is level 5
+# This is level 1 (article title)
+## This is level 2
+### This is level 3
+#### This is level 4
+##### This is level 5
 ```
 
 ### 基本文字
@@ -40,18 +37,10 @@ Adobe 技術文件中的文章是以名為 [Markdown](https://daringfireball.net
 若要將文字的格式設為&#x200B;**粗體**，請以雙星號括住文字。若要將文字的格式設為&#x200B;*斜體*，請以單星號括住文字：
 
 ```markdown
-    This text is **bold**.
-    This text is *italic*.
-    This text is both ***bold and italic***.
+   This text is **bold**.
+   This text is *italic*.
+   This text is both ***bold and italic***.
 ```
-
-<!--
-To format superscript (H<sub>2</sub>O) and subscript (e=mc<sup>2</sup>) text:
-
-```markdown
-This is subscript H<sub>2</sub>O and superscript e=mc<sup>2</sup>.
-```
--->
 
 若要略過 Markdown 格式字元，請在該字元前使用「\」：
 
@@ -75,9 +64,7 @@ This is not \*italicized\* type.
 1. This is the next step.
 1. This is yet another step, the third.
 
-<!-- markdownlint-disable MD037 -->
 若要建立項目符號清單，請在文字行的開頭使用「\*」、「-」或「+」，但同一份清單內請勿混用不同格式(請勿在同一份文件中混用項目符號格式，例如 \* 和 \+)。
-<!-- markdownlint-disable MD037 -->
 
 ```markdown
 * First item in an unordered list.
@@ -221,33 +208,6 @@ function test() {
  console.log("notice the blank line before this function?");
 ```
 
-### 定義清單
-
-定義清單是 Markdown 的擴充功能，可支援 AEM 的定義清單元件。定義清單包含詞彙和定義。
-
-<!--
-
-```markdown
-Frog
-: An amphibious green creature. Likes flies.
-
-Cat
-: A less amphibious creature than frogs.
-```
-
-Displayed:
-
-Frog
-: An amphibious green creature. Likes flies.
-
-Cat
-: A less amphibious creature than frogs.
---->
-
-#### 備註與註解
-
-公開的說明文章中不會顯示註解 (備註)。不過，若是使用者可以查看與編輯的公開 Markdown 檔案，就會顯示註解。
-
 ## 自訂 Markdown 擴充功能
 
 Adobe 文章中大部分的文章格式都會使用標準 Markdown，例如段落、連結、清單與標題。若需要更豐富的格式變化，可在文章中使用 Markdown 擴充功能，例如：
@@ -263,12 +223,16 @@ Adobe 文章中大部分的文章格式都會使用標準 Markdown，例如段�
 
 ### 註釋區塊
 
-您可選擇使用四種註釋類型，以吸引讀者注意特定內容：
+您可從下列類型的附註區塊中選擇，以吸引對特定內容的注意：
 
 * `[!NOTE]`
-* `[!CAUTION]`
 * `[!TIP]`
 * `[!IMPORTANT]`
+* `[!CAUTION]`
+* `[!WARNING]`
+* `[!ADMINISTRATION]`
+* `[!AVAILABILITY]`
+* `[!PREREQUISITES]`
 
 一般來說，註釋區塊應節制使用，註釋太多可能會造成干擾。雖然註釋區塊也支援程式碼片段、影像、清單和連結，但請試著讓註釋區塊簡單明瞭。
 
@@ -307,7 +271,7 @@ Adobe 文章中大部分的文章格式都會使用標準 Markdown，例如段�
 
 顯示結果：
 
->[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
 
 ### 類似項目
 
@@ -376,7 +340,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 在此提供這些標點符號的「聰明版」編碼：
 
-* 左雙引號： `&#8220;`
+* 左雙引號：  `&#8220;`
 * 右雙引號：`&#8221;`
 * 右單引號：`&#8217;`
 * 左單引號 (不常使用)：`&#8216;`
@@ -385,7 +349,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 若要在檔案中的文字 (而非程式碼) 使用角括弧 (像是要表示預留位置)，請手動編碼角括弧。否則，Markdown 會認為這些角括弧代表 HTML 標籤。
 
-舉例來說，請將 `<script name>` 編碼如下 `&lt;script name&gt;`
+舉例來說，請將 `<script name>` 編碼如下  `&lt;script name&gt;`
 
 ### 標題中的 &amp; 符號
 
