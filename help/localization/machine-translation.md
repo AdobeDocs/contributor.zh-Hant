@@ -1,10 +1,11 @@
 ---
 title: Adobe Experience Cloud 產品文件的語言支援
-seo-title: Adobe Experience Cloud 產品文件的語言支援
-description: 本指南說明如何為 Adobe 文件網站貢獻建議及新增內容。
-seo-description: 本指南說明如何為 [!UICONTROL Adobe Experience Cloud] 技術文件有所貢獻。
-translation-type: ht
-source-git-commit: 9db7dd1fb9b22bc35f887d0441a1837813efc9cc
+description: 本指南說明您能如何對 Adobe 文件網站貢獻建議及新增內容。
+translation-type: tm+mt
+source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,13 +30,15 @@ Adobe 知道您仰賴 Adobe 產品支援語言版本的產品文件、說明和�
 
    ![翻譯的頁面](assets/french.png)
 
-   若尚未提供您的語言版本，Adobe 可能會自動翻譯您的內容。Adobe 的自動翻譯服務會在頁面頂端的藍色欄位中顯示訊息:
+<!--
+   In cases where your language version is not yet available, Adobe can automatically translate your content. Adobe's automatic translation service displays a message at the top of the page in a blue field:
 
-   ![翻譯訊息](assets/machine-translation-message.png)
+   ![Translation message](assets/machine-translation-message.png)
 
-   內容可能會自動以您的語言顯示，或者，您可以按一下連結以觸發翻譯。(當您按一下超連結從翻譯的頁面返回英文來源頁面時，可能會發生此情形。這可讓您隨選檢視翻譯頁面。)您隨時都可以返回英文來源頁面。
+   The content may be rendered in your language automatically, or you can click a link to trigger the translation. (This scenario may occur when you have clicked on the hyperlink to return to the English source from the translated page. It gives you the option of viewing the translated page on-demand.) You can at any time return to the English source.
 
-   有時，英文來源內容可能最近剛更新，並在翻譯完成之前發佈。在下拉式選單中按一下您的語言後，您會看到通知 (位於頁面頂端的淺藍色水平列)，告訴您頁面自動以舊版翻譯，更新內容即將推出。想要的話，您可以選擇在新的瀏覽器視窗中檢視最新英文來源內容。
+   Occasionally, the English source content might have been recently updated and published before the translations were completed. Upon clicking on your language in the dropdown menu, you will see a notification — in the light-blue horizontal bar at the top of the page — informing that the page was automatically translated from the previous version, with updated content to be available soon. You will be offered the choice to view the most recent English source content in a new browser window, if you prefer.
+-->
 
 ## 為何使用自動翻譯
 
@@ -63,7 +66,9 @@ Adobe 運用自動翻譯功能，以便在建立支援內容時，儘快發佈�
 
 未來我們打算讓您可提供更廣泛的意見反應，如記錄問題、建議改善之處，甚至要求其他語言內容。英文頁面已提供上述部分功能。長遠來看，我們認為這有助於 Adobe 改善這些頁面的使用者體驗。
 
-![改善此頁面](assets/feedback.png)
+<!--
+![Improve this page](assets/feedback.png)
+-->
 
 ### 譯文免責聲明
 
