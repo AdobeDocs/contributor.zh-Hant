@@ -1,19 +1,12 @@
 ---
-git-repo: https://github.com/AdobeDocs/contributor.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/contributor.zh-Hant
 cloud: experience-cloud
 index: true
-user-guide-title: Adobe 貢獻者指南
-user-guide-url: https://www.adobe.com/tw/
-solution-title: Experience Cloud
-solution-hub-url: https://helpx.adobe.com/tw/support/experience-cloud.html
-solution-image: assets/experience-cloud-logo-24.png
-getting-started-title: Experience League
-getting-started-url: https://landing.adobe.com/experience-league/
-tutorials-title: 教學課程
-tutorials-url: https://helpx.adobe.com/tw/experience-cloud/tutorials.html
-test-meta: 測試
-translation-type: ht
-source-git-commit: cc70a5ea1be2a7e7c8d3a685c500b6bf33824cea
+translation-type: tm+mt
+source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
