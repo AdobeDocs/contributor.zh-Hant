@@ -1,14 +1,11 @@
 ---
-lastModified: 2018-06-28T00:00:00Z
 title: 重大變更的 GitHub 貢獻工作流程
-seo-title: Adobe 文件需有重大變更時的 GitHub 貢獻工作流程
 description: 本文說明如何使用「重大」貢獻工作流程，對 Adobe 文件有所貢獻。
-seo-description: 本文說明如何使用「重大」貢獻工作流程，對 Adobe 文件有所貢獻。
-translation-type: ht
-source-git-commit: 6ec1d13f80698cb5963c07656ef8183db735ff75
-workflow-type: ht
-source-wordcount: '976'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
