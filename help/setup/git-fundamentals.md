@@ -1,10 +1,11 @@
 ---
 title: Git 和 GitHub 文件基本資訊
-seo-title: Git 和 GitHub 文件基本資訊
 description: 本文概述 Git、GitHub 存放庫相關資訊，並說明內容的組織方式及 Adobe 文件的命名慣例。
-seo-description: 本文概述 Git、GitHub 存放庫相關資訊，並說明內容的組織方式及 Adobe 文件的命名慣例。
-translation-type: ht
-source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
+translation-type: tm+mt
+source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +18,7 @@ source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 
 Adobe 文件內容的貢獻者可善用多種工具和程序。您可與同一專案中的其他貢獻者同步工作，甚至是編輯完全相同的內容。透過 Git 和 GitHub 軟體，便可實現這一切。
 
-Git 是開放原始碼版本控制系統，可供多人協作。多位貢獻者可共同處理*存放庫*中的檔案。
+Git 是開放原始碼版本控制系統，可供多人協作。多位貢獻者可共同處理&#x200B;*存放庫*&#x200B;中的檔案。
 
 GitHub 是適用於 Git 存放庫 (例如存放 [docs.adobe.com](https://docs.adobe.com) 內容的存放庫) 的網頁型託管服務。不論任何專案，GitHub 皆會託管主要存放庫，貢獻者可從中建立工作複本。
 
@@ -65,6 +66,6 @@ For convenience, the root directory of each repository typically contains a Mark
 
 ## 提取請求
 
-*提取請求*是一種便利方式，可供貢獻者提出要套用至預設分支的變更。變更 (又稱為*提交項目*) 會存放於貢獻者的分支中，因此 GitHub 可以先模擬將變更*合併*至預設分支的影響。提取請求也是透過建置/驗證程序(提取請求審核者) 為貢獻者提供意見的反饋機制，以便在變更合併至預設分支前解決潛在的問題或疑問。
+*提取請求*&#x200B;是一種便利方式，可供貢獻者提出要套用至預設分支的變更。變更 (又稱為&#x200B;*提交項目*) 會存放於貢獻者的分支中，因此 GitHub 可以先模擬將變更&#x200B;*合併*&#x200B;至預設分支的影響。提取請求也是透過建置/驗證程序(提取請求審核者) 為貢獻者提供意見的反饋機制，以便在變更合併至預設分支前解決潛在的問題或疑問。
 
 透過提取請求貢獻內容有兩種方式，端視您要提出的變更大小而定。稍後我們會在本指南的 [GitHub 工作流程](local-repo.md)章節中詳述。
