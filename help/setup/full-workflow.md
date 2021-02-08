@@ -1,11 +1,11 @@
 ---
-title: 重大變更的 GitHub 貢獻工作流程
+title: 適用於重大變更的 GitHub 貢獻工作流程
 description: 本文說明如何使用「重大」貢獻工作流程，對 Adobe 文件有所貢獻。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '950'
+ht-degree: 100%
 
 ---
 
