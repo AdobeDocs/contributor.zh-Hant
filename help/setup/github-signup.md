@@ -1,11 +1,11 @@
 ---
 title: GitHub 帳戶設定步驟
 description: 若要為 Adobe 文件貢獻內容，請先註冊帳戶，並逐步完成設定 GitHub 帳戶的流程。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '207'
+ht-degree: 100%
 
 ---
 
