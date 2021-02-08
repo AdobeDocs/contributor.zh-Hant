@@ -1,11 +1,11 @@
 ---
 title: 如何使用 Markdown 語言撰寫文件
 description: 本文提供撰寫文章時所需的 Markdown 語言基本概念與參考資訊。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1240'
+ht-degree: 100%
 
 ---
 
@@ -223,7 +223,7 @@ Adobe 文章中大部分的文章格式都會使用標準 Markdown，例如段�
 
 ### 註釋區塊
 
-您可從下列類型的附註區塊中選擇，以吸引對特定內容的注意：
+您可以選擇使用這些註釋類型，以吸引讀者注意特定內容：
 
 * `[!NOTE]`
 * `[!TIP]`
@@ -271,7 +271,7 @@ Adobe 文章中大部分的文章格式都會使用標準 Markdown，例如段�
 
 顯示結果：
 
->[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12&captions=chi_hant)
 
 ### 類似項目
 
@@ -340,7 +340,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 在此提供這些標點符號的「聰明版」編碼：
 
-* 左雙引號：  `&#8220;`
+* 左雙引號： `&#8220;`
 * 右雙引號：`&#8221;`
 * 右單引號：`&#8217;`
 * 左單引號 (不常使用)：`&#8216;`
@@ -349,7 +349,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 若要在檔案中的文字 (而非程式碼) 使用角括弧 (像是要表示預留位置)，請手動編碼角括弧。否則，Markdown 會認為這些角括弧代表 HTML 標籤。
 
-舉例來說，請將 `<script name>` 編碼如下  `&lt;script name&gt;`
+舉例來說，請將 `<script name>` 編碼如下 `&lt;script name&gt;`
 
 ### 標題中的 &amp; 符號
 
