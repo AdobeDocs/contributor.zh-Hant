@@ -3,11 +3,11 @@ title: Adobe 說明文件的貢獻者指南
 seo-title: 適用於 Adobe Experience Cloud 技術文件的貢獻者指南總覽
 description: 本指南說明您能如何對 Adobe 文件網站貢獻建議及新增內容。
 seo-description: 本指南說明您能如何對 [!UICONTROL Adobe Experience Cloud] 技術文件有所貢獻。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '836'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 什麼是協作文件？
 
-Adobe Experience Cloud和其他Adobe企業版產品的技術檔案與啟用內容已轉換至新平台。 此新平台以開放原始碼原則為基礎，可運用Github、Markdown和Adobe Experience Cloud解決方案。
+Adobe Experience Cloud 和其他 Adobe 企業版產品的技術檔案與培訓課程內容已轉移到新平台。此新平台採取可運用 Github、Markdown 和 Adobe Experience Cloud 解決方案的開放原始碼原則。
 
 此開放原始碼模型改善了內容品質，以及客戶、文件團隊和產品團隊間的溝通。現在，在每個頁面上，您可以對內容實用程度進行評分、登錄問題，甚至以 Git 提取請求 (PR) 的形式貢獻內容建議。Adobe 文件團隊會每天監控貢獻內容和問題，並視需要進行更新、調校和調整。
 
