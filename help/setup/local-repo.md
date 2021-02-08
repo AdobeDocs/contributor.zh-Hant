@@ -1,11 +1,11 @@
 ---
 title: 在本機設定 Git 存放庫
 description: 本文提供建立本機 Git 存放庫和參與 Adobe 文件編撰的相關指示，包括分叉處理與複製流程。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '653'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 取用合適的存放庫並複製到您自己的 GitHub 帳戶，這樣您就擁有讀取/編寫權限，可儲存您要做的變更。[!UICONTROL Adobe Experience Cloud] 文件位於 [github.com](https://www.github.com/adobedocs) 的多個不同的存放庫。
 
-1. 若不確定要使用哪個存放庫，可使用網頁瀏覽器查看文章。選取文章右上角的&#x200B;**編輯**&#x200B;連結 (鉛筆圖示)(如果沒有顯示編輯連結，表示還無法在 GitHub 使用該內容)。
+1. 若不確定要使用哪個存放庫，可使用網頁瀏覽器查看文章。選取文章右上角的&#x200B;**編輯**&#x200B;連結 (鉛筆圖示) (如果沒有顯示編輯連結，表示還無法在 GitHub 使用該內容)。
 
 若要對 Adobe 文件做出貢獻，請複製對應的文件存放庫，這樣就能在本機上建立及編輯 Markdown 檔案。接下來，您可使用提取請求，將變更合併至唯讀的集中式共用存放庫。
 
