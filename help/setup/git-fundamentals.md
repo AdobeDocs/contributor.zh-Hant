@@ -1,11 +1,11 @@
 ---
 title: Git 和 GitHub 文件基本資訊
 description: 本文概述 Git、GitHub 存放庫相關資訊，並說明內容的組織方式及 Adobe 文件的命名慣例。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '660'
+ht-degree: 100%
 
 ---
 
