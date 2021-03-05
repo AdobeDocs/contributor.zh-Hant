@@ -1,11 +1,11 @@
 ---
 title: 如何使用 Markdown 語言撰寫文件
 description: 本文提供撰寫文章時所需的 Markdown 語言基本概念與參考資訊。
-translation-type: ht
-source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: ht
-source-wordcount: '1240'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b8090869aa7b5a2ab62f7af09e1b5e289d8a392b
+workflow-type: tm+mt
+source-wordcount: '1491'
+ht-degree: 76%
 
 ---
 
@@ -176,6 +176,8 @@ See [Overview example article](../../overview.md)
 
 ![Adobe 標誌](assets/no-localize/adobe_standard_logo.png "暫留文字")
 
+**注意：** 對於不應本地化的影像，請在資產檔 `do-not-localize` 案夾中建立個別檔案夾。通常，沒有文字的影像或僅包含範例內容的影像會放在此處。 如此可移除資產檔案夾中的任何「雜訊」，並減少問題數量。
+
 ### 程式碼片段
 
 Markdown 支援將程式碼片段內嵌在句子中，或以「包圍型」獨立片段形式插入句子之間。如需詳細資訊，請參閱 [Markdown 對程式碼片段的原生支援](https://daringfireball.net/projects/markdown/syntax#precode)
@@ -271,7 +273,7 @@ Adobe 文章中大部分的文章格式都會使用標準 Markdown，例如段�
 
 顯示結果：
 
->[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
 
 ### 類似項目
 
@@ -290,32 +292,44 @@ AEM 中的「類似項目」元件會出現在文章結尾處。這會顯示相�
 >* [Article 2](https://helpx.adobe.com/tw/support/audience-manager.html)
 
 
-### DNL - 不要本地化 - 以及 UICONTROL
+### UICONTROL和DNL
 
-某些情況下，我們需要標示文章中特定區段的內容，使這些區段保留為英文。您需要向翻譯系統宣告字詞、詞句和其他元素，並建立管理受控語彙的功能。
+我們所有的Markdown說明內容最初都是使用機器翻譯進行本地化的。 如果說明從未本土化，我們會保留機器翻譯。 不過，如果說明內容過去已本地化，則機器翻譯的內容將在內容進行人工翻譯時充當預留位置。
 
-若字詞或詞句不應本地化，請使用 `[!DNL]` 擴充功能包住字詞或區段。
+**``**
 
-若是使用者介面中的元素或解決方案選單，則請使用 `` 擴充功能。
+在機器翻譯過程中，會根據本地化資料庫檢查標籤``的項，以便進行相應的翻譯。 如果UI未本地化，此標籤將允許系統將該特定語言的UI參考保留為英文(即 Analytics參考)。
 
 **範例：**
 
-在 [!DNL Adobe Target] 中，您可以直接在已啟用 [!DNL Target] 的頁面中建立測試內容。
+1. 前往&#x200B;**[!UICONTROL Run Process]**&#x200B;畫面。
+1. 選擇&#x200B;**[!UICONTROL File > Print > Print All]**&#x200B;以打印伺服器上的所有檔案。
+1. 出現[!UICONTROL Processing Rules]對話框。
 
 **來源：**
 
 ```markdown
-In [!DNL Adobe Target] you can create your tests directly on a [!DNL Target]-enabled page.
+1. Go to the **[!UICONTROL Run Process]** screen.
+1. Choose **[!UICONTROL File > Print > Print All]** to print all the files on your server.
+1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
 
-**範例**
+**注意：** 在三個標籤選項中，這是傳遞高品質且必須執行的最關鍵選項。
 
-在 [!DNL Target] 中使用 [!UICONTROL Visual Experience Composer]，直接在頁面中建立測試內容。
+**`[!DNL]`**
+
+通常，我們使用「不翻譯」清單來告訴機器翻譯引擎要保留的英語。 最普遍的項目是長篇解決方案名稱，例如&quot;Adobe Analytics&quot;、&quot;Adobe Campaign&quot;和&quot;Adobe Target&quot;。 不過，有時我們可能需要強制引擎使用英文，因為相關詞語可能以特定或一般的方式使用。 最明顯的例子是「Analytics」、「Campaign」、「Target」等解決方案的簡稱。 機器很難理解這些是解決方案名稱而非一般術語。 標籤也可用於總是以英文保留的協力廠商名稱／功能，或用於短片或句子等必須以英文保留的文字區段。
+
+**範例：**
+
+* 使用[!DNL Target]，您可以建立A/B測試，以尋找最佳的
+* Adobe Analytics是收集您網站分析的強大解決方案。 [!DNL Analytics] 也可協助您進行報告，以輕鬆摘取該資料。
 
 **來源：**
 
 ```markdown
-Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your test directly on a page.
+* With [!DNL Target], you can create A/B tests to find the optimal 
+* Adobe Analytics is a powerful solution to collect analytics on your site. [!DNL Analytics] can also help you with reporting to easily digest that data.
 ```
 
 ## Gotcha 與疑難排解
@@ -340,7 +354,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 在此提供這些標點符號的「聰明版」編碼：
 
-* 左雙引號： `&#8220;`
+* 左雙引號：  `&#8220;`
 * 右雙引號：`&#8221;`
 * 右單引號：`&#8217;`
 * 左單引號 (不常使用)：`&#8216;`
@@ -349,7 +363,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 若要在檔案中的文字 (而非程式碼) 使用角括弧 (像是要表示預留位置)，請手動編碼角括弧。否則，Markdown 會認為這些角括弧代表 HTML 標籤。
 
-舉例來說，請將 `<script name>` 編碼如下 `&lt;script name&gt;`
+舉例來說，請將 `<script name>` 編碼如下  `&lt;script name&gt;`
 
 ### 標題中的 &amp; 符號
 
