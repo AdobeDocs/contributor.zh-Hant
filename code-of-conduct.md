@@ -1,8 +1,14 @@
 ---
-source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
-translation-type: ht
+title: Adobe 行為準則
+description: 'Adobe 行為準則 '
+translation-type: tm+mt
+source-git-commit: 883a314481675cbe8cea97782ccf39b738690bf9
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 100%
 
 ---
+
 # Adobe 行為準則
 
 ## 我們的承諾
@@ -11,7 +17,7 @@ translation-type: ht
 
 ## 我們的準則
 
-有助於建立正面使用環境的行為包括:
+有助於建立正面使用環境的行為包括：
 
 * 使用歡迎和包容性的語言
 * 尊重不同的觀點和經驗
@@ -19,10 +25,10 @@ translation-type: ht
 * 將重點放在最有利於社群的方向
 * 向其他社群成員表現同理心
 
-不可接受的參與者行為包括:
+參與者不被接受的行為範例包括：
 
-* 使用充滿性暗示的言語或影像，以及令人不舒服的性關注或性建議
-* 具挑釁、侮辱/誹謗意味的評論，涉及人身或政治立場的攻擊
+* 使用有色的語言或影像，以及不受歡迎的性關注或性挑逗
+* 侵權、侮辱/貶損評論，以及個人或政治攻擊
 * 公開或私下騷擾
 * 在未經明確許可下，發佈他人的私人資訊，例如實際或電子地址
 * 在專業環境中被合理地認為不恰當的其他行為
@@ -39,11 +45,11 @@ translation-type: ht
 
 ## 執行
 
-如有辱罵、騷擾或其他不可接受的行為，請聯絡專案團隊: Grp-opensourceoffice@adobe.com。我們會審查及調查所有投訴，並提供必要且適當的回應。專案團隊有義務對事件回報者的相關資料保密。
+如有辱罵、騷擾或其他不可接受的行為，請聯絡專案團隊：Grp-opensourceoffice@adobe.com。我們會審查及調查所有投訴，並提供必要且適當的回應。專案團隊有義務對事件回報者的相關資料保密。
 特定執行政策的詳細資訊可能個別公佈。
 
 未真誠遵守或執行「行為準則」的專案維護人員可能會面臨暫時或永久的處置，此由專案領導權之其他成員所決定。
 
 ## 出處
 
-本行為準則改編自 [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/) 所提供的[貢獻者公約](https://contributor-covenant.org) 1.4 版。
+本行為準則改編自[貢獻者公約](https://contributor-covenant.org) 1.4 版，取得的網址為 [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
