@@ -1,14 +1,14 @@
 ---
 title: Git 和 GitHub 文件基本資訊
 description: 本文概述 Git、GitHub 存放庫相關資訊，並說明內容的組織方式及 Adobe 文件的命名慣例。
-translation-type: ht
-source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: ht
+exl-id: 2b2ec764-4201-4bcd-802d-a034d6675793
+translation-type: tm+mt
+source-git-commit: 1b1678b33059f4bc8f7aff4690f1d775e6aee2d6
+workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 100%
 
 ---
-
 
 # Git 和 GitHub 文件基本資訊
 
@@ -52,7 +52,8 @@ Git 擁有獨特的貢獻工作流程和術語，可支援其分散式模型。�
 
 使用者指南目錄包含目錄中所引用之影像檔案的`/assets`子目錄。
 
-<!---
+<!--
+
 ### Markdown file template
 
 For convenience, the root directory of each repository typically contains a Markdown template file named `template.md`. You can use this template file as a "starter file" if you need to create a new article for submission to the repository. The file contains:
@@ -62,6 +63,7 @@ For convenience, the root directory of each repository typically contains a Mark
 - General **instructions on the use of Markdown extensions**, which you can use for various types of alerts.
 - Examples of **embedding video** by using an iframe.
 - General **instructions on the use of docs.adobe.com extensions**, which you can use for special controls such as buttons and selectors.
+
 -->
 
 ## 提取請求
