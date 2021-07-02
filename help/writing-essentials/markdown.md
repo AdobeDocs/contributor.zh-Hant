@@ -1,14 +1,13 @@
 ---
 title: 如何使用 Markdown 語言撰寫文件
 description: 本文提供撰寫文章時所需的 Markdown 語言基本概念與參考資訊。
-translation-type: tm+mt
-source-git-commit: b8090869aa7b5a2ab62f7af09e1b5e289d8a392b
+exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
+source-git-commit: 4104aa1481263dabe20f2e3a117944f55a6fd800
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 76%
+source-wordcount: '1504'
+ht-degree: 72%
 
 ---
-
 
 # 如何使用 Markdown 語言撰寫技術文件
 
@@ -176,13 +175,13 @@ See [Overview example article](../../overview.md)
 
 ![Adobe 標誌](assets/no-localize/adobe_standard_logo.png "暫留文字")
 
-**注意：** 對於不應本地化的影像，請在資產檔 `do-not-localize` 案夾中建立個別檔案夾。通常，沒有文字的影像或僅包含範例內容的影像會放在此處。 如此可移除資產檔案夾中的任何「雜訊」，並減少問題數量。
+**注意：** 對於不應本地化的影像，請在資產資 `do-not-localize` 料夾中建立個別資料夾。通常，沒有文字的影像或僅包含範例內容的影像會放置在該處。 這可移除資產資料夾中的任何「雜訊」，並減少問題數量。
 
 ### 程式碼片段
 
 Markdown 支援將程式碼片段內嵌在句子中，或以「包圍型」獨立片段形式插入句子之間。如需詳細資訊，請參閱 [Markdown 對程式碼片段的原生支援](https://daringfireball.net/projects/markdown/syntax#precode)
 
-使用反引號 (「\`」)，在段落中建立內嵌程式碼樣式。若要建立特定的多行程式碼片段，在程式碼區塊前後新增三個反引號 (「\`\`\`」) (Markdown 稱之為「包圍型程式碼片段」，但在 AEM 中，這只是「程式碼片段」元件)。若要使用包圍型程式碼片段，請在第一組反引號之後加上程式碼語言名稱，讓 Markdown 可以正確地標示程式碼語法。範例：\`\`\`javascript
+使用反蜱(&amp;grave;)，在段落中建立內嵌程式碼樣式。 若要建立特定多行程式碼區塊，請在程式碼區塊前後新增三個反引號(&amp;grave;&amp;grave;&amp;grave;)(在Markdown中稱為「包圍型程式碼區塊」，在AEM中只是「程式碼區塊」元件)。 若要使用包圍型程式碼片段，請在第一組反引號之後加上程式碼語言名稱，讓 Markdown 可以正確地標示程式碼語法。範例：&amp;grave;&amp;grave;&amp;grave;javascript
 
 範例：
 
@@ -195,15 +194,6 @@ This is `inline code` within a paragraph of text.
 This is `inline code` within a paragraph of text.
 
 這是包圍型程式碼片段：
-
-```markdown
-\```javascript
-function test() {
- console.log("notice the blank line before this function?");
-\```
-```
-
-顯示結果：
 
 ```javascript
 function test() {
@@ -294,17 +284,17 @@ AEM 中的「類似項目」元件會出現在文章結尾處。這會顯示相�
 
 ### UICONTROL和DNL
 
-我們所有的Markdown說明內容最初都是使用機器翻譯進行本地化的。 如果說明從未本土化，我們會保留機器翻譯。 不過，如果說明內容過去已本地化，則機器翻譯的內容將在內容進行人工翻譯時充當預留位置。
+我們所有的Markdown說明內容一開始都使用機器翻譯進行本地化。 如果幫助從未本地化，我們將保留機器翻譯。 但是，如果幫助內容在過去已本地化，則機器翻譯的內容將作為佔位符，而內容正在進行人工翻譯。
 
 **``**
 
-在機器翻譯過程中，會根據本地化資料庫檢查標籤``的項，以便進行相應的翻譯。 如果UI未本地化，此標籤將允許系統將該特定語言的UI參考保留為英文(即 Analytics參考)。
+在機器翻譯期間，會根據本地化資料庫檢查標有``的項目，以進行適當的翻譯。 如果UI未本地化，此標籤可讓系統將該特定語言（即）的UI參考保留為英文。 Analytics參考（義大利文）。
 
 **範例：**
 
 1. 前往&#x200B;**[!UICONTROL Run Process]**&#x200B;畫面。
 1. 選擇&#x200B;**[!UICONTROL File > Print > Print All]**&#x200B;以打印伺服器上的所有檔案。
-1. 出現[!UICONTROL Processing Rules]對話框。
+1. 將出現[!UICONTROL Processing Rules]對話框。
 
 **來源：**
 
@@ -314,16 +304,16 @@ AEM 中的「類似項目」元件會出現在文章結尾處。這會顯示相�
 1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
 
-**注意：** 在三個標籤選項中，這是傳遞高品質且必須執行的最關鍵選項。
+**注意：** 在三個標籤選項中，這是提供高品質最重要且為強制性的選項。
 
 **`[!DNL]`**
 
-通常，我們使用「不翻譯」清單來告訴機器翻譯引擎要保留的英語。 最普遍的項目是長篇解決方案名稱，例如&quot;Adobe Analytics&quot;、&quot;Adobe Campaign&quot;和&quot;Adobe Target&quot;。 不過，有時我們可能需要強制引擎使用英文，因為相關詞語可能以特定或一般的方式使用。 最明顯的例子是「Analytics」、「Campaign」、「Target」等解決方案的簡稱。 機器很難理解這些是解決方案名稱而非一般術語。 標籤也可用於總是以英文保留的協力廠商名稱／功能，或用於短片或句子等必須以英文保留的文字區段。
+通常，我們會使用「不翻譯」清單來告訴機器翻譯引擎要保留的英語內容。 最常見的項目是長解決方案名稱，例如「Adobe Analytics」、「Adobe Campaign」和「Adobe Target」。 但是，在某些情況下，我們可能需要強制引擎使用英語，因為有關術語可能以特定或一般的方式使用。 這個最明顯的案例是「Analytics」、「Campaign」、「Target」等解決方案的簡稱。 機器很難理解這些是解決方案名稱，而非一般術語。 該標籤還可用於第三方名稱/功能，這些名稱/功能始終保持為英文，或者用於文本的較短部分，例如必須保持為英文的短語或句子。
 
 **範例：**
 
-* 使用[!DNL Target]，您可以建立A/B測試，以尋找最佳的
-* Adobe Analytics是收集您網站分析的強大解決方案。 [!DNL Analytics] 也可協助您進行報告，以輕鬆摘取該資料。
+* 使用[!DNL Target]，您可以建立A/B測試以找出最佳
+* Adobe Analytics是功能強大的解決方案，可收集您網站上的分析。 [!DNL Analytics] 也可協助您進行報告，以輕鬆摘要該資料。
 
 **來源：**
 
