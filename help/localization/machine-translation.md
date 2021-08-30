@@ -1,11 +1,11 @@
 ---
 title: Adobe Experience Cloud 產品文件的語言支援
 description: 本指南說明您能如何對 Adobe 文件網站提出建議及貢獻內容。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe6adf7414680d4835a6402be2e8d1a5547cc7d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '828'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
