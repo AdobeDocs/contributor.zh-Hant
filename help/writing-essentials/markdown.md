@@ -3,9 +3,9 @@ title: 如何使用 Markdown 語言撰寫文件
 description: 本文提供撰寫文章時所需的 Markdown 語言基本概念與參考資訊。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 source-git-commit: 9e70d10dc1ba27b593de7febf32a3ba3910bfe21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1489'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -181,7 +181,7 @@ See [Overview example article](../../overview.md)
 
 Markdown 支援將程式碼片段內嵌在句子中，或以「包圍型」獨立片段形式插入句子之間。 如需詳細資訊，請參閱 [Markdown 對程式碼片段的原生支援](https://daringfireball.net/projects/markdown/syntax#precode)
 
-使用回刻(`` ` ``)建立段落中的內聯代碼樣式。 要建立特定的多行代碼塊，請添加三個回刻(` ``` `)代碼塊之前和之後(在Markdown中稱為「帶圍的代碼塊」，在中僅為「代碼塊」組AEM件)。 若要使用包圍型程式碼片段，請在第一組反引號之後加上程式碼語言名稱，讓 Markdown 可以正確地標示程式碼語法。 範例: ` ```javascript`
+使用反引號 (`` ` ``) 在段落中建立內嵌程式碼樣式。若要建立特定的多行程式碼區塊，請在程式碼區塊前後加上三個反引號 (` ``` `) (在 Markdown 中稱為「包圍型程式碼區塊」，在 AEM 中只是一個「程式碼區塊」元件)。若要使用包圍型程式碼區塊，請在第一組反引號之後加上程式碼語言，讓 Markdown 可以正確地標示程式碼語法。範例：` ```javascript`
 
 範例：
 
