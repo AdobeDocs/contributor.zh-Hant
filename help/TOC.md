@@ -1,9 +1,9 @@
 ---
-git-repo: https://git.corp.adobe.com/AdobeDocs/contributor.zh-Hant
+git-repo: https://github.com/AdobeDocs/contributor.zh-Hant
 cloud: Adobe
 index: true
 source-git-commit: 1acc8373c778c65b378a7e74d5c41418ce069ffe
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 100%
 
