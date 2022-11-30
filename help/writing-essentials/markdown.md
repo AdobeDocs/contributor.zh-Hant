@@ -1,11 +1,11 @@
 ---
 title: 如何使用 Markdown 語言撰寫文件
-description: 本文提供撰寫文章時所需的 Markdown 語言基本概念與參考資訊。
+description: 了解Markdown製作的基本知識。 尋找撰寫文章所使用之Markdown語言的參考資訊。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 9e70d10dc1ba27b593de7febf32a3ba3910bfe21
-workflow-type: ht
-source-wordcount: '1489'
-ht-degree: 100%
+source-git-commit: e9cd46132a673d5acd1e3db2f05a9c3c8e5bc30b
+workflow-type: tm+mt
+source-wordcount: '1500'
+ht-degree: 98%
 
 ---
 
@@ -16,6 +16,8 @@ Adobe 技術文件中的文章是以名為 [Markdown](https://daringfireball.net
 我們目前是將 Adobe 文件內容儲存在 GitHub，而 GitHub 使用的 Markdown 版本稱為 [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/)，可提供額外功能滿足常見的格式需求。 此外，Adobe 更適度擴充 Markdown 效能，以支援註釋、提示和內嵌影片等特定的說明相關功能。
 
 ## Markdown 基本介紹
+
+以下各節將說明Markdown的製作基本概念。
 
 ### 標題
 
