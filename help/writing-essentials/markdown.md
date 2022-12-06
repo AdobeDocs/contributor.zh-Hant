@@ -1,11 +1,11 @@
 ---
 title: 如何使用 Markdown 語言撰寫文件
-description: 了解Markdown製作的基本知識。 尋找撰寫文章所使用之Markdown語言的參考資訊。
+description: 了解 Markdown 撰寫的基本概念。尋找撰寫文章時所需的 Markdown 語言參考資訊。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 source-git-commit: e9cd46132a673d5acd1e3db2f05a9c3c8e5bc30b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1500'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Adobe 技術文件中的文章是以名為 [Markdown](https://daringfireball.net
 
 ## Markdown 基本介紹
 
-以下各節將說明Markdown的製作基本概念。
+以下章節介紹使用 Markdown 撰寫的基礎知識。
 
 ### 標題
 
