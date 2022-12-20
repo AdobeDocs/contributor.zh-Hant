@@ -1,32 +1,33 @@
 ---
 title: Adobe 說明文件的貢獻者指南
-seo-title: 適用於 Adobe Experience Cloud 技術文件的貢獻者指南總覽
-description: 本指南說明您能如何對 Adobe 文件網站貢獻建議及新增內容。
-seo-description: 本指南說明您能如何對 [!UICONTROL Adobe Experience Cloud] 技術文件有所貢獻。
-translation-type: ht
-source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: ht
-source-wordcount: '836'
-ht-degree: 100%
+seo-title: Contributor guide overview for Adobe Experience Cloud technical documentation
+description: 本指南說明您能如何對 Adobe 文件網站提出建議及貢獻內容。
+seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
+exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
+source-git-commit: 5a9bbe0663a1efa8a683e892a42faed18f072e8a
+workflow-type: tm+mt
+source-wordcount: '819'
+ht-degree: 87%
 
 ---
 
+# Adobe檔案貢獻者指南
 
-# 適用於 Adobe 文件的貢獻者指南總覽
+本指南說明如何協助Adobe企業Experience League說明。
 
-## 什麼是協作文件？
+## 什麼是協作檔案？
 
-Adobe Experience Cloud 和其他 Adobe 企業版產品的技術檔案與培訓課程內容已轉移到新平台。此新平台採取可運用 Github、Markdown 和 Adobe Experience Cloud 解決方案的開放原始碼原則。
+Adobe Experience Cloud和其他Adobe企業產品的技術檔案和啟用內容以使用GitHub、Markdown和Adobe Experience Cloud解決方案的開放原始碼原則為基礎。
 
-此開放原始碼模型改善了內容品質，以及客戶、文件團隊和產品團隊間的溝通。現在，在每個頁面上，您可以對內容實用程度進行評分、登錄問題，甚至以 Git 提取請求 (PR) 的形式貢獻內容建議。Adobe 文件團隊會每天監控貢獻內容和問題，並視需要進行更新、調校和調整。
+此開放原始碼模型可改善內容品質，以及客戶、檔案團隊和產品團隊之間的溝通。 現在，在每個頁面上，您可以對內容實用程度進行評分、登錄問題，甚至以 Git 提取請求 (PR) 的形式貢獻內容建議。Adobe 文件團隊會每天監控貢獻內容和問題，並視需要進行更新、調校和調整。
 
-## 使用協作文件
+## 使用協作檔案
 
 無論您是員工、合作夥伴、客戶或甚至是潛在客戶，身為此資料的使用者，您便可以選擇透過多種簡單的方式為此文件貢獻內容：
 
-* 對頁面的實用程度進行評分
+* 為頁面的實用程度打分
 * 登錄特定頁面的問題
-* 甚至提交快速編輯內容、撰寫整篇文章、提供完整的資產和程式碼範例
+* 提交快速編輯內容以撰寫整篇文章，並附上完整的資產和程式碼範例
 
 本指南概述在與此資料集進行互動及貢獻內容時，所須瞭解的一切相關事項。
 
@@ -67,7 +68,7 @@ Adobe Experience Cloud 和其他 Adobe 企業版產品的技術檔案與培訓�
 
 這就是快速編輯的所有步驟。感謝支持！文件團隊成員會審核及合併您的提取請求。
 
-## 登錄問題
+## 記錄問題
 
 另一種告訴我們內容有問題的簡單方法是「登錄問題」。
 
