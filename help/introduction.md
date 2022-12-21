@@ -4,14 +4,14 @@ seo-title: Contributor guide overview for Adobe Experience Cloud technical docum
 description: 本指南說明您能如何對 Adobe 文件網站提出建議及貢獻內容。
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
-source-git-commit: 5a9bbe0663a1efa8a683e892a42faed18f072e8a
+source-git-commit: 90122796acee9214ba96360eb7b5ff5c321a4bd6
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 87%
+source-wordcount: '800'
+ht-degree: 70%
 
 ---
 
-# Adobe檔案貢獻者指南
+# Adobe 文件貢獻者指南
 
 本指南說明如何協助Adobe企業Experience League說明。
 
@@ -45,7 +45,7 @@ Adobe Experience Cloud和其他Adobe企業產品的技術檔案和啟用內容�
 1. 若可接受，請簽署[貢獻者授權合約 (CLA)](http://opensource.adobe.com/cla.html)。
 
    您只須提交 Adobe CLA 一次。
-1. 按一下右側欄中的 **`Edit this page`** 圖示，即可前往 GitHub 的 Markdown 來源檔案。
+1. 按一下 **[!UICONTROL Edit this page]** 填入至GitHub上的markdown來源檔案。
 
    ![編輯此頁面圖示](/help/assets/git_edit.png)
 
@@ -57,42 +57,48 @@ Adobe Experience Cloud和其他Adobe企業產品的技術檔案和啟用內容�
 
    ![鉛筆圖示的位置](assets/edit-icon.png)
 
-1. 在網頁編輯器中變更內容。您可以按一下 **Preview changes** (預覽變更) 標籤，檢查變更的格式設定。
-1. 完成變更後，請捲動至頁面底部。輸入 PR 的標題和說明，然後按一下 **Propose file change** (提出檔案變更)，如下圖所示：
+1. 在網頁編輯器中變更內容。
+
+   您可以按一下 **[!UICONTROL Preview changes]** (預覽變更) 標籤，檢查變更的格式設定。
+1. 進行變更後，請捲動至頁面底部。
+
+   輸入PR的標題和說明，然後按一下 **[!UICONTROL Propose file change]** 如下圖所示：
 
    ![提出變更](assets/submit-pull-request.png)
 
    >[!NOTE]
    >
-   >如果您收到有關簽署貢獻者授權合約 (CLA) 的驗證錯誤訊息，請按一下 **Details** (詳細資料) 以開啟授權合約。若可接受，請簽署合約。接著，關閉並開啟提取請求，然後繼續進行。
+   >如果您收到有關簽署貢獻者授權合約 (CLA) 的驗證錯誤訊息，請按一下 **[!UICONTROL Details]** (詳細資料) 以開啟授權合約。若可接受，請簽署合約。接著，關閉並開啟提取請求，然後繼續進行。
 
-這就是快速編輯的所有步驟。感謝支持！文件團隊成員會審核及合併您的提取請求。
+這就是快速編輯的所有步驟。文件團隊成員會審核及合併您的提取請求。感謝支持！
 
 ## 記錄問題
 
-另一種告訴我們內容有問題的簡單方法是「登錄問題」。
+讓我們知道內容有問題的另一個簡單方法是使用 **[!UICONTROL Log an Issue]**.
 
-1. 若發現內容有問題，請按一下右側欄中的 **`Log an Issue`** 圖示。
+1. 若發現內容有問題，請按一下右側欄中的 **[!UICONTROL Log an Issue]** 圖示。
 
    ![](assets/git_log_issue.png)
 
    >[!NOTE]
    >
-   >您需要登入 GitHub 帳戶或建立新帳戶才能登錄問題。
+   >若要登入問題，您必須登入GitHub帳戶或建立帳戶。
 
-   按一下此連結即可使用 Github 問題介面，快速登錄工單。
+   按一下此連結可讓您使用Github問題介面，以Experience League記錄快速票證。
 
-1. 說明欄位會自動填入問題頁面的網址。填寫問題的標題和簡短說明，然後按一下 *Submit new issue* (提交新問題)。
+   說明欄位中會自動填入問題頁面的URL。
+
+1. 填寫問題的標題和簡短說明，然後按一下 *Submit new issue* (提交新問題)。
 
    ![](assets/git_issue_example.png)
 
-提交問題會直接通知此頁面的內容團隊，讓他們能夠採取行動。我們更新內容後，系統會透過 Github 問題介面通知您，且 Github 問題介面也會在更新或關閉時透過電子郵件通知您。
+提交問題會通知此頁面的內容團隊，讓他們可以解決您的問題。 我們更新內容後，系統會透過 Github 問題介面通知您，且 Github 問題介面也會在更新或關閉時透過電子郵件通知您。
 
 ## 瞭解 GitHub 權限
 
 GitHub 編輯 UI 會隨著您的存放庫權限適度調整。前述影像適用於沒有目標存放庫寫入權限的貢獻者。GitHub 會在帳戶中自動建立目標存放庫的複本。若您擁有目標存放庫的寫入權限，GitHub 會在目標存放庫中建立新分支。
 
-Adobe 會對所有變更使用提取請求，即使是具備寫入權限的貢獻者亦然。大部分的存放庫都會保護 `master` 分支，因此您必須以提取請求的方式提交更新。
+Adobe 會對所有變更使用提取請求，即使是具備寫入權限的貢獻者亦然。大部分的存放庫都會保護 `main` 分支，因此您必須以提取請求的方式提交更新。
 
 瀏覽器內編輯體驗最適合微幅或不頻繁的變更作業。若您做出重大貢獻或使用進階 Git 功能，建議您[建立存放庫複本並在本機作業](setup/full-workflow.md)。
 
@@ -100,4 +106,4 @@ Adobe 會對所有變更使用提取請求，即使是具備寫入權限的貢�
 
 有了與 Adobe 解決方案一樣大型的解決方案，文件永遠都會是正在進行中的工作。一旦發現錯誤，請登錄問題；如對資料有任何建議，請通知我們。告訴我們您想尋找的資訊。若您找不到需要的內容，請通知我們；若您無法順利完成工作，請告訴我們該如何提供協助，以便您能瞭解我們的解決方案。
 
-協作文件團隊及 [!UICONTROL Adobe Experience Cloud] 所有撰文人員和內容製作者在此感謝您的配合。
+協作檔案團隊及Experience League中所有撰文人員和內容製作者在此感謝您的配合。
