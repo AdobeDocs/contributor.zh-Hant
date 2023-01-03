@@ -5,13 +5,13 @@ description: 本指南說明您能如何對 Adobe 文件網站提出建議及貢
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
 source-git-commit: 90122796acee9214ba96360eb7b5ff5c321a4bd6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '800'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
-# Adobe 文件貢獻者指南
+# Adobe 說明文件的貢獻者指南
 
 本指南介紹您如何能夠為 Experience League 上的 Adobe 企業說明做出貢獻。
 
@@ -45,7 +45,7 @@ Adobe Experience Cloud 和其他 Adobe Enterprise 產品的技術文件和培訓
 1. 若可接受，請簽署[貢獻者授權合約 (CLA)](http://opensource.adobe.com/cla.html)。
 
    您只須提交 Adobe CLA 一次。
-1. 按一下 **[!UICONTROL Edit this page]** 填入至GitHub上的markdown來源檔案。
+1. 按一下右側欄中的 **[!UICONTROL Edit this page]** (編輯此頁面)，即可前往 GitHub 的 Markdown 來源檔案。
 
    ![編輯此頁面圖示](/help/assets/git_edit.png)
 
@@ -60,9 +60,9 @@ Adobe Experience Cloud 和其他 Adobe Enterprise 產品的技術文件和培訓
 1. 在網頁編輯器中變更內容。
 
    您可以按一下 **[!UICONTROL Preview changes]** (預覽變更) 標籤，檢查變更的格式設定。
-1. 進行變更後，請捲動至頁面底部。
+1. 在進行變更後，請捲動至頁面底部。
 
-   輸入PR的標題和說明，然後按一下 **[!UICONTROL Propose file change]** 如下圖所示：
+   輸入 PR 的標題和說明，然後按一下 **[!UICONTROL Propose file change]** (提出檔案變更)，如下圖所示：
 
    ![提出變更](assets/submit-pull-request.png)
 
@@ -70,11 +70,11 @@ Adobe Experience Cloud 和其他 Adobe Enterprise 產品的技術文件和培訓
    >
    >如果您收到有關簽署貢獻者授權合約 (CLA) 的驗證錯誤訊息，請按一下 **[!UICONTROL Details]** (詳細資料) 以開啟授權合約。若可接受，請簽署合約。接著，關閉並開啟提取請求，然後繼續進行。
 
-這就是快速編輯的所有步驟。文件團隊成員會審核及合併您的提取請求。感謝支持！
+這就是快速編輯的所有步驟。文件團隊成員會審核及合併您的提取請求。感謝您！
 
 ## 登錄問題
 
-讓我們知道內容有問題的另一個簡單方法是使用 **[!UICONTROL Log an Issue]**.
+另一個向我們告知內容有問題的簡易方法，就是使用 **[!UICONTROL Log an Issue]** (登錄問題)。
 
 1. 若發現內容有問題，請按一下右側欄中的 **[!UICONTROL Log an Issue]** 圖示。
 
@@ -82,17 +82,17 @@ Adobe Experience Cloud 和其他 Adobe Enterprise 產品的技術文件和培訓
 
    >[!NOTE]
    >
-   >若要登入問題，您必須登入GitHub帳戶或建立帳戶。
+   >若要登錄問題，您必須登入 GitHub 帳戶，或建立帳戶。
 
-   按一下此連結可讓您使用Github問題介面，以Experience League記錄快速票證。
+   按一下此連結即可使用 Github 問題介面，快速向 Experience League 登錄票證。
 
-   說明欄位中會自動填入問題頁面的URL。
+   說明欄位會自動填入問題頁面的 URL。
 
 1. 填寫問題的標題和簡短說明，然後按一下 *Submit new issue* (提交新問題)。
 
    ![](assets/git_issue_example.png)
 
-提交問題會通知此頁面的內容團隊，讓他們可以解決您的問題。 我們更新內容後，系統會透過 Github 問題介面通知您，且 Github 問題介面也會在更新或關閉時透過電子郵件通知您。
+提交問題會通知此頁面的內容團隊，以便他們解決您的問題。我們更新內容後，系統會透過 Github 問題介面通知您，且 Github 問題介面也會在更新或關閉時透過電子郵件通知您。
 
 ## 瞭解 GitHub 權限
 
@@ -106,4 +106,4 @@ Adobe 會對所有變更使用提取請求，即使是具備寫入權限的貢�
 
 有了與 Adobe 解決方案一樣大型的解決方案，文件永遠都會是正在進行中的工作。一旦發現錯誤，請登錄問題；如對資料有任何建議，請通知我們。告訴我們您想尋找的資訊。若您找不到需要的內容，請通知我們；若您無法順利完成工作，請告訴我們該如何提供協助，以便您能瞭解我們的解決方案。
 
-協作檔案團隊及Experience League中所有撰文人員和內容製作者在此感謝您的配合。
+協作文件團隊以及 Experience League 中所有撰文人員和內容製作者在此感謝您的配合。
