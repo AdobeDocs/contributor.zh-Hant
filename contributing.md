@@ -1,9 +1,9 @@
 ---
 title: 貢獻
 description: 有關為 AdobeDocs 文件貢獻的資訊。
-source-git-commit: 883a314481675cbe8cea97782ccf39b738690bf9
+source-git-commit: 99540be2c2310e2250a0ceb14fb133b630ec397e
 workflow-type: ht
-source-wordcount: '303'
+source-wordcount: '301'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## 貢獻者指南文件
 
-請參閱 [貢獻者指南](https://docs.adobe.com/content/help/zh-Hant/contributor/contributor-guide/introduction.html)。
+請參閱 [貢獻者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hant)。
 
 ## 有任何疑問嗎?
 
