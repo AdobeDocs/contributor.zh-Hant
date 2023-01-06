@@ -2,7 +2,7 @@
 title: 貢獻
 description: 有關為 AdobeDocs 文件貢獻的資訊。
 source-git-commit: 99540be2c2310e2250a0ceb14fb133b630ec397e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 100%
 
