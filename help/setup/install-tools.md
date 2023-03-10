@@ -3,9 +3,9 @@ title: 安裝編寫工具
 description: 本文會協助您下載及安裝使用 Git/GitHub 與編輯 Markdown 檔案所需的用戶端工具。
 exl-id: 930185cf-fff5-485a-9824-70c32c55800d
 source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
-workflow-type: ht
-source-wordcount: '345'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

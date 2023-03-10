@@ -3,7 +3,7 @@ title: 適用於重大變更的 GitHub 貢獻工作流程
 description: 了解如何為 Experience League 上的 Adobe 文件做出貢獻。
 exl-id: ad467ad4-abd2-4166-8659-e29c48d268ec
 source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 100%
 
