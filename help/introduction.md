@@ -4,10 +4,10 @@ seo-title: Contributor guide overview for Adobe Experience Cloud technical docum
 description: 本指南說明您能如何對 Adobe 文件網站提出建議及貢獻內容。
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
-source-git-commit: 8e7d5fb9dc5686df32f7d917ebfb290547d299be
-workflow-type: ht
-source-wordcount: '800'
-ht-degree: 100%
+source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
+workflow-type: tm+mt
+source-wordcount: '904'
+ht-degree: 69%
 
 ---
 
@@ -23,11 +23,15 @@ Adobe Experience Cloud 和其他 Adobe Enterprise 產品的技術文件和培訓
 
 ## 使用協作文件
 
-無論您是員工、合作夥伴、客戶或甚至是潛在客戶，身為此資料的使用者，您便可以選擇透過多種簡單的方式為此文件貢獻內容：
+無論您是員工、合作夥伴、客戶或甚至是潛在客戶，身為此資料的使用者，您可以選擇以數種簡單的方式貢獻本檔案。
 
-* 對頁面的實用程度進行評分
-* 登錄特定頁面的問題
-* 提交快速編輯內容、撰寫整篇文章、提供完整的資產和程式碼範例
+* 對頁面的實用程度進行評❶分，並撰寫選用的注❷釋
+* 針對特定頁面回報問題（需要登入Git）❸
+* 提交快速編輯內容以撰寫整篇文章、提供完整的資產和程式碼範例（需要Git登入）❹
+
+![意見反應](assets/feedback-options.png)
+
+這些選項在開啟後幾秒就會顯示在頁面底部。 如果您關閉意見區域，可以重新載入頁面以復原。
 
 本指南概述在與此資料集進行互動及貢獻內容時，所須瞭解的一切相關事項。
 
@@ -38,16 +42,23 @@ Adobe Experience Cloud 和其他 Adobe Enterprise 產品的技術文件和培訓
 > Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Documentation Terms of Use](https://www.adobe.com/legal/terms.html). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Adobe. We need you to complete the online form before we can review or accept your pull request.
 -->
 
+## 對頁面的實用程度進行評分並撰寫評論
+
+開啟頁面幾秒後，頁面底部會顯示一個意見區域。 按一下上或下，以指出頁面是否實用。
+
+請隨時留下意見，提供額外意見反應。
+
 ## 快速編輯現有文件
 
-快速編輯是指修正文件小錯誤和疏漏的好方法。若文章顯示編輯按鈕 (如下所示)，表示您可自行快速修正。編輯文件時，您可以提交提取請求 (PR)，將修正/建議提交給我們，我們會接手審查這些建議，核准後正式發佈。
+如果您想要提供更詳細的意見反應，快速編輯是修正檔案中小錯誤和遺漏的好方法。 當您建議編輯時，您會提交提取請求(PR)，將修正/建議提交給我們，我們便可以審查、核准和發佈建議。
 
 1. 若可接受，請簽署[貢獻者授權合約 (CLA)](http://opensource.adobe.com/cla.html)。
 
    您只須提交 Adobe CLA 一次。
-1. 按一下右側欄中的 **[!UICONTROL Edit this page]** (編輯此頁面)，即可前往 GitHub 的 Markdown 來源檔案。
 
-   ![編輯此頁面圖示](/help/assets/git_edit.png)
+1. 在文章底部的意見回應區域中，按一下 **[!UICONTROL Detailed feedback options]**，然後按一下 **[!UICONTROL Suggest an edit]** 前往GitHub上的markdown來源檔案。
+
+   ![編輯此頁面圖示](/help/assets/feedback-suggest-edit.png)
 
 1. 按一下鉛筆圖示即可編輯文章。
 
@@ -55,11 +66,12 @@ Adobe Experience Cloud 和其他 Adobe Enterprise 產品的技術文件和培訓
    >
    >若鉛筆圖示呈現灰色狀態，表示您需登入 GitHub 帳戶或建立新帳戶。
 
-   ![鉛筆圖示的位置](assets/edit-icon.png)
+   ![鉛筆圖示的位置](assets/git_edit.png)
 
 1. 在網頁編輯器中變更內容。
 
    您可以按一下 **[!UICONTROL Preview changes]** (預覽變更) 標籤，檢查變更的格式設定。
+
 1. 在進行變更後，請捲動至頁面底部。
 
    輸入 PR 的標題和說明，然後按一下 **[!UICONTROL Propose file change]** (提出檔案變更)，如下圖所示：
@@ -72,17 +84,17 @@ Adobe Experience Cloud 和其他 Adobe Enterprise 產品的技術文件和培訓
 
 這就是快速編輯的所有步驟。文件團隊成員會審核及合併您的提取請求。感謝您！
 
-## 登錄問題
+## 回報問題
 
-另一個向我們告知內容有問題的簡易方法，就是使用 **[!UICONTROL Log an Issue]** (登錄問題)。
+另一個向我們告知內容有問題的簡易方法，就是使用 **[!UICONTROL Report an issue]** (登錄問題)。
 
-1. 若發現內容有問題，請按一下右側欄中的 **[!UICONTROL Log an Issue]** 圖示。
+1. 在文章底部的意見回應區域中，按一下 **[!UICONTROL Detailed feedback options]**，然後按一下 **[!UICONTROL Report an issue]** 前往GitHub上的markdown來源檔案。
 
-   ![](assets/git_log_issue.png)
+   ![報表問題](assets/feedback-report-issue.png)
 
    >[!NOTE]
    >
-   >若要登錄問題，您必須登入 GitHub 帳戶，或建立帳戶。
+   >若要回報問題，您必須登入您的GitHub帳戶或建立帳戶。
 
    按一下此連結即可使用 Github 問題介面，快速向 Experience League 登錄票證。
 

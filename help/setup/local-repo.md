@@ -1,14 +1,13 @@
 ---
 title: 在本機設定 Git 存放庫
 description: 本文提供建立本機 Git 存放庫和參與 Adobe 文件編撰的相關指示，包括分叉處理與複製流程。
-translation-type: ht
-source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: ht
+exl-id: 679c07a2-030b-4a30-ba14-7780f88dae11
+source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
+workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 100%
 
 ---
-
 
 # 在本機設定供文件使用的 Git 存放庫
 
@@ -71,7 +70,7 @@ If you're new to GitHub, watch the following video for a conceptual overview of 
 
 1. 按一下 **Clone or download** (複製或下載)，然後選擇 **Open in Desktop** (在 Desktop 中開啟)，將存放庫複本 (亦即您建立的分叉) 提取到您電腦的目錄。
 
-  ![複製存放庫](assets/clone-pulldown.png)
+   ![複製存放庫](assets/clone-pulldown.png)
 
 1. 使用 GitHub Desktop 可保持本機檔案與取用的存放庫保持同步。
 
