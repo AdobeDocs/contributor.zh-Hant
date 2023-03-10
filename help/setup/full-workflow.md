@@ -2,7 +2,7 @@
 title: 適用於重大變更的 GitHub 貢獻工作流程
 description: 了解如何為 Experience League 上的 Adobe 文件做出貢獻。
 exl-id: ad467ad4-abd2-4166-8659-e29c48d268ec
-source-git-commit: 90122796acee9214ba96360eb7b5ff5c321a4bd6
+source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
 workflow-type: ht
 source-wordcount: '944'
 ht-degree: 100%
@@ -38,6 +38,7 @@ ht-degree: 100%
 ## 工作流程
 
 >[!IMPORTANT]
+>
 > 請先完成[「設定」](github-signup.md)區段所述步驟。
 
 在此工作流程中，變更會以週期重複的方式進行。從裝置的本機存放庫開始，變更會回到 GitHub 複本、進入主要 GitHub 存放庫，並在您納入其他貢獻者提出的變更時再次回到本機。
