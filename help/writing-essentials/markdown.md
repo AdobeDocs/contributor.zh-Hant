@@ -3,9 +3,9 @@ title: 如何使用 Markdown 語言撰寫文件
 description: 了解 Markdown 撰寫的基本概念。尋找撰寫文章時所需的 Markdown 語言參考資訊。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 source-git-commit: 065e43d5251f80050deef02e9c18b3fb4e9c1204
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1430'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -210,8 +210,8 @@ Adobe 文章中大部分的文章格式都會使用標準 Markdown，例如段�
 
 * 註釋區塊
 * 內嵌影片
-* 翻譯標籤
-* 元件屬性，例如為標題指定不同的標題ID並指定影像大小
+* 翻譯標記
+* 元件屬性，例如為標題指定不同標題 ID 並指明影像大小
 
 在每一行的開頭使用 Markdown 區塊引號 (「>」)，繫結擴充元件 (例如註釋)。
 
@@ -337,7 +337,7 @@ AEM 中的「類似項目」元件會出現在文章結尾處。 這會顯示相
 ![Settings_Step_2](/assets/settings_step_2.png)
 ```
 
-我們的最佳實務是在檔案名稱中使用連字型大小(-)，而非底線(_)。
+我們最理想的作法是在檔名中使用連字號 (「-」) 而非底線 (「_」)。
 
 ```markdown
 ![Settings-Step-2](/assets/settings-step-2.png)
