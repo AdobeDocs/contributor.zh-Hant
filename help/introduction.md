@@ -5,9 +5,9 @@ description: 本指南說明您能如何對 Adobe 文件網站提出建議及貢
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
 source-git-commit: 2721a71924c46e1536394625c945bdd791e8ac70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '904'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Experience Cloud 和其他 Adobe Enterprise 產品的技術文件和培訓
 
 無論您是員工、合作夥伴、客戶或甚至是潛在客戶，身為此資料的使用者，您便可以選擇透過多種簡單的方式為此文件貢獻內容。
 
-* 對頁面的實用程度進行評❶分，並撰寫選用的注❷釋
+* 對頁面的實用程度進行評分 ❶，並留下評論 (選填) ❷
 * 針對特定頁面回報問題 (需要 Git 登入)
 * 提交快速編輯內容、撰寫整篇文章、提供完整的資產和程式碼範例 (需要 Git 登入)
 
