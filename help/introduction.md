@@ -100,7 +100,7 @@ Adobe Experience Cloud 和其他 Adobe Enterprise 產品的技術文件和培訓
 
    說明欄位會自動填入問題頁面的 URL。
 
-1. 填寫問題的標題和簡短說明，然後按一下 *Submit new issue* (提交新問題)。
+1. 填寫問題的標題和簡短說明，然後按一下&#x200B;*「提交新問題」*。
 
    ![](assets/git_issue_example.png)
 
