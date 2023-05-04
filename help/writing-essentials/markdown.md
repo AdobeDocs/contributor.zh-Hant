@@ -3,9 +3,9 @@ title: 如何使用 Markdown 語言撰寫文件
 description: 了解 Markdown 撰寫的基本概念。尋找撰寫文章時所需的 Markdown 語言參考資訊。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 source-git-commit: 19ea281ffce60c91edd0a47449152fc1138031c5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1420'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -125,7 +125,7 @@ This is not \*italicized\* type.
 
 ### 表格
 
-表格並非 Markdown 核心規格的一部分，但 Adobe 可在某些情況下支援表格。 Markdown 的儲存格不支援多行清單。 避免在表格中輸入多行文字，會是最理想的作法。 您可以使用直立線 (|) 字元勾勒出行、列，藉此建立表格。 連字號會建立各欄標題，直立線符號則能分隔各欄。 在表格前面加上一個空白行，以確保表格成功呈現。
+表格並非 Markdown 核心規格的一部分，但 Adobe 可在某些情況下支援表格。 Markdown 的儲存格不支援多行清單。 避免在表格中輸入多行文字，會是最理想的作法。 您可以使用直立線 (|) 字元勾勒出行、列，藉此建立表格。 連字號會建立各欄標題，直立線符號則能分隔各欄。 在表格前面加上一個空白行，以確保表格成功轉譯。
 
 ```markdown
 | Header | Another header | Yet another header |
@@ -257,7 +257,7 @@ Adobe 文章中大部分的文章格式都會使用標準 Markdown，例如段�
 
 顯示結果：
 
-![已呈現的附註](assets/notes-rendered.png)
+![轉譯的註釋](assets/notes-rendered.png)
 
 ### 影片
 
