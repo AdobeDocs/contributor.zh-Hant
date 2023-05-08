@@ -2,10 +2,10 @@
 title: 如何使用 Markdown 語言撰寫文件
 description: 了解 Markdown 撰寫的基本概念。尋找撰寫文章時所需的 Markdown 語言參考資訊。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 19ea281ffce60c91edd0a47449152fc1138031c5
-workflow-type: ht
-source-wordcount: '1420'
-ht-degree: 100%
+source-git-commit: aec38dde9195855f96e7469c91c28d50ad516ae6
+workflow-type: tm+mt
+source-wordcount: '1419'
+ht-degree: 98%
 
 ---
 
@@ -77,7 +77,7 @@ This is not \*italicized\* type.
 
 * First item in an unordered list.
 * Another item.
-* Here we go again.
+* 又來了。
 
 清單內也可以內嵌清單，並在清單項目間新增內容。
 
@@ -119,7 +119,7 @@ This is not \*italicized\* type.
 
    >[!NOTE]
    >
-   >This is note text.
+   >這是注釋文本。
 
 1. Do another step.
 
@@ -285,9 +285,8 @@ AEM 中的「類似項目」元件會出現在文章結尾處。 這會顯示相
 顯示結果：
 
 >[!MORELIKETHIS]
->
->* [Article 1](https://helpx.adobe.com/tw/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/tw/support/audience-manager.html)
+* [第1條](https://helpx.adobe.com/tw/support/analytics.html)
+* [第2條](https://helpx.adobe.com/tw/support/audience-manager.html)
 
 
 ### UICONTROL 和 DNL
@@ -312,7 +311,8 @@ AEM 中的「類似項目」元件會出現在文章結尾處。 這會顯示相
 1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
 
-**注意：** 在三個標記選項中，這是提高品質內容最重要的一項，且屬於強制規定。
+>[!NOTE]
+在這三個標籤選項中，這是提供高品質的最關鍵，而且是強制性的。
 
 **`[!DNL]`**
 
