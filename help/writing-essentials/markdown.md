@@ -5,7 +5,7 @@ exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 source-git-commit: 73c2a6b0abb9b0c8e1febc4b7dc5d74a3753ebac
 workflow-type: tm+mt
 source-wordcount: '1421'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -77,7 +77,7 @@ This is not \*italicized\* type.
 
 * First item in an unordered list.
 * Another item.
-* 又來了。
+* 再來一個項目。
 
 清單內也可以內嵌清單，並在清單項目間新增內容。
 
@@ -119,7 +119,7 @@ This is not \*italicized\* type.
 
    >[!NOTE]
    >
-   >這是注釋文本。
+   >這是註釋文字。
 
 1. Do another step.
 
@@ -280,8 +280,8 @@ AEM 中的「類似項目」元件會出現在文章結尾處。 這會顯示相
 顯示結果：
 
 >[!MORELIKETHIS]
-* [第1條](https://helpx.adobe.com/tw/support/analytics.html)
-* [第2條](https://helpx.adobe.com/tw/support/audience-manager.html)
+* [文章 1](https://helpx.adobe.com/tw/support/analytics.html)
+* [文章 2](https://helpx.adobe.com/tw/support/audience-manager.html)
 
 
 ### UICONTROL 和 DNL
@@ -307,7 +307,7 @@ AEM 中的「類似項目」元件會出現在文章結尾處。 這會顯示相
 ```
 
 >[!NOTE]
-在這三個標籤選項中，這是提供高品質的最關鍵，而且是強制性的。
+在三個標記選項中，這是提高品質內容最重要的一項，且屬於強制規定。
 
 **`[!DNL]`**
 
