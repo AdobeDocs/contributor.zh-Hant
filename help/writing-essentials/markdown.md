@@ -3,9 +3,9 @@ title: 如何使用 Markdown 語言撰寫文件
 description: 了解 Markdown 撰寫的基本概念。尋找撰寫文章時所需的 Markdown 語言參考資訊。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 source-git-commit: 73c2a6b0abb9b0c8e1febc4b7dc5d74a3753ebac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1421'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -275,7 +275,7 @@ Adobe 文章中大部分的文章格式都會使用標準 Markdown，例如段�
 
 AEM 中的「類似項目」元件會出現在文章結尾處。 這會顯示相關連結。 文章輸出時，可採用相同的第 2 層標題 (##) 格式，不必加入迷你目錄。
 
-![morelikethis語法](assets/more-like-this-syntax.png)
+![更像這個語法](assets/more-like-this-syntax.png)
 
 顯示結果：
 
