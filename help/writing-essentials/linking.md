@@ -1,17 +1,16 @@
 ---
 lastModified: 2018-06-28T00:00:00Z
 title: 在文件中使用連結
-seo-title: 在 Adobe Git/Markdown 文件中使用連結
+seo-title: Using links in Adobe Git/Markdown documentation
 description: 本文提供建立內容與影像連結的相關指示。
-seo-description: 本文提供在 Adobe 文件中建立內容與影像連結的相關指示。
-translation-type: ht
-source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: ht
-source-wordcount: '340'
+seo-description: This article provides guidance on creating links to content and images for Adobe documentation.
+exl-id: f9d61aa9-931c-4654-ab21-c6e47936954e
+source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
+workflow-type: tm+mt
+source-wordcount: '319'
 ht-degree: 100%
 
 ---
-
 
 # 在文件中使用連結
 

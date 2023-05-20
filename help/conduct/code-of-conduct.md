@@ -3,7 +3,7 @@ title: Adobe 行為準則
 description: Adobe 報告問題並提交編輯變動的行為準則
 exl-id: ff9c1cc5-8f65-40bb-8d5b-b7d42a5c08c2
 source-git-commit: 06b0a397f0612e5ecfca82fc7105a45ed167efc9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 100%
 
@@ -56,6 +56,7 @@ ht-degree: 100%
 
 未真誠遵守或執行「行為準則」的專案維護人員可能會面臨暫時或永久的處置，此由專案領導權之其他成員所決定。
 
-## 歸因
+## 出處
 
-本行為準則改編自[貢獻者公約](https://contributor-covenant.org) 1.4 版，取得的網址為 [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+此行為準則改編自以下[貢獻者公約](https://contributor-covenant.org)版本 1.4，
+以下網頁有提供該版本：[https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)

@@ -3,7 +3,7 @@ title: 如何使用 Markdown 語言撰寫文件
 description: 了解 Markdown 撰寫的基本概念。尋找撰寫文章時所需的 Markdown 語言參考資訊。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 source-git-commit: 73c2a6b0abb9b0c8e1febc4b7dc5d74a3753ebac
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1421'
 ht-degree: 100%
 
@@ -280,8 +280,8 @@ AEM 中的「類似項目」元件會出現在文章結尾處。 這會顯示相
 顯示結果：
 
 >[!MORELIKETHIS]
->* [文章 1](https://helpx.adobe.com/tw/support/analytics.html)
->* [文章 2](https://helpx.adobe.com/tw/support/audience-manager.html)
+* [文章 1](https://helpx.adobe.com/tw/support/analytics.html)
+* [文章 2](https://helpx.adobe.com/tw/support/audience-manager.html)
 
 
 ### UICONTROL 和 DNL
@@ -307,7 +307,7 @@ AEM 中的「類似項目」元件會出現在文章結尾處。 這會顯示相
 ```
 
 >[!NOTE]
->在三個標記選項中，這是提高品質內容最重要的一項，且屬於強制規定。
+在三個標記選項中，這是提高品質內容最重要的一項，且屬於強制規定。
 
 **`[!DNL]`**
 

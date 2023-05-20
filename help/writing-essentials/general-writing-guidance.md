@@ -4,8 +4,8 @@ title: 外部貢獻者寫作風格指南
 description: 了解 Experience League 外部貢獻者的撰寫和編輯指南。
 exl-id: 874f88d7-18ad-4ac8-bfa3-737255652bbc
 source-git-commit: 03d46c9ffb664824f9526f781d776069d486f271
-workflow-type: ht
-source-wordcount: '2227'
+workflow-type: tm+mt
+source-wordcount: '2224'
 ht-degree: 100%
 
 ---
@@ -162,7 +162,7 @@ _標題_&#x200B;和&#x200B;_說明_&#x200B;中繼資料對於 Experience League 
 | 將&#x200B;_點選_&#x200B;改為&#x200B;_前往_&#x200B;或&#x200B;_選取_ | _點選_&#x200B;是與裝置相關的字詞 (可能有無障礙支援的問題)，現行趨勢是避免使用這類字詞。以下是更改建議：<ul><li>導覽：_前往檔案 > 列印_。</li><li>點選：_選取檔案 > 列印_&#x200B;或&#x200B;_選取確定_。 </li></ul>請參閱[說明 UI 互動](https://docs.microsoft.com/en-us/style-guide/procedures-instructions/describing-interactions-with-ui)，進一步了解在各種情況下最適合的字詞選擇。 |
 | 在 VSC 中執行 Acrolinx | 針對風格和語法問題的 Acrolinx 檢查。Acrolinx 會檢查網址、術語和拼寫等。這有助您提高清晰度並改善 Experience League 內容的翻譯。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 更多最佳實務和資源：
 

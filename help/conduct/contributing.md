@@ -3,7 +3,7 @@ title: 貢獻
 description: 在為此專案貢獻內容時，請按照這套準則進行。
 exl-id: 01dc5fd4-4676-41b1-be7b-aa4a9ea2fe14
 source-git-commit: 758ff966b959b614dd9250017c2a4eb5df47ffd2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 100%
 
@@ -46,7 +46,8 @@ submitting a pull request!
 更進一步，以提交者身分在專案中擁有完整撰寫權限和發言權，您必須
 受邀加入專案。 現有的提交者會採取內部提名
 程序，在內部取得簡單共識 (沒人反對即為贊同) 後，
-才發出邀請。 若您自認符合資格且希望能進一步參與，請隨時與現有的提交者聯絡洽談。
+才發出邀請。 若您自認符合資格且希望能進一步參與，
+請隨時與現有的提交者聯絡洽談。
 
 ## 安全性問題
 

@@ -3,7 +3,7 @@ title: Git 和 GitHub 文件基本資訊
 description: 本文概述 Git、GitHub 存放庫相關資訊，並說明內容的組織方式及 Adobe 文件的命名慣例。
 exl-id: 2b2ec764-4201-4bcd-802d-a034d6675793
 source-git-commit: 90122796acee9214ba96360eb7b5ff5c321a4bd6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 100%
 
