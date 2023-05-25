@@ -185,7 +185,7 @@ See [Overview example article](../../overview.md)
 
 Markdown 支援將程式碼片段內嵌在句子中，或以「包圍型」獨立片段形式插入句子之間。 如需詳細資訊，請參閱 [Markdown 對程式碼片段的原生支援](https://daringfireball.net/projects/markdown/syntax#precode)
 
-使用反引號 (`` ` ``) 在段落中建立內嵌程式碼樣式。若要建立特定的多行程式碼區塊，請在程式碼區塊前後加上三個反引號 (` ``` `) (在 Markdown 中稱為「包圍型程式碼區塊」，在 AEM 中只是一個「程式碼區塊」元件)。若要使用包圍型程式碼區塊，請在第一組反引號之後加上程式碼語言，讓 Markdown 可以正確地標示程式碼語法。範例：` ```javascript`
+使用反引號 (`` ` ``) 在段落中建立內嵌程式碼樣式。若要建立特定的多行程式碼區塊，請在程式碼區塊前後加上三個反引號 (` ` `` `) (在 Markdown 中稱為「包圍型程式碼區塊」，在 AEM 中只是一個「程式碼區塊」元件)。若要使用包圍型程式碼區塊，請在第一組反引號之後加上程式碼語言，讓 Markdown 可以正確地標示程式碼語法。範例：` `` `javascript`
 
 範例：
 
@@ -280,17 +280,17 @@ AEM 中的「類似項目」元件會出現在文章結尾處。 這會顯示相
 顯示結果：
 
 >[!MORELIKETHIS]
-* [文章 1](https://helpx.adobe.com/tw/support/analytics.html)
-* [文章 2](https://helpx.adobe.com/tw/support/audience-manager.html)
+>* [文章 1](https://helpx.adobe.com/tw/support/analytics.html)
+>* [文章 2](https://helpx.adobe.com/tw/support/audience-manager.html)
 
 
 ### UICONTROL 和 DNL
 
 我們所有 Markdown 說明內容一開始會使用機器翻譯工具來進行本地化。 如果說明內容從未進行過本地化，那麼我們將保留機器翻譯。 但是，如果說明內容過去已經進行過本地化，那麼機器翻譯的內容將充當預留位置，而內容部分則在進行人工翻譯中。
 
-**``**
+**&grave;&grave;**
 
-在進行機器翻譯期間，系統會勾選標示為 `` 的項目，並根據本地化資料庫來決定適當的翻譯。 若 UI 當未經過本地化，此標記將允許系統保留該特定語言的英文 UI 參照 (即 義大利文的 Analytics 參照)。
+在進行機器翻譯期間，系統會勾選標示為 &grave;&grave; 的項目，並根據本地化資料庫來決定適當的翻譯。 若 UI 當未經過本地化，此標記將允許系統保留該特定語言的英文 UI 參照 (即 義大利文的 Analytics 參照)。
 
 **範例：**
 
@@ -307,7 +307,7 @@ AEM 中的「類似項目」元件會出現在文章結尾處。 這會顯示相
 ```
 
 >[!NOTE]
-在三個標記選項中，這是提高品質內容最重要的一項，且屬於強制規定。
+>在三個標記選項中，這是提高品質內容最重要的一項，且屬於強制規定。
 
 **`[!DNL]`**
 
