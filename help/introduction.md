@@ -56,7 +56,7 @@ Adobe Experience Cloud 和其他 Adobe Enterprise 產品的技術文件和培訓
 
    您只須提交 Adobe CLA 一次。
 
-1. 在文章底部的意見回饋區域中，按一下&#x200B;**[!UICONTROL 詳細的意見回饋選項]**，然後按一下&#x200B;**[!UICONTROL 建議編輯]**&#x200B;前往 GitHub 的 Markdown 來源檔案。
+1. 在文章下面的意見回饋區中，按一下&#x200B;**[!UICONTROL 詳細意見回饋選項]**，然後按一下&#x200B;**[!UICONTROL 建議編輯]**&#x200B;前往 GitHub 的 Markdown 來源檔案。
 
    ![編輯此頁面圖示](/help/assets/feedback-suggest-edit.png)
 
@@ -88,7 +88,7 @@ Adobe Experience Cloud 和其他 Adobe Enterprise 產品的技術文件和培訓
 
 要告訴我們某些內容有問題，另一簡單的方法是使用&#x200B;**[!UICONTROL 回報問題]**&#x200B;功能。
 
-1. 在文章底部的意見回饋區域中，按一下&#x200B;**[!UICONTROL 詳細的意見回饋選項]**，然後按一下&#x200B;**[!UICONTROL 回報問題]**&#x200B;前往 GitHub 的 Markdown 來源檔案。
+1. 在文章下面的意見回饋區中，按一下&#x200B;**[!UICONTROL 詳細意見回饋選項]**，然後按一下&#x200B;**[!UICONTROL 回報問題]**&#x200B;前往 GitHub 的 Markdown 來源檔案。
 
    ![回報問題](assets/feedback-report-issue.png)
 
