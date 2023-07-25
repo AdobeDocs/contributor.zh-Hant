@@ -1,8 +1,9 @@
 ---
 git-repo: https://github.com/AdobeDocs/contributor.zh-Hant
-cloud: Adobe
+solution: Experience Cloud
+cloud: Experience Cloud
 index: true
-source-git-commit: 1acc8373c778c65b378a7e74d5c41418ce069ffe
+source-git-commit: d8a27428d0c264ae95740ad18231f96602a9136f
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 100%
