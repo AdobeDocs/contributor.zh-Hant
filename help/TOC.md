@@ -4,7 +4,7 @@ solution: Experience Cloud
 cloud: Experience Cloud
 index: true
 source-git-commit: d8a27428d0c264ae95740ad18231f96602a9136f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '69'
 ht-degree: 100%
 
