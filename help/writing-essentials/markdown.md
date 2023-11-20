@@ -2,10 +2,10 @@
 title: 如何使用 Markdown 語言撰寫文件
 description: 了解 Markdown 撰寫的基本概念。尋找撰寫文章時所需的 Markdown 語言參考資訊。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 73c2a6b0abb9b0c8e1febc4b7dc5d74a3753ebac
+source-git-commit: bd0a7b34320435e1cebae95bc267ddf05b06a0f9
 workflow-type: tm+mt
-source-wordcount: '1421'
-ht-degree: 100%
+source-wordcount: '1431'
+ht-degree: 96%
 
 ---
 
@@ -183,9 +183,9 @@ See [Overview example article](../../overview.md)
 
 ### 程式碼片段
 
-Markdown 支援將程式碼片段內嵌在句子中，或以「包圍型」獨立片段形式插入句子之間。 如需詳細資訊，請參閱 [Markdown 對程式碼片段的原生支援](https://daringfireball.net/projects/markdown/syntax#precode)
+Markdown 支援將程式碼片段內嵌在句子中，或以「包圍型」獨立片段形式插入句子之間。 如需詳細資訊，請參閱 [Markdown 對程式碼片段的原生支援](https://daringfireball.net/projects/markdown/syntax#precode)。
 
-使用反引號 (`` ` ``) 在段落中建立內嵌程式碼樣式。若要建立特定的多行程式碼區塊，請在程式碼區塊前後加上三個反引號 (` ` `` `) (在 Markdown 中稱為「包圍型程式碼區塊」，在 AEM 中只是一個「程式碼區塊」元件)。若要使用包圍型程式碼區塊，請在第一組反引號之後加上程式碼語言，讓 Markdown 可以正確地標示程式碼語法。範例：` `` `javascript`
+使用反引號 (`` ` ``) 在段落中建立內嵌程式碼樣式。若要建立特定的多行程式碼區塊，請在程式碼區塊前後加上三個反引號 (` ``` `) (在 Markdown 中稱為「包圍型程式碼區塊」，在 AEM 中只是一個「程式碼區塊」元件)。若要使用包圍型程式碼區塊，請在第一組反引號之後加上程式碼語言，讓 Markdown 可以正確地標示程式碼語法。範例：` ```javascript`
 
 範例：
 
@@ -280,34 +280,35 @@ AEM 中的「類似項目」元件會出現在文章結尾處。 這會顯示相
 顯示結果：
 
 >[!MORELIKETHIS]
->* [文章 1](https://helpx.adobe.com/tw/support/analytics.html)
->* [文章 2](https://helpx.adobe.com/tw/support/audience-manager.html)
-
+>
+* [文章 1](https://helpx.adobe.com/tw/support/analytics.html)
+* [文章 2](https://helpx.adobe.com/tw/support/audience-manager.html)
 
 ### UICONTROL 和 DNL
 
 我們所有 Markdown 說明內容一開始會使用機器翻譯工具來進行本地化。 如果說明內容從未進行過本地化，那麼我們將保留機器翻譯。 但是，如果說明內容過去已經進行過本地化，那麼機器翻譯的內容將充當預留位置，而內容部分則在進行人工翻譯中。
 
-**&grave;&grave;**
+**``**
 
-在進行機器翻譯期間，系統會勾選標示為 &grave;&grave; 的項目，並根據本地化資料庫來決定適當的翻譯。 若 UI 當未經過本地化，此標記將允許系統保留該特定語言的英文 UI 參照 (即 義大利文的 Analytics 參照)。
+在進行機器翻譯期間，系統會勾選標示為 `` 的項目，並根據本地化資料庫來決定適當的翻譯。 若 UI 當未經過本地化，此標記將允許系統保留該特定語言的英文 UI 參照 (即 義大利文的 Analytics 參照)。
 
 **範例：**
 
-1. 前往 **[!UICONTROL Run Process]** 畫面。
-1. 選擇 **[!UICONTROL File > Print > Print All]** 以列您伺服器上的所有檔案。
-1. 隨即顯示「[!UICONTROL Processing Rules]」對話框。
+1. 前往 **執行程式** 畫面。
+1. 選擇 **檔案** > **列印** > **全部列印** 以列印伺服器上的所有檔案。
+1. 「處理規則」對話方塊隨即顯示。
 
 **來源：**
 
 ```markdown
-1. Go to the **[!UICONTROL Run Process]** screen.
-1. Choose **[!UICONTROL File > Print > Print All]** to print all the files on your server.
-1. The [!UICONTROL Processing Rules] dialog box appears.
+1. Go to the **&lbrack;!UICONTROL Run Process&rbrack;** screen.
+1. Choose **&lbrack;!UICONTROL File&rbrack; > &lbrack;!UICONTROL Print&rbrack; > &lbrack;!UICONTROL Print All&rbrack;** to print all the files on your server.
+1. The &lbrack;!UICONTROL Processing Rules&rbrack; dialog box appears.
 ```
 
 >[!NOTE]
->在三個標記選項中，這是提高品質內容最重要的一項，且屬於強制規定。
+>
+在三個標記選項中，這是提高品質內容最重要的一項，且屬於強制規定。
 
 **`[!DNL]`**
 
@@ -315,14 +316,14 @@ AEM 中的「類似項目」元件會出現在文章結尾處。 這會顯示相
 
 **範例：**
 
-* 使用 [!DNL Target] 可建立 A/B 測試以找出最佳用法
-* Adobe Analytics 是收集您網站上分析資料的強大解決方案。 [!DNL Analytics] 還可以幫助您製作報告以輕鬆地摘要資料。
+* 使用Target，您可以建立A/B測試以找出最佳用法
+* Adobe Analytics 是收集您網站上分析資料的強大解決方案。 Analytics也可協助您製作報表，以輕鬆摘要資料。
 
 **來源：**
 
 ```markdown
-* With [!DNL Target], you can create A/B tests to find the optimal 
-* Adobe Analytics is a powerful solution to collect analytics on your site. [!DNL Analytics] can also help you with reporting to easily digest that data.
+* With &lbrack;!DNL Target&rbrack;, you can create A/B tests to find the optimal 
+* Adobe Analytics is a powerful solution to collect analytics on your site. &lbrack;!DNL Analytics&rbrack; can also help you with reporting to easily digest that data.
 ```
 
 ## Gotcha 與疑難排解
