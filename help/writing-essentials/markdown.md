@@ -2,10 +2,10 @@
 title: 如何使用 Markdown 語言撰寫文件
 description: 了解 Markdown 撰寫的基本概念。尋找撰寫文章時所需的 Markdown 語言參考資訊。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: bd0a7b34320435e1cebae95bc267ddf05b06a0f9
+source-git-commit: d3d478f8745c14ee500a43021597eecfebc7b06b
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 96%
+source-wordcount: '1466'
+ht-degree: 92%
 
 ---
 
@@ -292,23 +292,25 @@ AEM 中的「類似項目」元件會出現在文章結尾處。 這會顯示相
 
 在進行機器翻譯期間，系統會勾選標示為 `` 的項目，並根據本地化資料庫來決定適當的翻譯。 若 UI 當未經過本地化，此標記將允許系統保留該特定語言的英文 UI 參照 (即 義大利文的 Analytics 參照)。
 
-**範例：**
+**範例來源內容：**
 
-1. 前往 **執行程式** 畫面。
-1. 選擇 **檔案** > **列印** > **全部列印** 以列印伺服器上的所有檔案。
-1. 「處理規則」對話方塊隨即顯示。
+1. 前往 **&amp;lbrack；！UICONTROL執行程式&amp;rbrack；** 畫面。
+1. 選擇 **&amp;lbrack；！UICONTROL File&amp;rbrack； > &amp;lbrack；！UICONTROL Print&amp;rbrack； > &amp;lbrack；！UICONTROL Print All&amp;rbrack；** 以列印伺服器上的所有檔案。
+1. 出現&amp;lbrack；！UICONTROL處理規則&amp;rbrack；對話方塊。
 
-**來源：**
+<!--
+**Source:**
 
 ```markdown
 1. Go to the **&lbrack;!UICONTROL Run Process&rbrack;** screen.
 1. Choose **&lbrack;!UICONTROL File&rbrack; > &lbrack;!UICONTROL Print&rbrack; > &lbrack;!UICONTROL Print All&rbrack;** to print all the files on your server.
 1. The &lbrack;!UICONTROL Processing Rules&rbrack; dialog box appears.
 ```
+-->
 
 >[!NOTE]
 >
-在三個標記選項中，這是提高品質內容最重要的一項，且屬於強制規定。
+在兩種標籤選項中，這是提高品質內容最重要的一項，且屬於強制規定。
 
 **`[!DNL]`**
 
@@ -316,15 +318,17 @@ AEM 中的「類似項目」元件會出現在文章結尾處。 這會顯示相
 
 **範例：**
 
-* 使用Target，您可以建立A/B測試以找出最佳用法
-* Adobe Analytics 是收集您網站上分析資料的強大解決方案。 Analytics也可協助您製作報表，以輕鬆摘要資料。
+* 使用&amp;lbrack；！DNL Target&amp;rbrack；，您可以建立A/B測試以找出最佳方案
+* Adobe Analytics 是收集您網站上分析資料的強大解決方案。 &amp;lbrack；！DNL Analytics&amp;rbrack；也可協助您製作報表，以輕鬆摘要資料。
 
-**來源：**
+<!--
+**Source:**
 
 ```markdown
 * With &lbrack;!DNL Target&rbrack;, you can create A/B tests to find the optimal 
 * Adobe Analytics is a powerful solution to collect analytics on your site. &lbrack;!DNL Analytics&rbrack; can also help you with reporting to easily digest that data.
 ```
+-->
 
 ## Gotcha 與疑難排解
 
