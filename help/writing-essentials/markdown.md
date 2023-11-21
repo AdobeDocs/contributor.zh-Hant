@@ -2,10 +2,10 @@
 title: 如何使用 Markdown 語言撰寫文件
 description: 了解 Markdown 撰寫的基本概念。尋找撰寫文章時所需的 Markdown 語言參考資訊。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 109b2b72bd842a8d3f45bd5667690d8e71a6e329
+source-git-commit: fff920c9e98ca821a4180157174c2a2ee1b84cb8
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 97%
+source-wordcount: '1361'
+ht-degree: 99%
 
 ---
 
@@ -304,11 +304,11 @@ AEM 中的「類似項目」元件會出現在文章結尾處。 這會顯示相
 1. Choose **[!UICONTROL File] > [!UICONTROL Print] > [!UICONTROL Print All]** to print all the files on your server.
 1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
--->
 
 >[!NOTE]
 >
-在兩種標籤選項中，這是提高品質內容最重要的一項，且屬於強制規定。
+>Of the two tagging options, this is the most crucial to deliver high quality and is mandatory.
+-->
 
 **`[!DNL]`**
 
