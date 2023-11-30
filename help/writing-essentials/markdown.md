@@ -3,9 +3,9 @@ title: 如何使用 Markdown 語言撰寫文件
 description: 了解 Markdown 撰寫的基本概念。尋找撰寫文章時所需的 Markdown 語言參考資訊。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 source-git-commit: fff920c9e98ca821a4180157174c2a2ee1b84cb8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1361'
+ht-degree: 100%
 
 ---
 
@@ -183,7 +183,7 @@ See [Overview example article](../../overview.md)
 
 ### 程式碼片段
 
-Markdown 支援將程式碼片段內嵌在句子中，或以「包圍型」獨立片段形式插入句子之間。 如需詳細資訊，請參閱 [Markdown 對程式碼片段的原生支援](https://daringfireball.net/projects/markdown/syntax#precode)。
+Markdown 支援將程式碼片段內嵌在句子中，或以「包圍型」獨立片段形式插入句子之間。 如需詳細資訊，請參閱 [Markdown 對程式碼片段的原生支援](https://daringfireball.net/projects/markdown/syntax#precode)
 
 使用反引號 (`` ` ``) 在段落中建立內嵌程式碼樣式。若要建立特定的多行程式碼區塊，請在程式碼區塊前後加上三個反引號 (` ``` `) (在 Markdown 中稱為「包圍型程式碼區塊」，在 AEM 中只是一個「程式碼區塊」元件)。若要使用包圍型程式碼區塊，請在第一組反引號之後加上程式碼語言，讓 Markdown 可以正確地標示程式碼語法。範例：` ```javascript`
 
@@ -292,9 +292,9 @@ AEM 中的「類似項目」元件會出現在文章結尾處。 這會顯示相
 
 在進行機器翻譯期間，系統會勾選標示為 `` 的項目，並根據本地化資料庫來決定適當的翻譯。 若 UI 當未經過本地化，此標記將允許系統保留該特定語言的英文 UI 參照 (即 義大利文的 Analytics 參照)。
 
-**範例來源內容：**
+**來源內容範例：**
 
-![範例uicontrol文字](assets/sample-uicontrol.png)
+![uicontrol 文字範例](assets/sample-uicontrol.png)
 
 <!--
 **Source:**
@@ -314,9 +314,9 @@ AEM 中的「類似項目」元件會出現在文章結尾處。 這會顯示相
 
 我們使用「不要翻譯」列表來設定規則，讓機器翻譯引擎知道哪些應該保留英文內容。 最常見的項目為解決方案的完整名稱，如「Adobe Analytics」、「Adobe Campaign」和「Adobe Target」。 但是，可能有我們需要強制引擎使用英文的情況，因為所考慮的名詞可能是用作特定專業用語或是一般用語。 最明顯的情況為解決方案的簡短名稱，如「Analytics」、「Campaign」和「Target」等。 機器很難理解這些是解決方案名稱而不是通用名詞。 該標記也可以用作一定要保留為英文或文字較短部分的第三方名稱/特性，例如必須保留為英文的短語或句子。
 
-**範例來源內容：**
+**來源內容範例：**
 
-![範例dnl文字](assets/sample-dnl.png)
+![dnl 文字範例](assets/sample-dnl.png)
 
 <!--
 **Source:**
