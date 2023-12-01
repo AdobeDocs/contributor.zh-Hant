@@ -281,8 +281,8 @@ AEM 中的「類似項目」元件會出現在文章結尾處。 這會顯示相
 
 >[!MORELIKETHIS]
 >
-* [文章 1](https://helpx.adobe.com/tw/support/analytics.html)
-* [文章 2](https://helpx.adobe.com/tw/support/audience-manager.html)
+>* [文章 1](https://helpx.adobe.com/tw/support/analytics.html)
+>* [文章 2](https://helpx.adobe.com/tw/support/audience-manager.html)
 
 ### UICONTROL 和 DNL
 
