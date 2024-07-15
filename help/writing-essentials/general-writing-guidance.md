@@ -5,8 +5,8 @@ description: 了解 Experience League 外部貢獻者的撰寫和編輯指南。
 exl-id: 874f88d7-18ad-4ac8-bfa3-737255652bbc
 source-git-commit: 03d46c9ffb664824f9526f781d776069d486f271
 workflow-type: tm+mt
-source-wordcount: '2224'
-ht-degree: 100%
+source-wordcount: '2203'
+ht-degree: 99%
 
 ---
 
@@ -188,17 +188,17 @@ Google 會考量 SEO 結果中的替代文字。
 
 * `DNL`
 
-   DNL 是指&#x200B;_請勿本地化 (do not localize)_。您只會將其用於附有商標的 Adobe 產品名稱，這些名稱都必須保留英文。
+  DNL 是指&#x200B;_請勿本地化 (do not localize)_。您只會將其用於附有商標的 Adobe 產品名稱，這些名稱都必須保留英文。
 
-   語法範例：`[!DNL Adobe Campaign]` 或 `[!DNL Workfront]`。
+  語法範例：`[!DNL Adobe Campaign]` 或 `[!DNL Workfront]`。
 
-   DNL 不適用於檔案名稱或網址。
+  DNL 不適用於檔案名稱或網址。
 
 * `UICONTROL`
 
-   UICONTROL 是指介面控制項 (例如 UI 中的選項、欄位、標籤、頁面、選項組或功能名稱)。
+  UICONTROL 是指介面控制項 (例如 UI 中的選項、欄位、標籤、頁面、選項組或功能名稱)。
 
-   語法範例：`Select **[!UICONTROL Project]**, then select **[!UICONTROL Save]**.`
+  語法範例：`Select **[!UICONTROL Project]**, then select **[!UICONTROL Save]**.`
 
 >[!IMPORTANT]
 >
@@ -218,7 +218,7 @@ _對象是訪客的集合 (訪客 ID 的清單)。Adobe 的 Audience Service 可
 
 第一段範例 (工作)：
 
-_建立客戶屬性來源 (CSV 和 FIN 檔案) 並上傳資料。您可以在準備就緒後啟動資料來源。資料來源生效後，將屬性資料共用給 Analytics 和 Target。_
+_建立客戶屬性來源 (CSV 和 FIN 檔案) 並上傳資料。您可以在準備就緒後啟動資料來源。在資料來源作用中後，將屬性資料共用至Analytics和Target。_
 
 ### 文章第一段的 SEO 技巧{#seo}
 

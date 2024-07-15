@@ -3,9 +3,9 @@ title: 如何使用 Markdown 語言撰寫文件
 description: 了解 Markdown 撰寫的基本概念。尋找撰寫文章時所需的 Markdown 語言參考資訊。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 source-git-commit: fff920c9e98ca821a4180157174c2a2ee1b84cb8
-workflow-type: ht
-source-wordcount: '1361'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1340'
+ht-degree: 98%
 
 ---
 
@@ -145,7 +145,7 @@ Markdown 要呈現簡單的表格沒有問題。 不過，若表格的儲存格�
 
 如需建立表格的詳細資訊，請參閱：
 
-* GitHub 的[使用表格組織資訊](https://help.github.com/articles/organizing-information-with-tables/)
+* GitHub的[使用資料表組織資訊](https://help.github.com/articles/organizing-information-with-tables/)
 * [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) 網頁應用程式
 * [將 HTML 表格轉換為 Markdown](https://jmalarcon.github.io/markdowntables/)
 
@@ -183,7 +183,7 @@ See [Overview example article](../../overview.md)
 
 ### 程式碼片段
 
-Markdown 支援將程式碼片段內嵌在句子中，或以「包圍型」獨立片段形式插入句子之間。 如需詳細資訊，請參閱 [Markdown 對程式碼片段的原生支援](https://daringfireball.net/projects/markdown/syntax#precode)
+Markdown 支援將程式碼片段內嵌在句子中，或以「包圍型」獨立片段形式插入句子之間。 如需詳細資訊，請參閱[Markdown對程式碼區塊的原生支援](https://daringfireball.net/projects/markdown/syntax#precode)
 
 使用反引號 (`` ` ``) 在段落中建立內嵌程式碼樣式。若要建立特定的多行程式碼區塊，請在程式碼區塊前後加上三個反引號 (` ``` `) (在 Markdown 中稱為「包圍型程式碼區塊」，在 AEM 中只是一個「程式碼區塊」元件)。若要使用包圍型程式碼區塊，請在第一組反引號之後加上程式碼語言，讓 Markdown 可以正確地標示程式碼語法。範例：` ```javascript`
 
@@ -358,7 +358,7 @@ AEM 中的「類似項目」元件會出現在文章結尾處。 這會顯示相
 
 若要在檔案中的文字 (而非程式碼) 使用角括弧 (像是要表示預留位置)，請手動編碼角括弧。 否則，Markdown 會認為這些角括弧代表 HTML 標籤。
 
-舉例來說，請將 `<script name>` 編碼如下 `&lt;script name&gt;`
+例如，將`<script name>`編碼為`&lt;script name&gt;`
 
 ### 標題中的 &amp; 符號
 

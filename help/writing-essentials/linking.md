@@ -35,27 +35,27 @@ ht-degree: 100%
 
 - 從目錄中某篇文章連結至同一目錄的另一篇文章:
 
-   `[link text](article-name.md)`
+  `[link text](article-name.md)`
 
 - 子目錄中某篇文章連結至根目錄的文章:
 
-   `[link text](../article-name.md)`
+  `[link text](../article-name.md)`
 
 - 次子目錄中某篇文章連結至根目錄的文章:
 
-   `[link text](../../article-name.md)`
+  `[link text](../../article-name.md)`
 
 - 根目錄中某篇文章連結至子目錄的文章:
 
-   `[link text](./directory/article-name.md)`
+  `[link text](./directory/article-name.md)`
 
 - 子目錄中某篇文章連結至另一個子目錄的文章:
 
-   `[link text](../directory/article-name.md)`
+  `[link text](../directory/article-name.md)`
 
 - 次子目錄中某篇文章連結至另一個子目錄的文章:
 
-   `[link text](../../directory/article-name.md)`
+  `[link text](../../directory/article-name.md)`
 
 ## 錨點連結
 
@@ -63,21 +63,21 @@ ht-degree: 100%
 
 - 連結同一篇文章中的標題:
 
-   `[link](#the-text-of-the-level2-section-separated-by-hyphens)`
+  `[link](#the-text-of-the-level2-section-separated-by-hyphens)`
 
-   `[Link to anchors](#links-to-anchors)`
+  `[Link to anchors](#links-to-anchors)`
 
 - 連結同一子目錄中另一篇文章的錨點:
 
-   `[link text](article-name.md#anchor-name)`
+  `[link text](article-name.md#anchor-name)`
 
-   `[Configure your profile](overview.md#getting-started)`
+  `[Configure your profile](overview.md#getting-started)`
 
 - 連結另一個服務子目錄中的錨點:
 
-   `[link text](../directory/article-name.md#anchor-name)`
+  `[link text](../directory/article-name.md#anchor-name)`
 
-   `[Configure your profile](../overview.md#configure-your-profile)`
+  `[Configure your profile](../overview.md#configure-your-profile)`
 
 ## 影像連結
 
@@ -85,8 +85,8 @@ ht-degree: 100%
 
 - 文章連結至 `assets` 子目錄中的影像:
 
-   `![alt text](assets/image-name.png)`
+  `![alt text](assets/image-name.png)`
 
 - 文章連結至 `assets/no-localize` 子目錄中的影像:
 
-   `![alt text](assets/no-localize/image-name.png)`
+  `![alt text](assets/no-localize/image-name.png)`

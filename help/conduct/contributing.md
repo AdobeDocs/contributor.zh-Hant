@@ -4,7 +4,7 @@ description: 在為此專案貢獻內容時，請按照這套準則進行。
 exl-id: 01dc5fd4-4676-41b1-be7b-aa4a9ea2fe14
 source-git-commit: 758ff966b959b614dd9250017c2a4eb5df47ffd2
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '284'
 ht-degree: 100%
 
 ---
@@ -51,4 +51,4 @@ submitting a pull request!
 
 ## 安全性問題
 
-安全性問題不應透過此問題追蹤器舉報。 請改[向我們的安全性專家提報問題](https://helpx.adobe.com/tw/security/alertus.html)
+安全性問題不應透過此問題追蹤器舉報。 請[向我們的安全專家提出問題](https://helpx.adobe.com/tw/security/alertus.html)

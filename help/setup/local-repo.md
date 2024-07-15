@@ -4,8 +4,8 @@ description: 本文提供建立本機 Git 存放庫和參與 Adobe 文件編撰�
 exl-id: 679c07a2-030b-4a30-ba14-7780f88dae11
 source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 100%
+source-wordcount: '652'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 ## 確定存放庫
 
-取用合適的存放庫並複製到您自己的 GitHub 帳戶，這樣您就擁有讀取/編寫權限，可儲存您要做的變更。[!UICONTROL Adobe Experience Cloud] 文件位於 [github.com](https://www.github.com/adobedocs) 的多個不同的存放庫。
+取用合適的存放庫並複製到您自己的 GitHub 帳戶，這樣您就擁有讀取/編寫權限，可儲存您要做的變更。[!UICONTROL Adobe Experience Cloud]檔案位於[github.com](https://www.github.com/adobedocs)的多個不同的存放庫。
 
 1. 若不確定要使用哪個存放庫，可使用網頁瀏覽器查看文章。選取文章右上角的&#x200B;**編輯**&#x200B;連結 (鉛筆圖示) (如果沒有顯示編輯連結，表示還無法在 GitHub 使用該內容)。
 
