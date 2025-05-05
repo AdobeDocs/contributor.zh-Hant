@@ -185,7 +185,7 @@ See [Overview example article](../../overview.md)
 
 Markdown 支援將程式碼片段內嵌在句子中，或以「包圍型」獨立片段形式插入句子之間。 如需詳細資訊，請參閱[Markdown對程式碼區塊的原生支援](https://daringfireball.net/projects/markdown/syntax#precode)
 
-使用反引號 (`` ` ``) 在段落中建立內嵌程式碼樣式。若要建立特定的多行程式碼區塊，請在程式碼區塊前後加上三個反引號 (` ``` `) (在 Markdown 中稱為「包圍型程式碼區塊」，在 AEM 中只是一個「程式碼區塊」元件)。若要使用包圍型程式碼區塊，請在第一組反引號之後加上程式碼語言，讓 Markdown 可以正確地標示程式碼語法。範例：` ```javascript`
+使用反引號 (`` ` ``) 在段落中建立內嵌程式碼樣式。若要建立特定的多行程式碼區塊，請在程式碼區塊前後加上三個反引號 (` ` `` `) (在 Markdown 中稱為「包圍型程式碼區塊」，在 AEM 中只是一個「程式碼區塊」元件)。若要使用包圍型程式碼區塊，請在第一組反引號之後加上程式碼語言，讓 Markdown 可以正確地標示程式碼語法。範例：` `` `javascript`
 
 範例：
 
@@ -226,11 +226,11 @@ Adobe 文章中大部分的文章格式都會使用標準 Markdown，例如段�
 * `[!IMPORTANT]`
 * `[!CAUTION]`
 * `[!WARNING]`
-* `[!ADMINISTRATION]`
+* `[ !ADMINISTRATION]`
 * `[!AVAILABILITY]`
 * `[!PREREQUISITES]`
 * `[!ERROR]`
-* `[!ADMINISTRATION]`
+* `[ !ADMINISTRATION]`
 * `[!INFO]`
 * `[!SUCCESS]`
 
@@ -288,9 +288,9 @@ AEM 中的「類似項目」元件會出現在文章結尾處。 這會顯示相
 
 我們所有 Markdown 說明內容一開始會使用機器翻譯工具來進行本地化。 如果說明內容從未進行過本地化，那麼我們將保留機器翻譯。 但是，如果說明內容過去已經進行過本地化，那麼機器翻譯的內容將充當預留位置，而內容部分則在進行人工翻譯中。
 
-**``**
+**&grave;&grave;**
 
-在進行機器翻譯期間，系統會勾選標示為 `` 的項目，並根據本地化資料庫來決定適當的翻譯。 若 UI 當未經過本地化，此標記將允許系統保留該特定語言的英文 UI 參照 (即 義大利文的 Analytics 參照)。
+在進行機器翻譯期間，系統會勾選標示為 &grave;&grave; 的項目，並根據本地化資料庫來決定適當的翻譯。 若 UI 當未經過本地化，此標記將允許系統保留該特定語言的英文 UI 參照 (即 義大利文的 Analytics 參照)。
 
 **來源內容範例：**
 
@@ -310,7 +310,7 @@ AEM 中的「類似項目」元件會出現在文章結尾處。 這會顯示相
 >Of the two tagging options, this is the most crucial to deliver high quality and is mandatory.
 -->
 
-**`[!DNL]`**
+**``**
 
 我們使用「不要翻譯」列表來設定規則，讓機器翻譯引擎知道哪些應該保留英文內容。 最常見的項目為解決方案的完整名稱，如「Adobe Analytics」、「Adobe Campaign」和「Adobe Target」。 但是，可能有我們需要強制引擎使用英文的情況，因為所考慮的名詞可能是用作特定專業用語或是一般用語。 最明顯的情況為解決方案的簡短名稱，如「Analytics」、「Campaign」和「Target」等。 機器很難理解這些是解決方案名稱而不是通用名詞。 該標記也可以用作一定要保留為英文或文字較短部分的第三方名稱/特性，例如必須保留為英文的短語或句子。
 
