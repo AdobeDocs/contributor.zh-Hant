@@ -1,8 +1,8 @@
 ---
-source-git-commit: 99540be2c2310e2250a0ceb14fb133b630ec397e
+source-git-commit: 2b359dd199979fbba8c0491490d9d071b0e5db50
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 100%
+source-wordcount: '405'
+ht-degree: 99%
 
 ---
 # 貢獻文章
@@ -15,11 +15,12 @@ ht-degree: 100%
 
 ## 關於您對 Adobe 內容的貢獻
 
+
 請參閱 [Adobe Docs 貢獻者指南](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)。
 
 貢獻方式取決於您的身分和您要提交的變更類型：
 
-### 微幅變更或請求
+### 微幅變更或要求
 
 若要提交請求，請按一下文章中的&#x200B;**「登錄問題」**&#x200B;連結，在 GitHub 中開啟問題。指定標題和說明，然後按一下&#x200B;**「提交新問題」**。
 
@@ -37,7 +38,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### 由 Adobe 員工提出重大變更
 
-若您是 [!UICONTROL Adobe Experience Cloud] 解決方案產品團隊的技術撰寫人員、專案經理或開發人員，且您的工作正是貢獻或撰寫技術文章，請使用 `https://git.corp.adobe.com/AdobeDocs` 的私人存放庫。請參閱[內部協作指南](https://experienceleague.adobe.com/docs/collaborative-doc-instructions/collaboration-guide/home.html?lang=zh-Hant)。
+若您是 [!UICONTROL Adobe Experience Cloud] 解決方案產品團隊的技術撰寫人員、專案經理或開發人員，且您的工作正是貢獻或撰寫技術文章，請使用 `https://git.corp.adobe.com/AdobeDocs` 的私人存放庫。請參閱[內部協作指南](https://experienceleague.adobe.com/docs/collaborative-doc-instructions/collaboration-guide/home.html)。
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
