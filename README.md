@@ -1,5 +1,5 @@
 ---
-source-git-commit: 2b359dd199979fbba8c0491490d9d071b0e5db50
+source-git-commit: 540aa4213e4fe4cb15d065262d88095c977b7b5f
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 99%
@@ -14,7 +14,6 @@ ht-degree: 99%
 此專案採行 [Adobe 開放原始碼行為準則](code-of-conduct.md)或 [.NET Foundation 行為準則](https://dotnetfoundation.org/code-of-conduct)。如需詳細資訊，請參閱[貢獻](contributing.md)一文。
 
 ## 關於您對 Adobe 內容的貢獻
-
 
 請參閱 [Adobe Docs 貢獻者指南](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)。
 
@@ -38,7 +37,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### 由 Adobe 員工提出重大變更
 
-若您是 [!UICONTROL Adobe Experience Cloud] 解決方案產品團隊的技術撰寫人員、專案經理或開發人員，且您的工作正是貢獻或撰寫技術文章，請使用 `https://git.corp.adobe.com/AdobeDocs` 的私人存放庫。請參閱[內部協作指南](https://experienceleague.adobe.com/docs/collaborative-doc-instructions/collaboration-guide/home.html?lang=zh-Hant)。
+若您是 [!UICONTROL Adobe Experience Cloud] 解決方案產品團隊的技術撰寫人員、專案經理或開發人員，且您的工作正是貢獻或撰寫技術文章，請使用 `https://git.corp.adobe.com/AdobeDocs` 的私人存放庫。請參閱[內部協作指南](https://experienceleague.adobe.com/docs/collaborative-doc-instructions/collaboration-guide/home.html)。
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
