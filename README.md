@@ -37,7 +37,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### 由 Adobe 員工提出重大變更
 
-若您是 [!UICONTROL Adobe Experience Cloud] 解決方案產品團隊的技術撰寫人員、專案經理或開發人員，且您的工作正是貢獻或撰寫技術文章，請使用 `https://git.corp.adobe.com/AdobeDocs` 的私人存放庫。請參閱[內部協作指南](https://experienceleague.adobe.com/docs/collaborative-doc-instructions/collaboration-guide/home.html)。
+若您是 [!UICONTROL Adobe Experience Cloud] 解決方案產品團隊的技術撰寫人員、專案經理或開發人員，且您的工作正是貢獻或撰寫技術文章，請使用 `https://git.corp.adobe.com/AdobeDocs` 的私人存放庫。請參閱[內部協作指南](https://experienceleague.adobe.com/docs/collaborative-doc-instructions/collaboration-guide/home.html?lang=zh-Hant)。
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
