@@ -310,7 +310,7 @@ AEM 中的「類似項目」元件會出現在文章結尾處。 這會顯示相
 >Of the two tagging options, this is the most crucial to deliver high quality and is mandatory.
 -->
 
-**``**
+**&grave;&grave;**
 
 我們使用「不要翻譯」列表來設定規則，讓機器翻譯引擎知道哪些應該保留英文內容。 最常見的項目為解決方案的完整名稱，如「Adobe Analytics」、「Adobe Campaign」和「Adobe Target」。 但是，可能有我們需要強制引擎使用英文的情況，因為所考慮的名詞可能是用作特定專業用語或是一般用語。 最明顯的情況為解決方案的簡短名稱，如「Analytics」、「Campaign」和「Target」等。 機器很難理解這些是解決方案名稱而不是通用名詞。 該標記也可以用作一定要保留為英文或文字較短部分的第三方名稱/特性，例如必須保留為英文的短語或句子。
 
