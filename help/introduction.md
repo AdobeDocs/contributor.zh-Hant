@@ -4,9 +4,9 @@ seo-title: Contributor guide overview for Adobe Experience Cloud technical docum
 description: 本指南說明您能如何對 Adobe 文件網站提出建議及貢獻內容。
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
-source-git-commit: 355ed3b7e1873272dd4c0626b51a48f37a026680
+source-git-commit: 077555cf4e2c5559f19b8e38ba140ecdad9e5c29
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '906'
 ht-degree: 93%
 
 ---
@@ -56,7 +56,7 @@ Adobe Experience Cloud 和其他 Adobe Enterprise 產品的技術文件和培訓
 
    您只須提交 Adobe CLA 一次。
 
-1. 在文章下面的意見回饋區中，按一下&#x200B;**[!UICONTROL 詳細意見回饋選項]**，然後按一下&#x200B;**[!UICONTROL 建議編輯]**&#x200B;前往 GitHub 的 Markdown 來源檔案。
+1. 在文章底部的意見回饋區域中，按一下 **[!UICONTROL Detailed feedback options]**，然後按一下 **[!UICONTROL Suggest an edit]** 以前往 GitHub 的 Markdown 來源檔案。
 
    ![編輯此頁面圖示](/help/assets/feedback-suggest-edit.png)
 
@@ -70,11 +70,11 @@ Adobe Experience Cloud 和其他 Adobe Enterprise 產品的技術文件和培訓
 
 1. 在網頁編輯器中變更內容。
 
-   您可以按一下&#x200B;**[!UICONTROL 預覽變更]**&#x200B;標籤，檢查所做變更的格式設定。
+   您可以按一下 **[!UICONTROL Preview changes]** (預覽變更) 標籤，檢查變更的格式設定。
 
 1. 在進行變更後，請捲動至頁面底部。
 
-   輸入 PR 的標題和說明，然後按一下&#x200B;**[!UICONTROL 提出檔案變更]**，如下圖所示：
+   輸入 PR 的標題和說明，然後按一下 **[!UICONTROL Propose file change]** (提出檔案變更)，如下圖所示：
 
    ![提出變更](assets/submit-pull-request.png)
 
@@ -86,9 +86,9 @@ Adobe Experience Cloud 和其他 Adobe Enterprise 產品的技術文件和培訓
 
 ## 回報問題
 
-要告訴我們某些內容有問題，另一簡單的方法是使用&#x200B;**[!UICONTROL 回報問題]**&#x200B;功能。
+另一個向我們告知內容有問題的簡易方法，就是使用 **[!UICONTROL Report an issue]**。
 
-1. 在文章下面的意見回饋區中，按一下&#x200B;**[!UICONTROL 詳細意見回饋選項]**，然後按一下&#x200B;**[!UICONTROL 回報問題]**&#x200B;前往 GitHub 的 Markdown 來源檔案。
+1. 在文章底部的意見回饋區域中，按一下 **[!UICONTROL Detailed feedback options]**，然後按一下 **[!UICONTROL Report an issue]** 以前往 GitHub 的 Markdown 來源檔案。
 
    ![回報問題](assets/feedback-report-issue.png)
 
