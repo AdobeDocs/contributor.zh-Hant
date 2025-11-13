@@ -2,9 +2,9 @@
 title: 安裝編寫工具
 description: 本文會協助您下載及安裝使用 Git/GitHub 與編輯 Markdown 檔案所需的用戶端工具。
 exl-id: 930185cf-fff5-485a-9824-70c32c55800d
-source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
+source-git-commit: 2ea5ddf33ae857dd9a5a764cac1fde8dcc4bc7d4
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '319'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,6 @@ ht-degree: 100%
 
 可用的 Git 學習資源如下:
 
-* [Git 基本介紹](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
 * [學習 Git 和 GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
 * [Git 術語](https://help.github.com/articles/github-glossary)
 
