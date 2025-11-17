@@ -5,10 +5,10 @@ cloud: Experience Cloud
 user-guide-title: 投稿人指南
 user-guide-description: Adobe說明檔案貢獻者說明
 index: true
-source-git-commit: 38494017a88a638b8bf7b5033993c2647cfb09c6
+source-git-commit: 5412da76ebf2e8f67c35b09940b6a3d5cf442691
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 86%
+source-wordcount: '83'
+ht-degree: 77%
 
 ---
 
@@ -32,3 +32,6 @@ ht-degree: 86%
 + 行為與貢獻 {#conduct-contributions}
    + [行為準則](conduct/code-of-conduct.md)
    + [貢獻概觀](conduct/contributing.md)
++ 測試忽略 {#testing}
+   + [識別碼為](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)的Analytics
+   + [驗證指南](https://experienceleague.adobe.com/en/docs/authoring-guide/using/release-notes)
