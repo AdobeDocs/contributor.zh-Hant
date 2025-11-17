@@ -33,5 +33,5 @@ ht-degree: 77%
    + [行為準則](conduct/code-of-conduct.md)
    + [貢獻概觀](conduct/contributing.md)
 + 測試忽略 {#testing}
-   + [識別碼為的Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)
+   + [識別碼為的Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/id/overview)
    + [驗證指南](https://experienceleague.adobe.com/en/docs/authoring-guide/using/release-notes)
