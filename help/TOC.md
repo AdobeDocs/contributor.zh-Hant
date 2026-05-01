@@ -1,13 +1,14 @@
 ---
-git-repo: https://github.com/AdobeDocs/contributor.zh-Hant
+git-repo: https://github.com/AdobeDocs/contributor.en
 solution: Experience Cloud
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 cloud: Experience Cloud
 user-guide-title: 投稿人指南
 user-guide-description: Adobe說明檔案貢獻者說明
 index: true
-source-git-commit: 0d6cb6c676affb3aa7604b7cf6e983dd817df24e
+source-git-commit: 68728714de2ef9acf198b5ce14599e7b5ae647be
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: 101
 ht-degree: 66%
 
 ---
@@ -33,5 +34,5 @@ ht-degree: 66%
    + [行為準則](conduct/code-of-conduct.md)
    + [貢獻概觀](conduct/contributing.md)
 + 測試忽略 {#testing}
-   + [Analytics與ID](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/id/overview)
+   + [Analytics與ID](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)
    + [驗證指南](https://experienceleague.adobe.com/en/docs/authoring-guide/using/release-notes)
