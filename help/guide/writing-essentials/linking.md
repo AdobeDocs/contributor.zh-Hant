@@ -25,7 +25,7 @@ ht-degree: 100%
 
 **範例:**
 
-- `For more information, see the [overview article](https://github.com/AdobeDocs/target.en/help/overview.md).`
+- `For more information, see the [overview article](https://github.com/AdobeDocs/target.zh-Hant/help/overview.md).`
 
 - `For more details, see [Adobe Legal Concerns](https://www.adobe.com/legal).`
 
