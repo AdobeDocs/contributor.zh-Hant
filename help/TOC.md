@@ -3,14 +3,15 @@ git-repo: https://github.com/AdobeDocs/contributor.zh-Hant
 solution: Experience Cloud
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+usetq: true
 cloud: Experience Cloud
 user-guide-title: 投稿人指南
 user-guide-description: Adobe說明檔案貢獻者說明
 index: true
-source-git-commit: dad6d9b7633f6dea1786504c9e741c1aed5754a1
+source-git-commit: b71fc84ae8678816d5c800d3c3a0ec49010f80f9
 workflow-type: tm+mt
-source-wordcount: 90
-ht-degree: 63%
+source-wordcount: 101
+ht-degree: 66%
 
 ---
 
