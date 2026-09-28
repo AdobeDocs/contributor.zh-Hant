@@ -2,13 +2,11 @@
 title: 如何使用 Markdown 語言撰寫文件
 description: 了解 Markdown 撰寫的基本概念。 尋找撰寫文章時所需的 Markdown 語言參考資訊。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 6510db0d89ac9224df8a73ab50776e65068b7e08
+source-git-commit: 67075e2ca1ac4f63c0bdc30507dbb0444a922afd
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1309'
 ht-degree: 91%
-
 ---
-
 # 如何使用 Markdown 語言撰寫技術文件
 
 Adobe 技術文件中的文章是以名為 [Markdown](https://daringfireball.net/projects/markdown/) 的精簡化標記語言寫成，這種語言容易閱讀及學習。
@@ -62,8 +60,8 @@ This is not \*italicized\* type.
 顯示結果：
 
 1. This is step 1.
-1. This is the next step.
-1. This is yet another step, the third.
+1. 這是下一個步驟。
+1. 這是另一個步驟，也就是第三個步驟。
 
 若要建立項目符號清單，請在文字行的開頭使用「\*」、「-」或「+」，但同一份清單內請勿混用不同格式。 (請勿在同一份文件中混用項目符號格式，例如 \* 和 \+)。
 
@@ -75,7 +73,7 @@ This is not \*italicized\* type.
 
 顯示結果：
 
-* First item in an unordered list.
+* 未排序清單中的第一個項目。
 * Another item.
 * 再來一個項目。
 
@@ -104,28 +102,28 @@ This is not \*italicized\* type.
 
 顯示結果：
 
-1. Set up your table and code blocks.
-1. Perform this step.
+1. 設定表格和程式碼區塊。
+1. 執行此步驟。
 
    ![screen](assets/no-localize/adobe_standard_logo.png)
 
-1. Make sure that your table looks like this:
+1. 請確認您的表格看起來像這樣：
 
    | Hello | World |
    |---|---|
    | How | are you? |
 
-1. This is the fourth step.
+1. 這是第四個步驟。
 
    >[!NOTE]
    >
    >這是註釋文字。
 
-1. Do another step.
+1. 執行另一個步驟。
 
 ### 表格
 
-表格並非 Markdown 核心規格的一部分，但 Adobe 可在某些情況下支援表格。 Markdown 的儲存格不支援多行清單。 避免在表格中輸入多行文字，會是最理想的作法。 您可以使用直立線 (|) 字元勾勒出行、列，藉此建立表格。 連字號會建立各欄標題，直立線符號則能分隔各欄。 在表格前面加上一個空白行，以確保表格成功轉譯。
+表格並非 Markdown 核心規格的一部分，但 Adobe 可在某些情況下支援表格。 Markdown 不支援儲存格中的多行清單。 避免在表格中輸入多行文字，會是最理想的作法。 您可以使用直立線 (|) 字元劃分欄和列，藉此建立表格。 連字號會建立各欄標題，直立線符號則能分隔各欄。 在表格前面加上一個空白行，以確保表格成功轉譯。
 
 ```markdown
 | Header | Another header | Yet another header |
@@ -136,12 +134,12 @@ This is not \*italicized\* type.
 
 顯示結果：
 
-| Header | Another header | Yet another header |
+| Header | Another header | 另一個標頭 |
 |--- |--- |--- |
 | row 1 | column 2 | column 3 |
 | row 2 | row 2 column 2 | row 2 column 3 |
 
-Markdown 要呈現簡單的表格沒有問題。 不過，若表格的儲存格內包含多個段落或清單，就會難以呈現。 如果是這類內容，建議您使用其他格式，例如改為標題與文字。
+Markdown 要呈現簡單的表格沒有問題。 不過，若表格的儲存格內包含多個段落或清單，就會難以處理。 如果是這類內容，建議您使用其他格式，例如改為標題與文字。
 
 如需建立表格的詳細資訊，請參閱：
 
@@ -184,7 +182,9 @@ See [Overview example article](../../overview.md)
 
 Markdown 支援將程式碼片段內嵌在句子中，或以「包圍型」獨立片段形式插入句子之間。 如需詳細資訊，請參閱[Markdown對程式碼區塊的原生支援](https://daringfireball.net/projects/markdown/syntax#precode)
 
-使用反引號 (`` ` ``) 在段落中建立內嵌程式碼樣式。 若要建立特定的多行程式碼區塊，請在程式碼區塊前後加上三個反引號 (` ` `` `) (在 Markdown 中稱為「包圍型程式碼區塊」，在 AEM 中只是一個「程式碼區塊」元件)。 若要使用包圍型程式碼區塊，請在第一組反引號之後加上程式碼語言，讓 Markdown 可以正確地標示程式碼語法。 範例：` `` `javascript`
+<!--
+Use back ticks (`` ` ``) to create inline code styles within a paragraph. To create a specific multi-line code block, add three back ticks (` ``` `) before and after the code block (called a "fenced code block" in Markdown and just a "code block" component in AEM). For fenced code blocks, add the code language after the first set of back ticks so that Markdown correctly highlights code syntax. Example: ` ```javascript`
+-->
 
 範例：
 
@@ -214,7 +214,7 @@ Adobe 文章中大部分的文章格式都會使用標準 Markdown，例如段�
 
 在每一行的開頭使用 Markdown 區塊引號 (「>」)，繫結擴充元件 (例如註釋)。
 
-部分常見的 Markdown 元素 (例如標題和程式碼區塊) 會包含擴充屬性。 如需變更預設屬性，請在元件之後新增參數，並置於大括弧內 (「/{ /}」)。 擴充屬性會以實例說明。
+部分常見的 Markdown 元素 (例如標題和程式碼區塊) 會包含擴充屬性。 如需變更預設屬性，請在元件之後新增參數，並置於大括弧內 (「/{ /}」)。 擴充屬性會在內容脈絡中加以說明。
 
 ### 註釋區塊
 
@@ -225,11 +225,11 @@ Adobe 文章中大部分的文章格式都會使用標準 Markdown，例如段�
 * `[!IMPORTANT]`
 * `[!CAUTION]`
 * `[!WARNING]`
-* `[ !ADMINISTRATION]`
+* `[!ADMINISTRATION]`
 * `[!AVAILABILITY]`
 * `[!PREREQUISITES]`
 * `[!ERROR]`
-* `[ !ADMINISTRATION]`
+* `[!ADMINISTRATION]`
 * `[!INFO]`
 * `[!SUCCESS]`
 
@@ -287,9 +287,9 @@ AEM 中的「類似項目」元件會出現在文章結尾處。 這會顯示相
 
 我們所有 Markdown 說明內容一開始會使用機器翻譯工具來進行本地化。 如果說明內容從未進行過本地化，那麼我們將保留機器翻譯。 但是，如果說明內容過去已經進行過本地化，那麼機器翻譯的內容將充當預留位置，而內容部分則在進行人工翻譯中。
 
-**&grave;&grave;**
+**``**
 
-在進行機器翻譯期間，系統會勾選標示為 &grave;&grave; 的項目，並根據本地化資料庫來決定適當的翻譯。 如果UI未本地化，此標籤將允許系統針對該特定語言保留英文UI參考（即義大利文的Analytics參考）。
+在進行機器翻譯期間，系統會勾選標示為 `` 的項目，並根據本地化資料庫來決定適當的翻譯。 如果UI未本地化，此標籤將允許系統針對該特定語言保留英文UI參考（即義大利文的Analytics參考）。
 
 **來源內容範例：**
 
@@ -309,7 +309,7 @@ AEM 中的「類似項目」元件會出現在文章結尾處。 這會顯示相
 >Of the two tagging options, this is the most crucial to deliver high quality and is mandatory.
 -->
 
-**``**
+**`[!DNL]`**
 
 我們使用「不要翻譯」列表來設定規則，讓機器翻譯引擎知道哪些應該保留英文內容。 最常見的項目為解決方案的完整名稱，如「Adobe Analytics」、「Adobe Campaign」和「Adobe Target」。 但是，可能有我們需要強制引擎使用英文的情況，因為所考慮的名詞可能是用作特定專業用語或是一般用語。 最明顯的例子是解決方案的簡短名稱，例如「Analytics」、「Campaign」、「Target」等。機器很難理解這些是解決方案名稱而不是一般術語。 該標記也可以用作一定要保留為英文或文字較短部分的第三方名稱/特性，例如必須保留為英文的短語或句子。
 
@@ -330,7 +330,7 @@ AEM 中的「類似項目」元件會出現在文章結尾處。 這會顯示相
 
 ### 替代文字
 
-包含底線的替代文字無法正確轉譯。 舉例來說，請避免使用下列文字：
+包含底線的替代文字無法正確顯示。 舉例來說，請避免使用下列文字：
 
 ```markdown
 ![Settings_Step_2](/assets/settings_step_2.png)
