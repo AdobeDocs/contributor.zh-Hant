@@ -27,7 +27,7 @@ ht-degree: 100%
 
 - `For more information, see the [overview article](https://github.com/AdobeDocs/target.zh-Hant/help/overview.md).`
 
-- `For more details, see [Adobe Legal Concerns](https://www.adobe.com/legal).`
+- `For more details, see [Adobe Legal Concerns](https://www.adobe.com/tw/legal).`
 
 ## 文章之間的連結
 

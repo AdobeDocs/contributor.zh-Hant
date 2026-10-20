@@ -153,7 +153,7 @@ Markdown 要呈現簡單的表格沒有問題。 不過，若表格的儲存格�
 `[link text](file-name.md)`
 
 ```markdown
-[Adobe](https://www.adobe.com)
+[Adobe](https://www.adobe.com/tw)
 ```
 
 顯示結果：
