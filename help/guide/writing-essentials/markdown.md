@@ -263,12 +263,12 @@ Adobe 文章中大部分的文章格式都會使用標準 Markdown，例如段�
 原生 Markdown 不會轉譯嵌入影片，但您可以使用此 Markdown 擴充功能達成此目的。
 
 ```markdown
->[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507562/?captions=chi_hant&quality=12)
 ```
 
 顯示結果：
 
->[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507562/?captions=chi_hant&quality=12)
 
 ### 類似項目
 
