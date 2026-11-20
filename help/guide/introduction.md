@@ -4,20 +4,18 @@ seo-title: Contributor guide overview for Adobe Experience Cloud technical docum
 description: 本指南說明您能如何對 Adobe 文件網站提出建議及貢獻內容。
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
-source-git-commit: 6474661d6b2494cff3dd02b507f407181143d4a0
+source-git-commit: a1466cb4bcbef51689c659e25d56d5cb0d4843a6
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 91%
-
+source-wordcount: '899'
+ht-degree: 78%
 ---
-
 # Adobe 說明文件的貢獻者指南
 
 本指南介紹您如何能夠為 Experience League 上的 Adobe 企業說明做出貢獻。
 
 ## 什麼是協作文件?
 
-Adobe Experience Cloud 和其他 Adobe Enterprise 產品的技術文件和培訓內容是根據使用 GitHub、Markdown 和 Adobe Experience Cloud 解決方案的開放原始碼原則。
+Adobe CX Enterprise和其他Adobe企業版產品的技術檔案和培訓內容是根據使用GitHub、Markdown和Adobe CX Enterprise解決方案的開放原始碼原則。
 
 此開放原始碼模型改善了內容品質，以及客戶、文件團隊和產品團隊間的溝通。 現在，在每個頁面上，您可以對內容實用程度進行評分、登錄問題，甚至以 Git 提取請求 (PR) 的形式貢獻內容建議。 Adobe 文件團隊會每天監控貢獻內容和問題，並視需要進行更新、調校和調整。
 
@@ -29,15 +27,15 @@ Adobe Experience Cloud 和其他 Adobe Enterprise 產品的技術文件和培訓
 * 針對特定頁面報告問題（需要Git登入） ❸
 * 提交快速編輯，以撰寫整篇文章，包含完整的資產和程式碼範例（需要Git登入） ❹
 
-![意見反應](assets/feedback-options.png)
+![意見反應](assets/feedback-options-2026.png)
 
-這些選項會在頁面開啟幾秒鐘後出現在頁面底部。 如果關閉意見回饋區域，您可以重新載入頁面以將其恢復。
+這些選項會在頁面開啟幾秒後顯示在頁面的右側。
 
 本指南概述與本資料集互動及投稿時需要瞭解的事項。
 
 ## 對頁面的實用程度進行評分，並留下評論 (選填)
 
-您開啟頁面幾秒鐘後，頁面底部會出現意見回饋區域。 按一下向上或向下鍵以表示頁面是否實用。
+開啟頁面幾秒鐘後，頁面右側會出現一個意見回饋區域。 按一下向上或向下鍵以表示頁面是否實用。
 
 請隨時留下評論以提供更多意見回饋。
 
@@ -49,7 +47,7 @@ Adobe Experience Cloud 和其他 Adobe Enterprise 產品的技術文件和培訓
 
    您只須提交 Adobe CLA 一次。
 
-1. 在文章底部的意見回饋區域中，按一下 **[!UICONTROL Detailed feedback options]**，然後按一下 **[!UICONTROL Suggest an edit]** 以前往 GitHub 的 Markdown 來源檔案。
+1. 在文章右側顯示的意見區域中，按一下&#x200B;**[!UICONTROL Detailed feedback options]**，然後按一下&#x200B;**[!UICONTROL Suggest an edit]**&#x200B;以移至GitHub的Markdown來源檔案。
 
    ![編輯此頁面圖示](/help/guide/assets/feedback-suggest-edit.png)
 
@@ -81,7 +79,7 @@ Adobe Experience Cloud 和其他 Adobe Enterprise 產品的技術文件和培訓
 
 另一個向我們告知內容有問題的簡易方法，就是使用 **[!UICONTROL Report an issue]**。
 
-1. 在文章底部的意見回饋區域中，按一下 **[!UICONTROL Detailed feedback options]**，然後按一下 **[!UICONTROL Report an issue]** 以前往 GitHub 的 Markdown 來源檔案。
+1. 在文章右側顯示的意見區域中，按一下&#x200B;**[!UICONTROL Detailed feedback options]**，然後按一下&#x200B;**[!UICONTROL Report an issue]**&#x200B;以移至GitHub的Markdown來源檔案。
 
    ![回報問題](assets/feedback-report-issue.png)
 
@@ -89,15 +87,15 @@ Adobe Experience Cloud 和其他 Adobe Enterprise 產品的技術文件和培訓
    >
    >若要回報問題，您必須登入 GitHub 帳戶，或建立帳戶。
 
-   按一下此連結即可使用 Github 問題介面，快速向 Experience League 登錄票證。
+   按一下此連結即可使用 GitHub 問題介面，快速向 Experience League 記錄票證。
 
-   說明欄位會自動填入問題頁面的 URL。
+   問題頁面的 URL 會自動填入說明欄位。
 
 1. 填寫問題的標題和簡短說明，然後按一下&#x200B;*「提交新問題」*。
 
    ![](assets/git_issue_example.png)
 
-提交問題會通知此頁面的內容團隊，以便他們解決您的問題。 我們更新內容後，系統會透過 Github 問題介面通知您，且 Github 問題介面也會在更新或關閉時透過電子郵件通知您。
+提交問題會通知此頁面的內容團隊，以便他們解決您的問題。 我們更新內容後，系統會透過 GitHub 問題介面通知您，且 GitHub 問題介面也會在更新或關閉時透過電子郵件通知您。
 
 ## 瞭解 GitHub 權限
 
@@ -109,7 +107,6 @@ Adobe 會對所有變更使用提取請求，即使是具備寫入權限的貢�
 
 ## 提供意見反應
 
-有了與 Adobe 解決方案一樣大型的解決方案，文件永遠都會是正在進行中的工作。 一旦發現錯誤，請登錄問題；如對資料有任何建議，請通知我們。 告訴我們您想尋找的資訊。 若您找不到需要的內容，請通知我們；若您無法順利完成工作，請告訴我們該如何提供協助，以便您能瞭解我們的解決方案。
+Adobe 的解決方案組合如此龐大，因此文件內容始終都在持續更新中。 一旦發現錯誤，請登錄問題；如對資料有任何建議，請通知我們。 告訴我們您想尋找的資訊。 若您找不到需要的內容，請通知我們；若您無法順利完成工作，請告訴我們該如何提供協助，以便您能瞭解我們的解決方案。
 
 合作檔案團隊及Experience League所有撰文人員和內容製作者在此感謝您的配合。 感謝您的協助。
-

@@ -1,5 +1,5 @@
 ---
-git-repo: https://github.com/AdobeDocs/contributor.zh-Hant
+git-repo: https://github.com/AdobeDocs/contributor.en
 solution: CX Enterprise
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -9,10 +9,10 @@ cloud: Experience Cloud
 user-guide-title: 投稿人指南
 user-guide-description: Adobe說明檔案貢獻者說明
 index: true
-source-git-commit: a2f6b0d5b397ba80401a7351f72ac5b2b4dd35e8
+source-git-commit: a1466cb4bcbef51689c659e25d56d5cb0d4843a6
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 64%
+source-wordcount: '73'
+ht-degree: 86%
 ---
 
 # Adobe 文件貢獻者指南{#contributor-guide}
@@ -34,6 +34,3 @@ ht-degree: 64%
 + 行為與貢獻 {#conduct-contributions}
   + [行為準則](conduct/code-of-conduct.md)
   + [貢獻概觀](conduct/contributing.md)
-+ 測試忽略 {#testing}
-  + [Analytics與ID](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/id/overview)
-  + [驗證指南](https://experienceleague.adobe.com/en/docs/authoring-guide/using/release-notes)
